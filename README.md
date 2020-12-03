@@ -53,7 +53,7 @@ The Cisco Meraki Dashboard API is a modern REST API based on the [OpenAPI](https
 
 ## Created by
 
-Cory Guynn, 2019
+Cory Guynn, 2020
 
 ## License
 
