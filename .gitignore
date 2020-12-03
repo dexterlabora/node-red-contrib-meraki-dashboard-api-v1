@@ -1,0 +1,14 @@
+# Generated nodes
+node-red-contrib-*
+node-red-node-*
+./nodegen
+
+# Dependency directory
+node_modules
+node-red
+
+# Coverage result
+coverage
+
+# npm install log
+npm-debug.log.*
