@@ -58,7 +58,7 @@ module.exports = function (RED) {
                 }
             }
             if (!errorFlag) {
-                client.body = msg.payload;
+                client.body = msg.payload || {};
             }
 
             var result;
@@ -148,7 +148,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateDevice_nodeParam = JSON.parse(updateDevice_nodeParam) || '{}'; 
+                        let nodeParam = updateDevice_nodeParam || '{}'
+                        updateDevice_nodeParam = JSON.parse(nodeParam) ; 
                         updateDevice_parameters.updateDevice = updateDevice_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateDevice_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -256,7 +257,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        blinkDeviceLeds_nodeParam = JSON.parse(blinkDeviceLeds_nodeParam) || '{}'; 
+                        let nodeParam = blinkDeviceLeds_nodeParam || '{}'
+                        blinkDeviceLeds_nodeParam = JSON.parse(nodeParam) ; 
                         blinkDeviceLeds_parameters.blinkDeviceLeds = blinkDeviceLeds_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof blinkDeviceLeds_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -626,7 +628,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        generateDeviceCameraSnapshot_nodeParam = JSON.parse(generateDeviceCameraSnapshot_nodeParam) || '{}'; 
+                        let nodeParam = generateDeviceCameraSnapshot_nodeParam || '{}'
+                        generateDeviceCameraSnapshot_nodeParam = JSON.parse(nodeParam) ; 
                         generateDeviceCameraSnapshot_parameters.generateDeviceCameraSnapshot = generateDeviceCameraSnapshot_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof generateDeviceCameraSnapshot_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -709,7 +712,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateDeviceCameraQualityAndRetention_nodeParam = JSON.parse(updateDeviceCameraQualityAndRetention_nodeParam) || '{}'; 
+                        let nodeParam = updateDeviceCameraQualityAndRetention_nodeParam || '{}'
+                        updateDeviceCameraQualityAndRetention_nodeParam = JSON.parse(nodeParam) ; 
                         updateDeviceCameraQualityAndRetention_parameters.updateDeviceCameraQualityAndRetention = updateDeviceCameraQualityAndRetention_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateDeviceCameraQualityAndRetention_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -792,7 +796,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateDeviceCameraSense_nodeParam = JSON.parse(updateDeviceCameraSense_nodeParam) || '{}'; 
+                        let nodeParam = updateDeviceCameraSense_nodeParam || '{}'
+                        updateDeviceCameraSense_nodeParam = JSON.parse(nodeParam) ; 
                         updateDeviceCameraSense_parameters.updateDeviceCameraSense = updateDeviceCameraSense_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateDeviceCameraSense_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -900,7 +905,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateDeviceCameraVideoSettings_nodeParam = JSON.parse(updateDeviceCameraVideoSettings_nodeParam) || '{}'; 
+                        let nodeParam = updateDeviceCameraVideoSettings_nodeParam || '{}'
+                        updateDeviceCameraVideoSettings_nodeParam = JSON.parse(nodeParam) ; 
                         updateDeviceCameraVideoSettings_parameters.updateDeviceCameraVideoSettings = updateDeviceCameraVideoSettings_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateDeviceCameraVideoSettings_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -1025,7 +1031,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateDeviceCellularGatewayLan_nodeParam = JSON.parse(updateDeviceCellularGatewayLan_nodeParam) || '{}'; 
+                        let nodeParam = updateDeviceCellularGatewayLan_nodeParam || '{}'
+                        updateDeviceCellularGatewayLan_nodeParam = JSON.parse(nodeParam) ; 
                         updateDeviceCellularGatewayLan_parameters.updateDeviceCellularGatewayLan = updateDeviceCellularGatewayLan_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateDeviceCellularGatewayLan_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -1108,7 +1115,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateDeviceCellularGatewayPortForwardingRules_nodeParam = JSON.parse(updateDeviceCellularGatewayPortForwardingRules_nodeParam) || '{}'; 
+                        let nodeParam = updateDeviceCellularGatewayPortForwardingRules_nodeParam || '{}'
+                        updateDeviceCellularGatewayPortForwardingRules_nodeParam = JSON.parse(nodeParam) ; 
                         updateDeviceCellularGatewayPortForwardingRules_parameters.updateDeviceCellularGatewayPortForwardingRules = updateDeviceCellularGatewayPortForwardingRules_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateDeviceCellularGatewayPortForwardingRules_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -1402,7 +1410,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateDeviceManagementInterface_nodeParam = JSON.parse(updateDeviceManagementInterface_nodeParam) || '{}'; 
+                        let nodeParam = updateDeviceManagementInterface_nodeParam || '{}'
+                        updateDeviceManagementInterface_nodeParam = JSON.parse(nodeParam) ; 
                         updateDeviceManagementInterface_parameters.updateDeviceManagementInterface = updateDeviceManagementInterface_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateDeviceManagementInterface_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -1510,7 +1519,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        cycleDeviceSwitchPorts_nodeParam = JSON.parse(cycleDeviceSwitchPorts_nodeParam) || '{}'; 
+                        let nodeParam = cycleDeviceSwitchPorts_nodeParam || '{}'
+                        cycleDeviceSwitchPorts_nodeParam = JSON.parse(nodeParam) ; 
                         cycleDeviceSwitchPorts_parameters.cycleDeviceSwitchPorts = cycleDeviceSwitchPorts_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof cycleDeviceSwitchPorts_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -1745,7 +1755,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateDeviceSwitchPort_nodeParam = JSON.parse(updateDeviceSwitchPort_nodeParam) || '{}'; 
+                        let nodeParam = updateDeviceSwitchPort_nodeParam || '{}'
+                        updateDeviceSwitchPort_nodeParam = JSON.parse(nodeParam) ; 
                         updateDeviceSwitchPort_parameters.updateDeviceSwitchPort = updateDeviceSwitchPort_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateDeviceSwitchPort_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -1828,7 +1839,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createDeviceSwitchRoutingInterface_nodeParam = JSON.parse(createDeviceSwitchRoutingInterface_nodeParam) || '{}'; 
+                        let nodeParam = createDeviceSwitchRoutingInterface_nodeParam || '{}'
+                        createDeviceSwitchRoutingInterface_nodeParam = JSON.parse(nodeParam) ; 
                         createDeviceSwitchRoutingInterface_parameters.createDeviceSwitchRoutingInterface = createDeviceSwitchRoutingInterface_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createDeviceSwitchRoutingInterface_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -1945,7 +1957,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateDeviceSwitchRoutingInterface_nodeParam = JSON.parse(updateDeviceSwitchRoutingInterface_nodeParam) || '{}'; 
+                        let nodeParam = updateDeviceSwitchRoutingInterface_nodeParam || '{}'
+                        updateDeviceSwitchRoutingInterface_nodeParam = JSON.parse(nodeParam) ; 
                         updateDeviceSwitchRoutingInterface_parameters.updateDeviceSwitchRoutingInterface = updateDeviceSwitchRoutingInterface_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateDeviceSwitchRoutingInterface_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -2104,7 +2117,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateDeviceSwitchRoutingInterfaceDhcp_nodeParam = JSON.parse(updateDeviceSwitchRoutingInterfaceDhcp_nodeParam) || '{}'; 
+                        let nodeParam = updateDeviceSwitchRoutingInterfaceDhcp_nodeParam || '{}'
+                        updateDeviceSwitchRoutingInterfaceDhcp_nodeParam = JSON.parse(nodeParam) ; 
                         updateDeviceSwitchRoutingInterfaceDhcp_parameters.updateDeviceSwitchRoutingInterfaceDhcp = updateDeviceSwitchRoutingInterfaceDhcp_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateDeviceSwitchRoutingInterfaceDhcp_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -2187,7 +2201,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createDeviceSwitchRoutingStaticRoute_nodeParam = JSON.parse(createDeviceSwitchRoutingStaticRoute_nodeParam) || '{}'; 
+                        let nodeParam = createDeviceSwitchRoutingStaticRoute_nodeParam || '{}'
+                        createDeviceSwitchRoutingStaticRoute_nodeParam = JSON.parse(nodeParam) ; 
                         createDeviceSwitchRoutingStaticRoute_parameters.createDeviceSwitchRoutingStaticRoute = createDeviceSwitchRoutingStaticRoute_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createDeviceSwitchRoutingStaticRoute_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -2304,7 +2319,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateDeviceSwitchRoutingStaticRoute_nodeParam = JSON.parse(updateDeviceSwitchRoutingStaticRoute_nodeParam) || '{}'; 
+                        let nodeParam = updateDeviceSwitchRoutingStaticRoute_nodeParam || '{}'
+                        updateDeviceSwitchRoutingStaticRoute_nodeParam = JSON.parse(nodeParam) ; 
                         updateDeviceSwitchRoutingStaticRoute_parameters.updateDeviceSwitchRoutingStaticRoute = updateDeviceSwitchRoutingStaticRoute_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateDeviceSwitchRoutingStaticRoute_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -2429,7 +2445,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateDeviceSwitchWarmSpare_nodeParam = JSON.parse(updateDeviceSwitchWarmSpare_nodeParam) || '{}'; 
+                        let nodeParam = updateDeviceSwitchWarmSpare_nodeParam || '{}'
+                        updateDeviceSwitchWarmSpare_nodeParam = JSON.parse(nodeParam) ; 
                         updateDeviceSwitchWarmSpare_parameters.updateDeviceSwitchWarmSpare = updateDeviceSwitchWarmSpare_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateDeviceSwitchWarmSpare_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -2512,7 +2529,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateDeviceWirelessBluetoothSettings_nodeParam = JSON.parse(updateDeviceWirelessBluetoothSettings_nodeParam) || '{}'; 
+                        let nodeParam = updateDeviceWirelessBluetoothSettings_nodeParam || '{}'
+                        updateDeviceWirelessBluetoothSettings_nodeParam = JSON.parse(nodeParam) ; 
                         updateDeviceWirelessBluetoothSettings_parameters.updateDeviceWirelessBluetoothSettings = updateDeviceWirelessBluetoothSettings_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateDeviceWirelessBluetoothSettings_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -2900,7 +2918,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateDeviceWirelessRadioSettings_nodeParam = JSON.parse(updateDeviceWirelessRadioSettings_nodeParam) || '{}'; 
+                        let nodeParam = updateDeviceWirelessRadioSettings_nodeParam || '{}'
+                        updateDeviceWirelessRadioSettings_nodeParam = JSON.parse(nodeParam) ; 
                         updateDeviceWirelessRadioSettings_parameters.updateDeviceWirelessRadioSettings = updateDeviceWirelessRadioSettings_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateDeviceWirelessRadioSettings_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -3008,7 +3027,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetwork_nodeParam = JSON.parse(updateNetwork_nodeParam) || '{}'; 
+                        let nodeParam = updateNetwork_nodeParam || '{}'
+                        updateNetwork_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetwork_parameters.updateNetwork = updateNetwork_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetwork_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -3116,7 +3136,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkAlertsSettings_nodeParam = JSON.parse(updateNetworkAlertsSettings_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkAlertsSettings_nodeParam || '{}'
+                        updateNetworkAlertsSettings_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkAlertsSettings_parameters.updateNetworkAlertsSettings = updateNetworkAlertsSettings_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkAlertsSettings_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -3360,7 +3381,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceConnectivityMonitoringDestinations_nodeParam = JSON.parse(updateNetworkApplianceConnectivityMonitoringDestinations_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceConnectivityMonitoringDestinations_nodeParam || '{}'
+                        updateNetworkApplianceConnectivityMonitoringDestinations_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceConnectivityMonitoringDestinations_parameters.updateNetworkApplianceConnectivityMonitoringDestinations = updateNetworkApplianceConnectivityMonitoringDestinations_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceConnectivityMonitoringDestinations_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -3443,7 +3465,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceContentFiltering_nodeParam = JSON.parse(updateNetworkApplianceContentFiltering_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceContentFiltering_nodeParam || '{}'
+                        updateNetworkApplianceContentFiltering_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceContentFiltering_parameters.updateNetworkApplianceContentFiltering = updateNetworkApplianceContentFiltering_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceContentFiltering_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -3551,7 +3574,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceFirewallCellularFirewallRules_nodeParam = JSON.parse(updateNetworkApplianceFirewallCellularFirewallRules_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceFirewallCellularFirewallRules_nodeParam || '{}'
+                        updateNetworkApplianceFirewallCellularFirewallRules_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceFirewallCellularFirewallRules_parameters.updateNetworkApplianceFirewallCellularFirewallRules = updateNetworkApplianceFirewallCellularFirewallRules_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceFirewallCellularFirewallRules_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -3693,7 +3717,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceFirewallFirewalledService_nodeParam = JSON.parse(updateNetworkApplianceFirewallFirewalledService_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceFirewallFirewalledService_nodeParam || '{}'
+                        updateNetworkApplianceFirewallFirewalledService_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceFirewallFirewalledService_parameters.updateNetworkApplianceFirewallFirewalledService = updateNetworkApplianceFirewallFirewalledService_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceFirewallFirewalledService_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -3776,7 +3801,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceFirewallInboundFirewallRules_nodeParam = JSON.parse(updateNetworkApplianceFirewallInboundFirewallRules_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceFirewallInboundFirewallRules_nodeParam || '{}'
+                        updateNetworkApplianceFirewallInboundFirewallRules_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceFirewallInboundFirewallRules_parameters.updateNetworkApplianceFirewallInboundFirewallRules = updateNetworkApplianceFirewallInboundFirewallRules_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceFirewallInboundFirewallRules_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -3859,7 +3885,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceFirewallL3FirewallRules_nodeParam = JSON.parse(updateNetworkApplianceFirewallL3FirewallRules_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceFirewallL3FirewallRules_nodeParam || '{}'
+                        updateNetworkApplianceFirewallL3FirewallRules_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceFirewallL3FirewallRules_parameters.updateNetworkApplianceFirewallL3FirewallRules = updateNetworkApplianceFirewallL3FirewallRules_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceFirewallL3FirewallRules_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -3942,7 +3969,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceFirewallL7FirewallRules_nodeParam = JSON.parse(updateNetworkApplianceFirewallL7FirewallRules_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceFirewallL7FirewallRules_nodeParam || '{}'
+                        updateNetworkApplianceFirewallL7FirewallRules_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceFirewallL7FirewallRules_parameters.updateNetworkApplianceFirewallL7FirewallRules = updateNetworkApplianceFirewallL7FirewallRules_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceFirewallL7FirewallRules_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -4050,7 +4078,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceFirewallOneToManyNatRules_nodeParam = JSON.parse(updateNetworkApplianceFirewallOneToManyNatRules_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceFirewallOneToManyNatRules_nodeParam || '{}'
+                        updateNetworkApplianceFirewallOneToManyNatRules_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceFirewallOneToManyNatRules_parameters.updateNetworkApplianceFirewallOneToManyNatRules = updateNetworkApplianceFirewallOneToManyNatRules_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceFirewallOneToManyNatRules_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -4133,7 +4162,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceFirewallOneToOneNatRules_nodeParam = JSON.parse(updateNetworkApplianceFirewallOneToOneNatRules_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceFirewallOneToOneNatRules_nodeParam || '{}'
+                        updateNetworkApplianceFirewallOneToOneNatRules_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceFirewallOneToOneNatRules_parameters.updateNetworkApplianceFirewallOneToOneNatRules = updateNetworkApplianceFirewallOneToOneNatRules_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceFirewallOneToOneNatRules_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -4216,7 +4246,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceFirewallPortForwardingRules_nodeParam = JSON.parse(updateNetworkApplianceFirewallPortForwardingRules_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceFirewallPortForwardingRules_nodeParam || '{}'
+                        updateNetworkApplianceFirewallPortForwardingRules_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceFirewallPortForwardingRules_parameters.updateNetworkApplianceFirewallPortForwardingRules = updateNetworkApplianceFirewallPortForwardingRules_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceFirewallPortForwardingRules_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -4358,7 +4389,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkAppliancePort_nodeParam = JSON.parse(updateNetworkAppliancePort_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkAppliancePort_nodeParam || '{}'
+                        updateNetworkAppliancePort_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkAppliancePort_parameters.updateNetworkAppliancePort = updateNetworkAppliancePort_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkAppliancePort_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -4585,7 +4617,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceSecurityIntrusion_nodeParam = JSON.parse(updateNetworkApplianceSecurityIntrusion_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceSecurityIntrusion_nodeParam || '{}'
+                        updateNetworkApplianceSecurityIntrusion_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceSecurityIntrusion_parameters.updateNetworkApplianceSecurityIntrusion = updateNetworkApplianceSecurityIntrusion_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceSecurityIntrusion_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -4668,7 +4701,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceSecurityMalware_nodeParam = JSON.parse(updateNetworkApplianceSecurityMalware_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceSecurityMalware_nodeParam || '{}'
+                        updateNetworkApplianceSecurityMalware_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceSecurityMalware_parameters.updateNetworkApplianceSecurityMalware = updateNetworkApplianceSecurityMalware_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceSecurityMalware_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -4776,7 +4810,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceSingleLan_nodeParam = JSON.parse(updateNetworkApplianceSingleLan_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceSingleLan_nodeParam || '{}'
+                        updateNetworkApplianceSingleLan_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceSingleLan_parameters.updateNetworkApplianceSingleLan = updateNetworkApplianceSingleLan_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceSingleLan_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -4859,7 +4894,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkApplianceStaticRoute_nodeParam = JSON.parse(createNetworkApplianceStaticRoute_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkApplianceStaticRoute_nodeParam || '{}'
+                        createNetworkApplianceStaticRoute_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkApplianceStaticRoute_parameters.createNetworkApplianceStaticRoute = createNetworkApplianceStaticRoute_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkApplianceStaticRoute_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -4976,7 +5012,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceStaticRoute_nodeParam = JSON.parse(updateNetworkApplianceStaticRoute_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceStaticRoute_nodeParam || '{}'
+                        updateNetworkApplianceStaticRoute_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceStaticRoute_parameters.updateNetworkApplianceStaticRoute = updateNetworkApplianceStaticRoute_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceStaticRoute_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -5101,7 +5138,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceTrafficShaping_nodeParam = JSON.parse(updateNetworkApplianceTrafficShaping_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceTrafficShaping_nodeParam || '{}'
+                        updateNetworkApplianceTrafficShaping_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceTrafficShaping_parameters.updateNetworkApplianceTrafficShaping = updateNetworkApplianceTrafficShaping_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceTrafficShaping_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -5184,7 +5222,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkApplianceTrafficShapingCustomPerformanceClass_nodeParam = JSON.parse(createNetworkApplianceTrafficShapingCustomPerformanceClass_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkApplianceTrafficShapingCustomPerformanceClass_nodeParam || '{}'
+                        createNetworkApplianceTrafficShapingCustomPerformanceClass_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkApplianceTrafficShapingCustomPerformanceClass_parameters.createNetworkApplianceTrafficShapingCustomPerformanceClass = createNetworkApplianceTrafficShapingCustomPerformanceClass_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkApplianceTrafficShapingCustomPerformanceClass_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -5301,7 +5340,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceTrafficShapingCustomPerformanceClass_nodeParam = JSON.parse(updateNetworkApplianceTrafficShapingCustomPerformanceClass_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceTrafficShapingCustomPerformanceClass_nodeParam || '{}'
+                        updateNetworkApplianceTrafficShapingCustomPerformanceClass_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceTrafficShapingCustomPerformanceClass_parameters.updateNetworkApplianceTrafficShapingCustomPerformanceClass = updateNetworkApplianceTrafficShapingCustomPerformanceClass_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceTrafficShapingCustomPerformanceClass_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -5401,7 +5441,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceTrafficShapingRules_nodeParam = JSON.parse(updateNetworkApplianceTrafficShapingRules_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceTrafficShapingRules_nodeParam || '{}'
+                        updateNetworkApplianceTrafficShapingRules_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceTrafficShapingRules_parameters.updateNetworkApplianceTrafficShapingRules = updateNetworkApplianceTrafficShapingRules_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceTrafficShapingRules_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -5509,7 +5550,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceTrafficShapingUplinkBandwidth_nodeParam = JSON.parse(updateNetworkApplianceTrafficShapingUplinkBandwidth_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceTrafficShapingUplinkBandwidth_nodeParam || '{}'
+                        updateNetworkApplianceTrafficShapingUplinkBandwidth_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceTrafficShapingUplinkBandwidth_parameters.updateNetworkApplianceTrafficShapingUplinkBandwidth = updateNetworkApplianceTrafficShapingUplinkBandwidth_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceTrafficShapingUplinkBandwidth_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -5592,7 +5634,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceTrafficShapingUplinkSelection_nodeParam = JSON.parse(updateNetworkApplianceTrafficShapingUplinkSelection_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceTrafficShapingUplinkSelection_nodeParam || '{}'
+                        updateNetworkApplianceTrafficShapingUplinkSelection_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceTrafficShapingUplinkSelection_parameters.updateNetworkApplianceTrafficShapingUplinkSelection = updateNetworkApplianceTrafficShapingUplinkSelection_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceTrafficShapingUplinkSelection_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -5675,7 +5718,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkApplianceVlan_nodeParam = JSON.parse(createNetworkApplianceVlan_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkApplianceVlan_nodeParam || '{}'
+                        createNetworkApplianceVlan_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkApplianceVlan_parameters.createNetworkApplianceVlan = createNetworkApplianceVlan_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkApplianceVlan_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -5758,7 +5802,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceVlansSettings_nodeParam = JSON.parse(updateNetworkApplianceVlansSettings_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceVlansSettings_nodeParam || '{}'
+                        updateNetworkApplianceVlansSettings_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceVlansSettings_parameters.updateNetworkApplianceVlansSettings = updateNetworkApplianceVlansSettings_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceVlansSettings_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -5875,7 +5920,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceVlan_nodeParam = JSON.parse(updateNetworkApplianceVlan_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceVlan_nodeParam || '{}'
+                        updateNetworkApplianceVlan_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceVlan_parameters.updateNetworkApplianceVlan = updateNetworkApplianceVlan_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceVlan_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -6000,7 +6046,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceVpnBgp_nodeParam = JSON.parse(updateNetworkApplianceVpnBgp_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceVpnBgp_nodeParam || '{}'
+                        updateNetworkApplianceVpnBgp_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceVpnBgp_parameters.updateNetworkApplianceVpnBgp = updateNetworkApplianceVpnBgp_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceVpnBgp_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -6083,7 +6130,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceVpnSiteToSiteVpn_nodeParam = JSON.parse(updateNetworkApplianceVpnSiteToSiteVpn_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceVpnSiteToSiteVpn_nodeParam || '{}'
+                        updateNetworkApplianceVpnSiteToSiteVpn_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceVpnSiteToSiteVpn_parameters.updateNetworkApplianceVpnSiteToSiteVpn = updateNetworkApplianceVpnSiteToSiteVpn_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceVpnSiteToSiteVpn_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -6166,7 +6214,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkApplianceWarmSpare_nodeParam = JSON.parse(updateNetworkApplianceWarmSpare_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkApplianceWarmSpare_nodeParam || '{}'
+                        updateNetworkApplianceWarmSpare_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkApplianceWarmSpare_parameters.updateNetworkApplianceWarmSpare = updateNetworkApplianceWarmSpare_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkApplianceWarmSpare_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -6249,7 +6298,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        bindNetwork_nodeParam = JSON.parse(bindNetwork_nodeParam) || '{}'; 
+                        let nodeParam = bindNetwork_nodeParam || '{}'
+                        bindNetwork_nodeParam = JSON.parse(nodeParam) ; 
                         bindNetwork_parameters.bindNetwork = bindNetwork_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof bindNetwork_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -6535,7 +6585,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkCameraQualityRetentionProfile_nodeParam = JSON.parse(createNetworkCameraQualityRetentionProfile_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkCameraQualityRetentionProfile_nodeParam || '{}'
+                        createNetworkCameraQualityRetentionProfile_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkCameraQualityRetentionProfile_parameters.createNetworkCameraQualityRetentionProfile = createNetworkCameraQualityRetentionProfile_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkCameraQualityRetentionProfile_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -6652,7 +6703,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkCameraQualityRetentionProfile_nodeParam = JSON.parse(updateNetworkCameraQualityRetentionProfile_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkCameraQualityRetentionProfile_nodeParam || '{}'
+                        updateNetworkCameraQualityRetentionProfile_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkCameraQualityRetentionProfile_parameters.updateNetworkCameraQualityRetentionProfile = updateNetworkCameraQualityRetentionProfile_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkCameraQualityRetentionProfile_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -6802,7 +6854,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkCellularGatewayConnectivityMonitoringDestinations_nodeParam = JSON.parse(updateNetworkCellularGatewayConnectivityMonitoringDestinations_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkCellularGatewayConnectivityMonitoringDestinations_nodeParam || '{}'
+                        updateNetworkCellularGatewayConnectivityMonitoringDestinations_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkCellularGatewayConnectivityMonitoringDestinations_parameters.updateNetworkCellularGatewayConnectivityMonitoringDestinations = updateNetworkCellularGatewayConnectivityMonitoringDestinations_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkCellularGatewayConnectivityMonitoringDestinations_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -6885,7 +6938,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkCellularGatewayDhcp_nodeParam = JSON.parse(updateNetworkCellularGatewayDhcp_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkCellularGatewayDhcp_nodeParam || '{}'
+                        updateNetworkCellularGatewayDhcp_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkCellularGatewayDhcp_parameters.updateNetworkCellularGatewayDhcp = updateNetworkCellularGatewayDhcp_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkCellularGatewayDhcp_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -6968,7 +7022,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkCellularGatewaySubnetPool_nodeParam = JSON.parse(updateNetworkCellularGatewaySubnetPool_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkCellularGatewaySubnetPool_nodeParam || '{}'
+                        updateNetworkCellularGatewaySubnetPool_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkCellularGatewaySubnetPool_parameters.updateNetworkCellularGatewaySubnetPool = updateNetworkCellularGatewaySubnetPool_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkCellularGatewaySubnetPool_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -7051,7 +7106,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkCellularGatewayUplink_nodeParam = JSON.parse(updateNetworkCellularGatewayUplink_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkCellularGatewayUplink_nodeParam || '{}'
+                        updateNetworkCellularGatewayUplink_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkCellularGatewayUplink_parameters.updateNetworkCellularGatewayUplink = updateNetworkCellularGatewayUplink_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkCellularGatewayUplink_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -7173,6 +7229,167 @@ module.exports = function (RED) {
                                 result = client.getNetworkClients(getNetworkClients_parameters);
                 //console.log('result', result);
             }
+            if (!errorFlag && node.method === 'getNetworkClientsApplicationUsage') {
+                var getNetworkClientsApplicationUsage_parameters = [];
+                var getNetworkClientsApplicationUsage_nodeParam;
+                var getNetworkClientsApplicationUsage_nodeParamType;
+                
+                
+                getNetworkClientsApplicationUsage_nodeParam = storedParamValsMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                getNetworkClientsApplicationUsage_nodeParamType = storedParamTypeMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkClientsApplicationUsage_nodeParamType === 'str') {
+                    //console.log('getNetworkClientsApplicationUsage_nodeParamType is "str"');
+                    getNetworkClientsApplicationUsage_parameters.networkId = getNetworkClientsApplicationUsage_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkClientsApplicationUsage_nodeParamType is not "str"')
+                    getNetworkClientsApplicationUsage_parameters.networkId = RED.util.getMessageProperty(msg, "networkId");
+                }
+                                
+                getNetworkClientsApplicationUsage_nodeParam = storedParamValsMap['clients'] ||
+                    RED.util.getMessageProperty(msg, "clients");
+
+                getNetworkClientsApplicationUsage_nodeParamType = storedParamTypeMap['clients'] ||
+                    RED.util.getMessageProperty(msg, "clients");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkClientsApplicationUsage_nodeParamType === 'str') {
+                    //console.log('getNetworkClientsApplicationUsage_nodeParamType is "str"');
+                    getNetworkClientsApplicationUsage_parameters.clients = getNetworkClientsApplicationUsage_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkClientsApplicationUsage_nodeParamType is not "str"')
+                    getNetworkClientsApplicationUsage_parameters.clients = RED.util.getMessageProperty(msg, "clients");
+                }
+                                
+                getNetworkClientsApplicationUsage_nodeParam = storedParamValsMap['ssidNumber'] ||
+                    RED.util.getMessageProperty(msg, "ssidNumber");
+
+                getNetworkClientsApplicationUsage_nodeParamType = storedParamTypeMap['ssidNumber'] ||
+                    RED.util.getMessageProperty(msg, "ssidNumber");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkClientsApplicationUsage_nodeParamType === 'str') {
+                    //console.log('getNetworkClientsApplicationUsage_nodeParamType is "str"');
+                    getNetworkClientsApplicationUsage_parameters.ssidNumber = getNetworkClientsApplicationUsage_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkClientsApplicationUsage_nodeParamType is not "str"')
+                    getNetworkClientsApplicationUsage_parameters.ssidNumber = RED.util.getMessageProperty(msg, "ssidNumber");
+                }
+                                
+                getNetworkClientsApplicationUsage_nodeParam = storedParamValsMap['perPage'] ||
+                    RED.util.getMessageProperty(msg, "perPage");
+
+                getNetworkClientsApplicationUsage_nodeParamType = storedParamTypeMap['perPage'] ||
+                    RED.util.getMessageProperty(msg, "perPage");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkClientsApplicationUsage_nodeParamType === 'str') {
+                    //console.log('getNetworkClientsApplicationUsage_nodeParamType is "str"');
+                    getNetworkClientsApplicationUsage_parameters.perPage = getNetworkClientsApplicationUsage_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkClientsApplicationUsage_nodeParamType is not "str"')
+                    getNetworkClientsApplicationUsage_parameters.perPage = RED.util.getMessageProperty(msg, "perPage");
+                }
+                                
+                getNetworkClientsApplicationUsage_nodeParam = storedParamValsMap['startingAfter'] ||
+                    RED.util.getMessageProperty(msg, "startingAfter");
+
+                getNetworkClientsApplicationUsage_nodeParamType = storedParamTypeMap['startingAfter'] ||
+                    RED.util.getMessageProperty(msg, "startingAfter");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkClientsApplicationUsage_nodeParamType === 'str') {
+                    //console.log('getNetworkClientsApplicationUsage_nodeParamType is "str"');
+                    getNetworkClientsApplicationUsage_parameters.startingAfter = getNetworkClientsApplicationUsage_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkClientsApplicationUsage_nodeParamType is not "str"')
+                    getNetworkClientsApplicationUsage_parameters.startingAfter = RED.util.getMessageProperty(msg, "startingAfter");
+                }
+                                
+                getNetworkClientsApplicationUsage_nodeParam = storedParamValsMap['endingBefore'] ||
+                    RED.util.getMessageProperty(msg, "endingBefore");
+
+                getNetworkClientsApplicationUsage_nodeParamType = storedParamTypeMap['endingBefore'] ||
+                    RED.util.getMessageProperty(msg, "endingBefore");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkClientsApplicationUsage_nodeParamType === 'str') {
+                    //console.log('getNetworkClientsApplicationUsage_nodeParamType is "str"');
+                    getNetworkClientsApplicationUsage_parameters.endingBefore = getNetworkClientsApplicationUsage_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkClientsApplicationUsage_nodeParamType is not "str"')
+                    getNetworkClientsApplicationUsage_parameters.endingBefore = RED.util.getMessageProperty(msg, "endingBefore");
+                }
+                                
+                getNetworkClientsApplicationUsage_nodeParam = storedParamValsMap['t0'] ||
+                    RED.util.getMessageProperty(msg, "t0");
+
+                getNetworkClientsApplicationUsage_nodeParamType = storedParamTypeMap['t0'] ||
+                    RED.util.getMessageProperty(msg, "t0");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkClientsApplicationUsage_nodeParamType === 'str') {
+                    //console.log('getNetworkClientsApplicationUsage_nodeParamType is "str"');
+                    getNetworkClientsApplicationUsage_parameters.t0 = getNetworkClientsApplicationUsage_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkClientsApplicationUsage_nodeParamType is not "str"')
+                    getNetworkClientsApplicationUsage_parameters.t0 = RED.util.getMessageProperty(msg, "t0");
+                }
+                                
+                getNetworkClientsApplicationUsage_nodeParam = storedParamValsMap['t1'] ||
+                    RED.util.getMessageProperty(msg, "t1");
+
+                getNetworkClientsApplicationUsage_nodeParamType = storedParamTypeMap['t1'] ||
+                    RED.util.getMessageProperty(msg, "t1");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkClientsApplicationUsage_nodeParamType === 'str') {
+                    //console.log('getNetworkClientsApplicationUsage_nodeParamType is "str"');
+                    getNetworkClientsApplicationUsage_parameters.t1 = getNetworkClientsApplicationUsage_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkClientsApplicationUsage_nodeParamType is not "str"')
+                    getNetworkClientsApplicationUsage_parameters.t1 = RED.util.getMessageProperty(msg, "t1");
+                }
+                                
+                getNetworkClientsApplicationUsage_nodeParam = storedParamValsMap['timespan'] ||
+                    RED.util.getMessageProperty(msg, "timespan");
+
+                getNetworkClientsApplicationUsage_nodeParamType = storedParamTypeMap['timespan'] ||
+                    RED.util.getMessageProperty(msg, "timespan");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkClientsApplicationUsage_nodeParamType === 'str') {
+                    //console.log('getNetworkClientsApplicationUsage_nodeParamType is "str"');
+                    getNetworkClientsApplicationUsage_parameters.timespan = getNetworkClientsApplicationUsage_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkClientsApplicationUsage_nodeParamType is not "str"')
+                    getNetworkClientsApplicationUsage_parameters.timespan = RED.util.getMessageProperty(msg, "timespan");
+                }
+                                result = client.getNetworkClientsApplicationUsage(getNetworkClientsApplicationUsage_parameters);
+                //console.log('result', result);
+            }
             if (!errorFlag && node.method === 'provisionNetworkClients') {
                 var provisionNetworkClients_parameters = [];
                 var provisionNetworkClients_nodeParam;
@@ -7219,7 +7436,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        provisionNetworkClients_nodeParam = JSON.parse(provisionNetworkClients_nodeParam) || '{}'; 
+                        let nodeParam = provisionNetworkClients_nodeParam || '{}'
+                        provisionNetworkClients_nodeParam = JSON.parse(nodeParam) ; 
                         provisionNetworkClients_parameters.provisionNetworkClients = provisionNetworkClients_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof provisionNetworkClients_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -7229,6 +7447,167 @@ module.exports = function (RED) {
                 }
               
                                 result = client.provisionNetworkClients(provisionNetworkClients_parameters);
+                //console.log('result', result);
+            }
+            if (!errorFlag && node.method === 'getNetworkClientsUsageHistories') {
+                var getNetworkClientsUsageHistories_parameters = [];
+                var getNetworkClientsUsageHistories_nodeParam;
+                var getNetworkClientsUsageHistories_nodeParamType;
+                
+                
+                getNetworkClientsUsageHistories_nodeParam = storedParamValsMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                getNetworkClientsUsageHistories_nodeParamType = storedParamTypeMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkClientsUsageHistories_nodeParamType === 'str') {
+                    //console.log('getNetworkClientsUsageHistories_nodeParamType is "str"');
+                    getNetworkClientsUsageHistories_parameters.networkId = getNetworkClientsUsageHistories_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkClientsUsageHistories_nodeParamType is not "str"')
+                    getNetworkClientsUsageHistories_parameters.networkId = RED.util.getMessageProperty(msg, "networkId");
+                }
+                                
+                getNetworkClientsUsageHistories_nodeParam = storedParamValsMap['clients'] ||
+                    RED.util.getMessageProperty(msg, "clients");
+
+                getNetworkClientsUsageHistories_nodeParamType = storedParamTypeMap['clients'] ||
+                    RED.util.getMessageProperty(msg, "clients");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkClientsUsageHistories_nodeParamType === 'str') {
+                    //console.log('getNetworkClientsUsageHistories_nodeParamType is "str"');
+                    getNetworkClientsUsageHistories_parameters.clients = getNetworkClientsUsageHistories_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkClientsUsageHistories_nodeParamType is not "str"')
+                    getNetworkClientsUsageHistories_parameters.clients = RED.util.getMessageProperty(msg, "clients");
+                }
+                                
+                getNetworkClientsUsageHistories_nodeParam = storedParamValsMap['ssidNumber'] ||
+                    RED.util.getMessageProperty(msg, "ssidNumber");
+
+                getNetworkClientsUsageHistories_nodeParamType = storedParamTypeMap['ssidNumber'] ||
+                    RED.util.getMessageProperty(msg, "ssidNumber");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkClientsUsageHistories_nodeParamType === 'str') {
+                    //console.log('getNetworkClientsUsageHistories_nodeParamType is "str"');
+                    getNetworkClientsUsageHistories_parameters.ssidNumber = getNetworkClientsUsageHistories_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkClientsUsageHistories_nodeParamType is not "str"')
+                    getNetworkClientsUsageHistories_parameters.ssidNumber = RED.util.getMessageProperty(msg, "ssidNumber");
+                }
+                                
+                getNetworkClientsUsageHistories_nodeParam = storedParamValsMap['perPage'] ||
+                    RED.util.getMessageProperty(msg, "perPage");
+
+                getNetworkClientsUsageHistories_nodeParamType = storedParamTypeMap['perPage'] ||
+                    RED.util.getMessageProperty(msg, "perPage");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkClientsUsageHistories_nodeParamType === 'str') {
+                    //console.log('getNetworkClientsUsageHistories_nodeParamType is "str"');
+                    getNetworkClientsUsageHistories_parameters.perPage = getNetworkClientsUsageHistories_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkClientsUsageHistories_nodeParamType is not "str"')
+                    getNetworkClientsUsageHistories_parameters.perPage = RED.util.getMessageProperty(msg, "perPage");
+                }
+                                
+                getNetworkClientsUsageHistories_nodeParam = storedParamValsMap['startingAfter'] ||
+                    RED.util.getMessageProperty(msg, "startingAfter");
+
+                getNetworkClientsUsageHistories_nodeParamType = storedParamTypeMap['startingAfter'] ||
+                    RED.util.getMessageProperty(msg, "startingAfter");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkClientsUsageHistories_nodeParamType === 'str') {
+                    //console.log('getNetworkClientsUsageHistories_nodeParamType is "str"');
+                    getNetworkClientsUsageHistories_parameters.startingAfter = getNetworkClientsUsageHistories_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkClientsUsageHistories_nodeParamType is not "str"')
+                    getNetworkClientsUsageHistories_parameters.startingAfter = RED.util.getMessageProperty(msg, "startingAfter");
+                }
+                                
+                getNetworkClientsUsageHistories_nodeParam = storedParamValsMap['endingBefore'] ||
+                    RED.util.getMessageProperty(msg, "endingBefore");
+
+                getNetworkClientsUsageHistories_nodeParamType = storedParamTypeMap['endingBefore'] ||
+                    RED.util.getMessageProperty(msg, "endingBefore");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkClientsUsageHistories_nodeParamType === 'str') {
+                    //console.log('getNetworkClientsUsageHistories_nodeParamType is "str"');
+                    getNetworkClientsUsageHistories_parameters.endingBefore = getNetworkClientsUsageHistories_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkClientsUsageHistories_nodeParamType is not "str"')
+                    getNetworkClientsUsageHistories_parameters.endingBefore = RED.util.getMessageProperty(msg, "endingBefore");
+                }
+                                
+                getNetworkClientsUsageHistories_nodeParam = storedParamValsMap['t0'] ||
+                    RED.util.getMessageProperty(msg, "t0");
+
+                getNetworkClientsUsageHistories_nodeParamType = storedParamTypeMap['t0'] ||
+                    RED.util.getMessageProperty(msg, "t0");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkClientsUsageHistories_nodeParamType === 'str') {
+                    //console.log('getNetworkClientsUsageHistories_nodeParamType is "str"');
+                    getNetworkClientsUsageHistories_parameters.t0 = getNetworkClientsUsageHistories_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkClientsUsageHistories_nodeParamType is not "str"')
+                    getNetworkClientsUsageHistories_parameters.t0 = RED.util.getMessageProperty(msg, "t0");
+                }
+                                
+                getNetworkClientsUsageHistories_nodeParam = storedParamValsMap['t1'] ||
+                    RED.util.getMessageProperty(msg, "t1");
+
+                getNetworkClientsUsageHistories_nodeParamType = storedParamTypeMap['t1'] ||
+                    RED.util.getMessageProperty(msg, "t1");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkClientsUsageHistories_nodeParamType === 'str') {
+                    //console.log('getNetworkClientsUsageHistories_nodeParamType is "str"');
+                    getNetworkClientsUsageHistories_parameters.t1 = getNetworkClientsUsageHistories_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkClientsUsageHistories_nodeParamType is not "str"')
+                    getNetworkClientsUsageHistories_parameters.t1 = RED.util.getMessageProperty(msg, "t1");
+                }
+                                
+                getNetworkClientsUsageHistories_nodeParam = storedParamValsMap['timespan'] ||
+                    RED.util.getMessageProperty(msg, "timespan");
+
+                getNetworkClientsUsageHistories_nodeParamType = storedParamTypeMap['timespan'] ||
+                    RED.util.getMessageProperty(msg, "timespan");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkClientsUsageHistories_nodeParamType === 'str') {
+                    //console.log('getNetworkClientsUsageHistories_nodeParamType is "str"');
+                    getNetworkClientsUsageHistories_parameters.timespan = getNetworkClientsUsageHistories_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkClientsUsageHistories_nodeParamType is not "str"')
+                    getNetworkClientsUsageHistories_parameters.timespan = RED.util.getMessageProperty(msg, "timespan");
+                }
+                                result = client.getNetworkClientsUsageHistories(getNetworkClientsUsageHistories_parameters);
                 //console.log('result', result);
             }
             if (!errorFlag && node.method === 'getNetworkClient') {
@@ -7378,7 +7757,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkClientPolicy_nodeParam = JSON.parse(updateNetworkClientPolicy_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkClientPolicy_nodeParam || '{}'
+                        updateNetworkClientPolicy_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkClientPolicy_parameters.updateNetworkClientPolicy = updateNetworkClientPolicy_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkClientPolicy_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -7495,7 +7875,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkClientSplashAuthorizationStatus_nodeParam = JSON.parse(updateNetworkClientSplashAuthorizationStatus_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkClientSplashAuthorizationStatus_nodeParam || '{}'
+                        updateNetworkClientSplashAuthorizationStatus_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkClientSplashAuthorizationStatus_parameters.updateNetworkClientSplashAuthorizationStatus = updateNetworkClientSplashAuthorizationStatus_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkClientSplashAuthorizationStatus_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -7713,7 +8094,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        claimNetworkDevices_nodeParam = JSON.parse(claimNetworkDevices_nodeParam) || '{}'; 
+                        let nodeParam = claimNetworkDevices_nodeParam || '{}'
+                        claimNetworkDevices_nodeParam = JSON.parse(nodeParam) ; 
                         claimNetworkDevices_parameters.claimNetworkDevices = claimNetworkDevices_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof claimNetworkDevices_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -7771,7 +8153,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        removeNetworkDevices_nodeParam = JSON.parse(removeNetworkDevices_nodeParam) || '{}'; 
+                        let nodeParam = removeNetworkDevices_nodeParam || '{}'
+                        removeNetworkDevices_nodeParam = JSON.parse(nodeParam) ; 
                         removeNetworkDevices_parameters.removeNetworkDevices = removeNetworkDevices_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof removeNetworkDevices_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -7781,175 +8164,6 @@ module.exports = function (RED) {
                 }
               
                                 result = client.removeNetworkDevices(removeNetworkDevices_parameters);
-                //console.log('result', result);
-            }
-            if (!errorFlag && node.method === 'getNetworkEnvironmentalEvents') {
-                var getNetworkEnvironmentalEvents_parameters = [];
-                var getNetworkEnvironmentalEvents_nodeParam;
-                var getNetworkEnvironmentalEvents_nodeParamType;
-                
-                
-                getNetworkEnvironmentalEvents_nodeParam = storedParamValsMap['networkId'] ||
-                    RED.util.getMessageProperty(msg, "networkId");
-
-                getNetworkEnvironmentalEvents_nodeParamType = storedParamTypeMap['networkId'] ||
-                    RED.util.getMessageProperty(msg, "networkId");
-
-                // Check if its the body param
-
-                // notBodyParam                                            
-                if (getNetworkEnvironmentalEvents_nodeParamType === 'str') {
-                    //console.log('getNetworkEnvironmentalEvents_nodeParamType is "str"');
-                    getNetworkEnvironmentalEvents_parameters.networkId = getNetworkEnvironmentalEvents_nodeParam || undefined;
-                } else {
-                    //console.log('getNetworkEnvironmentalEvents_nodeParamType is not "str"')
-                    getNetworkEnvironmentalEvents_parameters.networkId = RED.util.getMessageProperty(msg, "networkId");
-                }
-                                
-                getNetworkEnvironmentalEvents_nodeParam = storedParamValsMap['includedEventTypes'] ||
-                    RED.util.getMessageProperty(msg, "includedEventTypes");
-
-                getNetworkEnvironmentalEvents_nodeParamType = storedParamTypeMap['includedEventTypes'] ||
-                    RED.util.getMessageProperty(msg, "includedEventTypes");
-
-                // Check if its the body param
-
-                // notBodyParam                                            
-                if (getNetworkEnvironmentalEvents_nodeParamType === 'str') {
-                    //console.log('getNetworkEnvironmentalEvents_nodeParamType is "str"');
-                    getNetworkEnvironmentalEvents_parameters.includedEventTypes = getNetworkEnvironmentalEvents_nodeParam || undefined;
-                } else {
-                    //console.log('getNetworkEnvironmentalEvents_nodeParamType is not "str"')
-                    getNetworkEnvironmentalEvents_parameters.includedEventTypes = RED.util.getMessageProperty(msg, "includedEventTypes");
-                }
-                                
-                getNetworkEnvironmentalEvents_nodeParam = storedParamValsMap['excludedEventTypes'] ||
-                    RED.util.getMessageProperty(msg, "excludedEventTypes");
-
-                getNetworkEnvironmentalEvents_nodeParamType = storedParamTypeMap['excludedEventTypes'] ||
-                    RED.util.getMessageProperty(msg, "excludedEventTypes");
-
-                // Check if its the body param
-
-                // notBodyParam                                            
-                if (getNetworkEnvironmentalEvents_nodeParamType === 'str') {
-                    //console.log('getNetworkEnvironmentalEvents_nodeParamType is "str"');
-                    getNetworkEnvironmentalEvents_parameters.excludedEventTypes = getNetworkEnvironmentalEvents_nodeParam || undefined;
-                } else {
-                    //console.log('getNetworkEnvironmentalEvents_nodeParamType is not "str"')
-                    getNetworkEnvironmentalEvents_parameters.excludedEventTypes = RED.util.getMessageProperty(msg, "excludedEventTypes");
-                }
-                                
-                getNetworkEnvironmentalEvents_nodeParam = storedParamValsMap['sensorSerial'] ||
-                    RED.util.getMessageProperty(msg, "sensorSerial");
-
-                getNetworkEnvironmentalEvents_nodeParamType = storedParamTypeMap['sensorSerial'] ||
-                    RED.util.getMessageProperty(msg, "sensorSerial");
-
-                // Check if its the body param
-
-                // notBodyParam                                            
-                if (getNetworkEnvironmentalEvents_nodeParamType === 'str') {
-                    //console.log('getNetworkEnvironmentalEvents_nodeParamType is "str"');
-                    getNetworkEnvironmentalEvents_parameters.sensorSerial = getNetworkEnvironmentalEvents_nodeParam || undefined;
-                } else {
-                    //console.log('getNetworkEnvironmentalEvents_nodeParamType is not "str"')
-                    getNetworkEnvironmentalEvents_parameters.sensorSerial = RED.util.getMessageProperty(msg, "sensorSerial");
-                }
-                                
-                getNetworkEnvironmentalEvents_nodeParam = storedParamValsMap['gatewaySerial'] ||
-                    RED.util.getMessageProperty(msg, "gatewaySerial");
-
-                getNetworkEnvironmentalEvents_nodeParamType = storedParamTypeMap['gatewaySerial'] ||
-                    RED.util.getMessageProperty(msg, "gatewaySerial");
-
-                // Check if its the body param
-
-                // notBodyParam                                            
-                if (getNetworkEnvironmentalEvents_nodeParamType === 'str') {
-                    //console.log('getNetworkEnvironmentalEvents_nodeParamType is "str"');
-                    getNetworkEnvironmentalEvents_parameters.gatewaySerial = getNetworkEnvironmentalEvents_nodeParam || undefined;
-                } else {
-                    //console.log('getNetworkEnvironmentalEvents_nodeParamType is not "str"')
-                    getNetworkEnvironmentalEvents_parameters.gatewaySerial = RED.util.getMessageProperty(msg, "gatewaySerial");
-                }
-                                
-                getNetworkEnvironmentalEvents_nodeParam = storedParamValsMap['perPage'] ||
-                    RED.util.getMessageProperty(msg, "perPage");
-
-                getNetworkEnvironmentalEvents_nodeParamType = storedParamTypeMap['perPage'] ||
-                    RED.util.getMessageProperty(msg, "perPage");
-
-                // Check if its the body param
-
-                // notBodyParam                                            
-                if (getNetworkEnvironmentalEvents_nodeParamType === 'str') {
-                    //console.log('getNetworkEnvironmentalEvents_nodeParamType is "str"');
-                    getNetworkEnvironmentalEvents_parameters.perPage = getNetworkEnvironmentalEvents_nodeParam || undefined;
-                } else {
-                    //console.log('getNetworkEnvironmentalEvents_nodeParamType is not "str"')
-                    getNetworkEnvironmentalEvents_parameters.perPage = RED.util.getMessageProperty(msg, "perPage");
-                }
-                                
-                getNetworkEnvironmentalEvents_nodeParam = storedParamValsMap['startingAfter'] ||
-                    RED.util.getMessageProperty(msg, "startingAfter");
-
-                getNetworkEnvironmentalEvents_nodeParamType = storedParamTypeMap['startingAfter'] ||
-                    RED.util.getMessageProperty(msg, "startingAfter");
-
-                // Check if its the body param
-
-                // notBodyParam                                            
-                if (getNetworkEnvironmentalEvents_nodeParamType === 'str') {
-                    //console.log('getNetworkEnvironmentalEvents_nodeParamType is "str"');
-                    getNetworkEnvironmentalEvents_parameters.startingAfter = getNetworkEnvironmentalEvents_nodeParam || undefined;
-                } else {
-                    //console.log('getNetworkEnvironmentalEvents_nodeParamType is not "str"')
-                    getNetworkEnvironmentalEvents_parameters.startingAfter = RED.util.getMessageProperty(msg, "startingAfter");
-                }
-                                
-                getNetworkEnvironmentalEvents_nodeParam = storedParamValsMap['endingBefore'] ||
-                    RED.util.getMessageProperty(msg, "endingBefore");
-
-                getNetworkEnvironmentalEvents_nodeParamType = storedParamTypeMap['endingBefore'] ||
-                    RED.util.getMessageProperty(msg, "endingBefore");
-
-                // Check if its the body param
-
-                // notBodyParam                                            
-                if (getNetworkEnvironmentalEvents_nodeParamType === 'str') {
-                    //console.log('getNetworkEnvironmentalEvents_nodeParamType is "str"');
-                    getNetworkEnvironmentalEvents_parameters.endingBefore = getNetworkEnvironmentalEvents_nodeParam || undefined;
-                } else {
-                    //console.log('getNetworkEnvironmentalEvents_nodeParamType is not "str"')
-                    getNetworkEnvironmentalEvents_parameters.endingBefore = RED.util.getMessageProperty(msg, "endingBefore");
-                }
-                                result = client.getNetworkEnvironmentalEvents(getNetworkEnvironmentalEvents_parameters);
-                //console.log('result', result);
-            }
-            if (!errorFlag && node.method === 'getNetworkEnvironmentalEventsEventTypes') {
-                var getNetworkEnvironmentalEventsEventTypes_parameters = [];
-                var getNetworkEnvironmentalEventsEventTypes_nodeParam;
-                var getNetworkEnvironmentalEventsEventTypes_nodeParamType;
-                
-                
-                getNetworkEnvironmentalEventsEventTypes_nodeParam = storedParamValsMap['networkId'] ||
-                    RED.util.getMessageProperty(msg, "networkId");
-
-                getNetworkEnvironmentalEventsEventTypes_nodeParamType = storedParamTypeMap['networkId'] ||
-                    RED.util.getMessageProperty(msg, "networkId");
-
-                // Check if its the body param
-
-                // notBodyParam                                            
-                if (getNetworkEnvironmentalEventsEventTypes_nodeParamType === 'str') {
-                    //console.log('getNetworkEnvironmentalEventsEventTypes_nodeParamType is "str"');
-                    getNetworkEnvironmentalEventsEventTypes_parameters.networkId = getNetworkEnvironmentalEventsEventTypes_nodeParam || undefined;
-                } else {
-                    //console.log('getNetworkEnvironmentalEventsEventTypes_nodeParamType is not "str"')
-                    getNetworkEnvironmentalEventsEventTypes_parameters.networkId = RED.util.getMessageProperty(msg, "networkId");
-                }
-                                result = client.getNetworkEnvironmentalEventsEventTypes(getNetworkEnvironmentalEventsEventTypes_parameters);
                 //console.log('result', result);
             }
             if (!errorFlag && node.method === 'getNetworkEvents') {
@@ -8311,7 +8525,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkFirmwareUpgrades_nodeParam = JSON.parse(updateNetworkFirmwareUpgrades_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkFirmwareUpgrades_nodeParam || '{}'
+                        updateNetworkFirmwareUpgrades_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkFirmwareUpgrades_parameters.updateNetworkFirmwareUpgrades = updateNetworkFirmwareUpgrades_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkFirmwareUpgrades_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -8394,7 +8609,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkFloorPlan_nodeParam = JSON.parse(createNetworkFloorPlan_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkFloorPlan_nodeParam || '{}'
+                        createNetworkFloorPlan_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkFloorPlan_parameters.createNetworkFloorPlan = createNetworkFloorPlan_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkFloorPlan_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -8511,7 +8727,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkFloorPlan_nodeParam = JSON.parse(updateNetworkFloorPlan_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkFloorPlan_nodeParam || '{}'
+                        updateNetworkFloorPlan_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkFloorPlan_parameters.updateNetworkFloorPlan = updateNetworkFloorPlan_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkFloorPlan_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -8636,7 +8853,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkGroupPolicy_nodeParam = JSON.parse(createNetworkGroupPolicy_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkGroupPolicy_nodeParam || '{}'
+                        createNetworkGroupPolicy_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkGroupPolicy_parameters.createNetworkGroupPolicy = createNetworkGroupPolicy_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkGroupPolicy_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -8753,7 +8971,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkGroupPolicy_nodeParam = JSON.parse(updateNetworkGroupPolicy_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkGroupPolicy_nodeParam || '{}'
+                        updateNetworkGroupPolicy_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkGroupPolicy_parameters.updateNetworkGroupPolicy = updateNetworkGroupPolicy_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkGroupPolicy_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -8878,7 +9097,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkMerakiAuthUser_nodeParam = JSON.parse(createNetworkMerakiAuthUser_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkMerakiAuthUser_nodeParam || '{}'
+                        createNetworkMerakiAuthUser_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkMerakiAuthUser_parameters.createNetworkMerakiAuthUser = createNetworkMerakiAuthUser_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkMerakiAuthUser_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -9037,7 +9257,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkMerakiAuthUser_nodeParam = JSON.parse(updateNetworkMerakiAuthUser_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkMerakiAuthUser_nodeParam || '{}'
+                        updateNetworkMerakiAuthUser_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkMerakiAuthUser_parameters.updateNetworkMerakiAuthUser = updateNetworkMerakiAuthUser_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkMerakiAuthUser_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -9120,7 +9341,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkMqttBroker_nodeParam = JSON.parse(createNetworkMqttBroker_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkMqttBroker_nodeParam || '{}'
+                        createNetworkMqttBroker_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkMqttBroker_parameters.createNetworkMqttBroker = createNetworkMqttBroker_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkMqttBroker_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -9237,7 +9459,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkMqttBroker_nodeParam = JSON.parse(updateNetworkMqttBroker_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkMqttBroker_nodeParam || '{}'
+                        updateNetworkMqttBroker_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkMqttBroker_parameters.updateNetworkMqttBroker = updateNetworkMqttBroker_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkMqttBroker_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -9362,7 +9585,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkNetflow_nodeParam = JSON.parse(updateNetworkNetflow_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkNetflow_nodeParam || '{}'
+                        updateNetworkNetflow_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkNetflow_parameters.updateNetworkNetflow = updateNetworkNetflow_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkNetflow_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -9716,7 +9940,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkPiiRequest_nodeParam = JSON.parse(createNetworkPiiRequest_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkPiiRequest_nodeParam || '{}'
+                        createNetworkPiiRequest_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkPiiRequest_parameters.createNetworkPiiRequest = createNetworkPiiRequest_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkPiiRequest_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -10137,7 +10362,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSettings_nodeParam = JSON.parse(updateNetworkSettings_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSettings_nodeParam || '{}'
+                        updateNetworkSettings_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSettings_parameters.updateNetworkSettings = updateNetworkSettings_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSettings_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -10195,7 +10421,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkSmBypassActivationLockAttempt_nodeParam = JSON.parse(createNetworkSmBypassActivationLockAttempt_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkSmBypassActivationLockAttempt_nodeParam || '{}'
+                        createNetworkSmBypassActivationLockAttempt_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkSmBypassActivationLockAttempt_parameters.createNetworkSmBypassActivationLockAttempt = createNetworkSmBypassActivationLockAttempt_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkSmBypassActivationLockAttempt_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -10456,7 +10683,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        checkinNetworkSmDevices_nodeParam = JSON.parse(checkinNetworkSmDevices_nodeParam) || '{}'; 
+                        let nodeParam = checkinNetworkSmDevices_nodeParam || '{}'
+                        checkinNetworkSmDevices_nodeParam = JSON.parse(nodeParam) ; 
                         checkinNetworkSmDevices_parameters.checkinNetworkSmDevices = checkinNetworkSmDevices_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof checkinNetworkSmDevices_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -10514,7 +10742,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSmDevicesFields_nodeParam = JSON.parse(updateNetworkSmDevicesFields_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSmDevicesFields_nodeParam || '{}'
+                        updateNetworkSmDevicesFields_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSmDevicesFields_parameters.updateNetworkSmDevicesFields = updateNetworkSmDevicesFields_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSmDevicesFields_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -10572,7 +10801,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        lockNetworkSmDevices_nodeParam = JSON.parse(lockNetworkSmDevices_nodeParam) || '{}'; 
+                        let nodeParam = lockNetworkSmDevices_nodeParam || '{}'
+                        lockNetworkSmDevices_nodeParam = JSON.parse(nodeParam) ; 
                         lockNetworkSmDevices_parameters.lockNetworkSmDevices = lockNetworkSmDevices_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof lockNetworkSmDevices_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -10630,7 +10860,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        modifyNetworkSmDevicesTags_nodeParam = JSON.parse(modifyNetworkSmDevicesTags_nodeParam) || '{}'; 
+                        let nodeParam = modifyNetworkSmDevicesTags_nodeParam || '{}'
+                        modifyNetworkSmDevicesTags_nodeParam = JSON.parse(nodeParam) ; 
                         modifyNetworkSmDevicesTags_parameters.modifyNetworkSmDevicesTags = modifyNetworkSmDevicesTags_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof modifyNetworkSmDevicesTags_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -10688,7 +10919,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        moveNetworkSmDevices_nodeParam = JSON.parse(moveNetworkSmDevices_nodeParam) || '{}'; 
+                        let nodeParam = moveNetworkSmDevices_nodeParam || '{}'
+                        moveNetworkSmDevices_nodeParam = JSON.parse(nodeParam) ; 
                         moveNetworkSmDevices_parameters.moveNetworkSmDevices = moveNetworkSmDevices_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof moveNetworkSmDevices_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -10746,7 +10978,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        wipeNetworkSmDevices_nodeParam = JSON.parse(wipeNetworkSmDevices_nodeParam) || '{}'; 
+                        let nodeParam = wipeNetworkSmDevices_nodeParam || '{}'
+                        wipeNetworkSmDevices_nodeParam = JSON.parse(nodeParam) ; 
                         wipeNetworkSmDevices_parameters.wipeNetworkSmDevices = wipeNetworkSmDevices_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof wipeNetworkSmDevices_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -11663,7 +11896,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkSmTargetGroup_nodeParam = JSON.parse(createNetworkSmTargetGroup_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkSmTargetGroup_nodeParam || '{}'
+                        createNetworkSmTargetGroup_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkSmTargetGroup_parameters.createNetworkSmTargetGroup = createNetworkSmTargetGroup_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkSmTargetGroup_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -11797,7 +12031,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSmTargetGroup_nodeParam = JSON.parse(updateNetworkSmTargetGroup_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSmTargetGroup_nodeParam || '{}'
+                        updateNetworkSmTargetGroup_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSmTargetGroup_parameters.updateNetworkSmTargetGroup = updateNetworkSmTargetGroup_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSmTargetGroup_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -11849,6 +12084,124 @@ module.exports = function (RED) {
                     deleteNetworkSmTargetGroup_parameters.targetGroupId = RED.util.getMessageProperty(msg, "targetGroupId");
                 }
                                 result = client.deleteNetworkSmTargetGroup(deleteNetworkSmTargetGroup_parameters);
+                //console.log('result', result);
+            }
+            if (!errorFlag && node.method === 'getNetworkSmUserAccessDevices') {
+                var getNetworkSmUserAccessDevices_parameters = [];
+                var getNetworkSmUserAccessDevices_nodeParam;
+                var getNetworkSmUserAccessDevices_nodeParamType;
+                
+                
+                getNetworkSmUserAccessDevices_nodeParam = storedParamValsMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                getNetworkSmUserAccessDevices_nodeParamType = storedParamTypeMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkSmUserAccessDevices_nodeParamType === 'str') {
+                    //console.log('getNetworkSmUserAccessDevices_nodeParamType is "str"');
+                    getNetworkSmUserAccessDevices_parameters.networkId = getNetworkSmUserAccessDevices_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkSmUserAccessDevices_nodeParamType is not "str"')
+                    getNetworkSmUserAccessDevices_parameters.networkId = RED.util.getMessageProperty(msg, "networkId");
+                }
+                                
+                getNetworkSmUserAccessDevices_nodeParam = storedParamValsMap['perPage'] ||
+                    RED.util.getMessageProperty(msg, "perPage");
+
+                getNetworkSmUserAccessDevices_nodeParamType = storedParamTypeMap['perPage'] ||
+                    RED.util.getMessageProperty(msg, "perPage");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkSmUserAccessDevices_nodeParamType === 'str') {
+                    //console.log('getNetworkSmUserAccessDevices_nodeParamType is "str"');
+                    getNetworkSmUserAccessDevices_parameters.perPage = getNetworkSmUserAccessDevices_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkSmUserAccessDevices_nodeParamType is not "str"')
+                    getNetworkSmUserAccessDevices_parameters.perPage = RED.util.getMessageProperty(msg, "perPage");
+                }
+                                
+                getNetworkSmUserAccessDevices_nodeParam = storedParamValsMap['startingAfter'] ||
+                    RED.util.getMessageProperty(msg, "startingAfter");
+
+                getNetworkSmUserAccessDevices_nodeParamType = storedParamTypeMap['startingAfter'] ||
+                    RED.util.getMessageProperty(msg, "startingAfter");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkSmUserAccessDevices_nodeParamType === 'str') {
+                    //console.log('getNetworkSmUserAccessDevices_nodeParamType is "str"');
+                    getNetworkSmUserAccessDevices_parameters.startingAfter = getNetworkSmUserAccessDevices_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkSmUserAccessDevices_nodeParamType is not "str"')
+                    getNetworkSmUserAccessDevices_parameters.startingAfter = RED.util.getMessageProperty(msg, "startingAfter");
+                }
+                                
+                getNetworkSmUserAccessDevices_nodeParam = storedParamValsMap['endingBefore'] ||
+                    RED.util.getMessageProperty(msg, "endingBefore");
+
+                getNetworkSmUserAccessDevices_nodeParamType = storedParamTypeMap['endingBefore'] ||
+                    RED.util.getMessageProperty(msg, "endingBefore");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkSmUserAccessDevices_nodeParamType === 'str') {
+                    //console.log('getNetworkSmUserAccessDevices_nodeParamType is "str"');
+                    getNetworkSmUserAccessDevices_parameters.endingBefore = getNetworkSmUserAccessDevices_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkSmUserAccessDevices_nodeParamType is not "str"')
+                    getNetworkSmUserAccessDevices_parameters.endingBefore = RED.util.getMessageProperty(msg, "endingBefore");
+                }
+                                result = client.getNetworkSmUserAccessDevices(getNetworkSmUserAccessDevices_parameters);
+                //console.log('result', result);
+            }
+            if (!errorFlag && node.method === 'deleteNetworkSmUserAccessDevice') {
+                var deleteNetworkSmUserAccessDevice_parameters = [];
+                var deleteNetworkSmUserAccessDevice_nodeParam;
+                var deleteNetworkSmUserAccessDevice_nodeParamType;
+                
+                
+                deleteNetworkSmUserAccessDevice_nodeParam = storedParamValsMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                deleteNetworkSmUserAccessDevice_nodeParamType = storedParamTypeMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (deleteNetworkSmUserAccessDevice_nodeParamType === 'str') {
+                    //console.log('deleteNetworkSmUserAccessDevice_nodeParamType is "str"');
+                    deleteNetworkSmUserAccessDevice_parameters.networkId = deleteNetworkSmUserAccessDevice_nodeParam || undefined;
+                } else {
+                    //console.log('deleteNetworkSmUserAccessDevice_nodeParamType is not "str"')
+                    deleteNetworkSmUserAccessDevice_parameters.networkId = RED.util.getMessageProperty(msg, "networkId");
+                }
+                                
+                deleteNetworkSmUserAccessDevice_nodeParam = storedParamValsMap['userAccessDeviceId'] ||
+                    RED.util.getMessageProperty(msg, "userAccessDeviceId");
+
+                deleteNetworkSmUserAccessDevice_nodeParamType = storedParamTypeMap['userAccessDeviceId'] ||
+                    RED.util.getMessageProperty(msg, "userAccessDeviceId");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (deleteNetworkSmUserAccessDevice_nodeParamType === 'str') {
+                    //console.log('deleteNetworkSmUserAccessDevice_nodeParamType is "str"');
+                    deleteNetworkSmUserAccessDevice_parameters.userAccessDeviceId = deleteNetworkSmUserAccessDevice_nodeParam || undefined;
+                } else {
+                    //console.log('deleteNetworkSmUserAccessDevice_nodeParamType is not "str"')
+                    deleteNetworkSmUserAccessDevice_parameters.userAccessDeviceId = RED.util.getMessageProperty(msg, "userAccessDeviceId");
+                }
+                                result = client.deleteNetworkSmUserAccessDevice(deleteNetworkSmUserAccessDevice_parameters);
                 //console.log('result', result);
             }
             if (!errorFlag && node.method === 'getNetworkSmUsers') {
@@ -12099,7 +12452,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSnmp_nodeParam = JSON.parse(updateNetworkSnmp_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSnmp_nodeParam || '{}'
+                        updateNetworkSnmp_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSnmp_parameters.updateNetworkSnmp = updateNetworkSnmp_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSnmp_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -12283,7 +12637,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSwitchAccessControlLists_nodeParam = JSON.parse(updateNetworkSwitchAccessControlLists_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSwitchAccessControlLists_nodeParam || '{}'
+                        updateNetworkSwitchAccessControlLists_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSwitchAccessControlLists_parameters.updateNetworkSwitchAccessControlLists = updateNetworkSwitchAccessControlLists_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSwitchAccessControlLists_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -12366,7 +12721,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkSwitchAccessPolicy_nodeParam = JSON.parse(createNetworkSwitchAccessPolicy_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkSwitchAccessPolicy_nodeParam || '{}'
+                        createNetworkSwitchAccessPolicy_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkSwitchAccessPolicy_parameters.createNetworkSwitchAccessPolicy = createNetworkSwitchAccessPolicy_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkSwitchAccessPolicy_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -12483,7 +12839,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSwitchAccessPolicy_nodeParam = JSON.parse(updateNetworkSwitchAccessPolicy_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSwitchAccessPolicy_nodeParam || '{}'
+                        updateNetworkSwitchAccessPolicy_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSwitchAccessPolicy_parameters.updateNetworkSwitchAccessPolicy = updateNetworkSwitchAccessPolicy_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSwitchAccessPolicy_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -12535,6 +12892,90 @@ module.exports = function (RED) {
                     deleteNetworkSwitchAccessPolicy_parameters.accessPolicyNumber = RED.util.getMessageProperty(msg, "accessPolicyNumber");
                 }
                                 result = client.deleteNetworkSwitchAccessPolicy(deleteNetworkSwitchAccessPolicy_parameters);
+                //console.log('result', result);
+            }
+            if (!errorFlag && node.method === 'getNetworkSwitchAlternateManagementInterface') {
+                var getNetworkSwitchAlternateManagementInterface_parameters = [];
+                var getNetworkSwitchAlternateManagementInterface_nodeParam;
+                var getNetworkSwitchAlternateManagementInterface_nodeParamType;
+                
+                
+                getNetworkSwitchAlternateManagementInterface_nodeParam = storedParamValsMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                getNetworkSwitchAlternateManagementInterface_nodeParamType = storedParamTypeMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkSwitchAlternateManagementInterface_nodeParamType === 'str') {
+                    //console.log('getNetworkSwitchAlternateManagementInterface_nodeParamType is "str"');
+                    getNetworkSwitchAlternateManagementInterface_parameters.networkId = getNetworkSwitchAlternateManagementInterface_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkSwitchAlternateManagementInterface_nodeParamType is not "str"')
+                    getNetworkSwitchAlternateManagementInterface_parameters.networkId = RED.util.getMessageProperty(msg, "networkId");
+                }
+                                result = client.getNetworkSwitchAlternateManagementInterface(getNetworkSwitchAlternateManagementInterface_parameters);
+                //console.log('result', result);
+            }
+            if (!errorFlag && node.method === 'updateNetworkSwitchAlternateManagementInterface') {
+                var updateNetworkSwitchAlternateManagementInterface_parameters = [];
+                var updateNetworkSwitchAlternateManagementInterface_nodeParam;
+                var updateNetworkSwitchAlternateManagementInterface_nodeParamType;
+                
+                
+                updateNetworkSwitchAlternateManagementInterface_nodeParam = storedParamValsMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                updateNetworkSwitchAlternateManagementInterface_nodeParamType = storedParamTypeMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (updateNetworkSwitchAlternateManagementInterface_nodeParamType === 'str') {
+                    //console.log('updateNetworkSwitchAlternateManagementInterface_nodeParamType is "str"');
+                    updateNetworkSwitchAlternateManagementInterface_parameters.networkId = updateNetworkSwitchAlternateManagementInterface_nodeParam || undefined;
+                } else {
+                    //console.log('updateNetworkSwitchAlternateManagementInterface_nodeParamType is not "str"')
+                    updateNetworkSwitchAlternateManagementInterface_parameters.networkId = RED.util.getMessageProperty(msg, "networkId");
+                }
+                                
+                updateNetworkSwitchAlternateManagementInterface_nodeParam = storedParamValsMap['updateNetworkSwitchAlternateManagementInterface'] ||
+                    RED.util.getMessageProperty(msg, "updateNetworkSwitchAlternateManagementInterface");
+
+                updateNetworkSwitchAlternateManagementInterface_nodeParamType = storedParamTypeMap['updateNetworkSwitchAlternateManagementInterface'] ||
+                    RED.util.getMessageProperty(msg, "updateNetworkSwitchAlternateManagementInterface");
+
+                // Check if its the body param
+
+                // isBodyParam
+                
+                if(msg.payload){   
+                    if(typeof msg.payload === 'object'){
+                        updateNetworkSwitchAlternateManagementInterface_parameters.updateNetworkSwitchAlternateManagementInterface = msg.payload;
+                    }else{
+                        node.error('Unsupported type: \'' + (typeof msg.payload) + '\', ' + 'msg.payload must be a JSON object or a JSON formatted string.', msg);
+                        errorFlag = true;
+                    }                           
+                }else{            
+                    if(typeof updateNetworkSwitchAlternateManagementInterface_nodeParam === 'object'){
+                        updateNetworkSwitchAlternateManagementInterface_parameters.updateNetworkSwitchAlternateManagementInterface = updateNetworkSwitchAlternateManagementInterface_nodeParam
+                    }else{
+                        try{
+                        // attempt to convert form value to JSON, default to empty object
+                        let nodeParam = updateNetworkSwitchAlternateManagementInterface_nodeParam || '{}'
+                        updateNetworkSwitchAlternateManagementInterface_nodeParam = JSON.parse(nodeParam) ; 
+                        updateNetworkSwitchAlternateManagementInterface_parameters.updateNetworkSwitchAlternateManagementInterface = updateNetworkSwitchAlternateManagementInterface_nodeParam
+                            }catch(e){
+                                node.error('Unsupported type: \'' + (typeof updateNetworkSwitchAlternateManagementInterface_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
+                                errorFlag = true;
+                        }
+                    }
+                }
+              
+                                result = client.updateNetworkSwitchAlternateManagementInterface(updateNetworkSwitchAlternateManagementInterface_parameters);
                 //console.log('result', result);
             }
             if (!errorFlag && node.method === 'getNetworkSwitchDhcpServerPolicy') {
@@ -12608,7 +13049,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSwitchDhcpServerPolicy_nodeParam = JSON.parse(updateNetworkSwitchDhcpServerPolicy_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSwitchDhcpServerPolicy_nodeParam || '{}'
+                        updateNetworkSwitchDhcpServerPolicy_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSwitchDhcpServerPolicy_parameters.updateNetworkSwitchDhcpServerPolicy = updateNetworkSwitchDhcpServerPolicy_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSwitchDhcpServerPolicy_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -12691,7 +13133,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSwitchDscpToCosMappings_nodeParam = JSON.parse(updateNetworkSwitchDscpToCosMappings_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSwitchDscpToCosMappings_nodeParam || '{}'
+                        updateNetworkSwitchDscpToCosMappings_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSwitchDscpToCosMappings_parameters.updateNetworkSwitchDscpToCosMappings = updateNetworkSwitchDscpToCosMappings_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSwitchDscpToCosMappings_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -12774,7 +13217,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkSwitchLinkAggregation_nodeParam = JSON.parse(createNetworkSwitchLinkAggregation_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkSwitchLinkAggregation_nodeParam || '{}'
+                        createNetworkSwitchLinkAggregation_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkSwitchLinkAggregation_parameters.createNetworkSwitchLinkAggregation = createNetworkSwitchLinkAggregation_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkSwitchLinkAggregation_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -12849,7 +13293,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSwitchLinkAggregation_nodeParam = JSON.parse(updateNetworkSwitchLinkAggregation_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSwitchLinkAggregation_nodeParam || '{}'
+                        updateNetworkSwitchLinkAggregation_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSwitchLinkAggregation_parameters.updateNetworkSwitchLinkAggregation = updateNetworkSwitchLinkAggregation_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSwitchLinkAggregation_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -12974,7 +13419,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSwitchMtu_nodeParam = JSON.parse(updateNetworkSwitchMtu_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSwitchMtu_nodeParam || '{}'
+                        updateNetworkSwitchMtu_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSwitchMtu_parameters.updateNetworkSwitchMtu = updateNetworkSwitchMtu_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSwitchMtu_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -13057,7 +13503,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkSwitchPortSchedule_nodeParam = JSON.parse(createNetworkSwitchPortSchedule_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkSwitchPortSchedule_nodeParam || '{}'
+                        createNetworkSwitchPortSchedule_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkSwitchPortSchedule_parameters.createNetworkSwitchPortSchedule = createNetworkSwitchPortSchedule_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkSwitchPortSchedule_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -13174,7 +13621,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSwitchPortSchedule_nodeParam = JSON.parse(updateNetworkSwitchPortSchedule_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSwitchPortSchedule_nodeParam || '{}'
+                        updateNetworkSwitchPortSchedule_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSwitchPortSchedule_parameters.updateNetworkSwitchPortSchedule = updateNetworkSwitchPortSchedule_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSwitchPortSchedule_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -13257,7 +13705,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkSwitchQosRule_nodeParam = JSON.parse(createNetworkSwitchQosRule_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkSwitchQosRule_nodeParam || '{}'
+                        createNetworkSwitchQosRule_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkSwitchQosRule_parameters.createNetworkSwitchQosRule = createNetworkSwitchQosRule_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkSwitchQosRule_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -13340,7 +13789,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSwitchQosRulesOrder_nodeParam = JSON.parse(updateNetworkSwitchQosRulesOrder_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSwitchQosRulesOrder_nodeParam || '{}'
+                        updateNetworkSwitchQosRulesOrder_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSwitchQosRulesOrder_parameters.updateNetworkSwitchQosRulesOrder = updateNetworkSwitchQosRulesOrder_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSwitchQosRulesOrder_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -13499,7 +13949,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSwitchQosRule_nodeParam = JSON.parse(updateNetworkSwitchQosRule_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSwitchQosRule_nodeParam || '{}'
+                        updateNetworkSwitchQosRule_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSwitchQosRule_parameters.updateNetworkSwitchQosRule = updateNetworkSwitchQosRule_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSwitchQosRule_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -13582,7 +14033,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSwitchRoutingMulticast_nodeParam = JSON.parse(updateNetworkSwitchRoutingMulticast_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSwitchRoutingMulticast_nodeParam || '{}'
+                        updateNetworkSwitchRoutingMulticast_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSwitchRoutingMulticast_parameters.updateNetworkSwitchRoutingMulticast = updateNetworkSwitchRoutingMulticast_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSwitchRoutingMulticast_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -13665,7 +14117,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkSwitchRoutingMulticastRendezvousPoint_nodeParam = JSON.parse(createNetworkSwitchRoutingMulticastRendezvousPoint_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkSwitchRoutingMulticastRendezvousPoint_nodeParam || '{}'
+                        createNetworkSwitchRoutingMulticastRendezvousPoint_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkSwitchRoutingMulticastRendezvousPoint_parameters.createNetworkSwitchRoutingMulticastRendezvousPoint = createNetworkSwitchRoutingMulticastRendezvousPoint_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkSwitchRoutingMulticastRendezvousPoint_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -13824,7 +14277,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSwitchRoutingMulticastRendezvousPoint_nodeParam = JSON.parse(updateNetworkSwitchRoutingMulticastRendezvousPoint_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSwitchRoutingMulticastRendezvousPoint_nodeParam || '{}'
+                        updateNetworkSwitchRoutingMulticastRendezvousPoint_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSwitchRoutingMulticastRendezvousPoint_parameters.updateNetworkSwitchRoutingMulticastRendezvousPoint = updateNetworkSwitchRoutingMulticastRendezvousPoint_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSwitchRoutingMulticastRendezvousPoint_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -13907,7 +14361,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSwitchRoutingOspf_nodeParam = JSON.parse(updateNetworkSwitchRoutingOspf_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSwitchRoutingOspf_nodeParam || '{}'
+                        updateNetworkSwitchRoutingOspf_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSwitchRoutingOspf_parameters.updateNetworkSwitchRoutingOspf = updateNetworkSwitchRoutingOspf_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSwitchRoutingOspf_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -13990,7 +14445,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSwitchSettings_nodeParam = JSON.parse(updateNetworkSwitchSettings_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSwitchSettings_nodeParam || '{}'
+                        updateNetworkSwitchSettings_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSwitchSettings_parameters.updateNetworkSwitchSettings = updateNetworkSwitchSettings_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSwitchSettings_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -14073,7 +14529,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkSwitchStack_nodeParam = JSON.parse(createNetworkSwitchStack_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkSwitchStack_nodeParam || '{}'
+                        createNetworkSwitchStack_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkSwitchStack_parameters.createNetworkSwitchStack = createNetworkSwitchStack_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkSwitchStack_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -14232,7 +14689,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        addNetworkSwitchStack_nodeParam = JSON.parse(addNetworkSwitchStack_nodeParam) || '{}'; 
+                        let nodeParam = addNetworkSwitchStack_nodeParam || '{}'
+                        addNetworkSwitchStack_nodeParam = JSON.parse(nodeParam) ; 
                         addNetworkSwitchStack_parameters.addNetworkSwitchStack = addNetworkSwitchStack_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof addNetworkSwitchStack_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -14307,7 +14765,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        removeNetworkSwitchStack_nodeParam = JSON.parse(removeNetworkSwitchStack_nodeParam) || '{}'; 
+                        let nodeParam = removeNetworkSwitchStack_nodeParam || '{}'
+                        removeNetworkSwitchStack_nodeParam = JSON.parse(nodeParam) ; 
                         removeNetworkSwitchStack_parameters.removeNetworkSwitchStack = removeNetworkSwitchStack_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof removeNetworkSwitchStack_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -14424,7 +14883,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkSwitchStackRoutingInterface_nodeParam = JSON.parse(createNetworkSwitchStackRoutingInterface_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkSwitchStackRoutingInterface_nodeParam || '{}'
+                        createNetworkSwitchStackRoutingInterface_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkSwitchStackRoutingInterface_parameters.createNetworkSwitchStackRoutingInterface = createNetworkSwitchStackRoutingInterface_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkSwitchStackRoutingInterface_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -14575,7 +15035,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSwitchStackRoutingInterface_nodeParam = JSON.parse(updateNetworkSwitchStackRoutingInterface_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSwitchStackRoutingInterface_nodeParam || '{}'
+                        updateNetworkSwitchStackRoutingInterface_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSwitchStackRoutingInterface_parameters.updateNetworkSwitchStackRoutingInterface = updateNetworkSwitchStackRoutingInterface_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSwitchStackRoutingInterface_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -14785,7 +15246,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSwitchStackRoutingInterfaceDhcp_nodeParam = JSON.parse(updateNetworkSwitchStackRoutingInterfaceDhcp_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSwitchStackRoutingInterfaceDhcp_nodeParam || '{}'
+                        updateNetworkSwitchStackRoutingInterfaceDhcp_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSwitchStackRoutingInterfaceDhcp_parameters.updateNetworkSwitchStackRoutingInterfaceDhcp = updateNetworkSwitchStackRoutingInterfaceDhcp_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSwitchStackRoutingInterfaceDhcp_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -14902,7 +15364,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkSwitchStackRoutingStaticRoute_nodeParam = JSON.parse(createNetworkSwitchStackRoutingStaticRoute_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkSwitchStackRoutingStaticRoute_nodeParam || '{}'
+                        createNetworkSwitchStackRoutingStaticRoute_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkSwitchStackRoutingStaticRoute_parameters.createNetworkSwitchStackRoutingStaticRoute = createNetworkSwitchStackRoutingStaticRoute_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkSwitchStackRoutingStaticRoute_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -15053,7 +15516,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSwitchStackRoutingStaticRoute_nodeParam = JSON.parse(updateNetworkSwitchStackRoutingStaticRoute_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSwitchStackRoutingStaticRoute_nodeParam || '{}'
+                        updateNetworkSwitchStackRoutingStaticRoute_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSwitchStackRoutingStaticRoute_parameters.updateNetworkSwitchStackRoutingStaticRoute = updateNetworkSwitchStackRoutingStaticRoute_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSwitchStackRoutingStaticRoute_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -15195,7 +15659,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSwitchStormControl_nodeParam = JSON.parse(updateNetworkSwitchStormControl_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSwitchStormControl_nodeParam || '{}'
+                        updateNetworkSwitchStormControl_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSwitchStormControl_parameters.updateNetworkSwitchStormControl = updateNetworkSwitchStormControl_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSwitchStormControl_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -15278,7 +15743,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSwitchStp_nodeParam = JSON.parse(updateNetworkSwitchStp_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSwitchStp_nodeParam || '{}'
+                        updateNetworkSwitchStp_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSwitchStp_parameters.updateNetworkSwitchStp = updateNetworkSwitchStp_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSwitchStp_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -15361,7 +15827,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkSyslogServers_nodeParam = JSON.parse(updateNetworkSyslogServers_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkSyslogServers_nodeParam || '{}'
+                        updateNetworkSyslogServers_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkSyslogServers_parameters.updateNetworkSyslogServers = updateNetworkSyslogServers_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkSyslogServers_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -15520,7 +15987,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkTrafficAnalysis_nodeParam = JSON.parse(updateNetworkTrafficAnalysis_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkTrafficAnalysis_nodeParam || '{}'
+                        updateNetworkTrafficAnalysis_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkTrafficAnalysis_parameters.updateNetworkTrafficAnalysis = updateNetworkTrafficAnalysis_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkTrafficAnalysis_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -15678,7 +16146,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkWebhooksHttpServer_nodeParam = JSON.parse(createNetworkWebhooksHttpServer_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkWebhooksHttpServer_nodeParam || '{}'
+                        createNetworkWebhooksHttpServer_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkWebhooksHttpServer_parameters.createNetworkWebhooksHttpServer = createNetworkWebhooksHttpServer_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkWebhooksHttpServer_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -15795,7 +16264,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkWebhooksHttpServer_nodeParam = JSON.parse(updateNetworkWebhooksHttpServer_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkWebhooksHttpServer_nodeParam || '{}'
+                        updateNetworkWebhooksHttpServer_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkWebhooksHttpServer_parameters.updateNetworkWebhooksHttpServer = updateNetworkWebhooksHttpServer_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkWebhooksHttpServer_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -15895,7 +16365,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkWebhooksWebhookTest_nodeParam = JSON.parse(createNetworkWebhooksWebhookTest_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkWebhooksWebhookTest_nodeParam || '{}'
+                        createNetworkWebhooksWebhookTest_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkWebhooksWebhookTest_parameters.createNetworkWebhooksWebhookTest = createNetworkWebhooksWebhookTest_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkWebhooksWebhookTest_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -16079,7 +16550,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkWirelessAlternateManagementInterface_nodeParam = JSON.parse(updateNetworkWirelessAlternateManagementInterface_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkWirelessAlternateManagementInterface_nodeParam || '{}'
+                        updateNetworkWirelessAlternateManagementInterface_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkWirelessAlternateManagementInterface_parameters.updateNetworkWirelessAlternateManagementInterface = updateNetworkWirelessAlternateManagementInterface_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkWirelessAlternateManagementInterface_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -16089,6 +16561,90 @@ module.exports = function (RED) {
                 }
               
                                 result = client.updateNetworkWirelessAlternateManagementInterface(updateNetworkWirelessAlternateManagementInterface_parameters);
+                //console.log('result', result);
+            }
+            if (!errorFlag && node.method === 'getNetworkWirelessBilling') {
+                var getNetworkWirelessBilling_parameters = [];
+                var getNetworkWirelessBilling_nodeParam;
+                var getNetworkWirelessBilling_nodeParamType;
+                
+                
+                getNetworkWirelessBilling_nodeParam = storedParamValsMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                getNetworkWirelessBilling_nodeParamType = storedParamTypeMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkWirelessBilling_nodeParamType === 'str') {
+                    //console.log('getNetworkWirelessBilling_nodeParamType is "str"');
+                    getNetworkWirelessBilling_parameters.networkId = getNetworkWirelessBilling_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkWirelessBilling_nodeParamType is not "str"')
+                    getNetworkWirelessBilling_parameters.networkId = RED.util.getMessageProperty(msg, "networkId");
+                }
+                                result = client.getNetworkWirelessBilling(getNetworkWirelessBilling_parameters);
+                //console.log('result', result);
+            }
+            if (!errorFlag && node.method === 'updateNetworkWirelessBilling') {
+                var updateNetworkWirelessBilling_parameters = [];
+                var updateNetworkWirelessBilling_nodeParam;
+                var updateNetworkWirelessBilling_nodeParamType;
+                
+                
+                updateNetworkWirelessBilling_nodeParam = storedParamValsMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                updateNetworkWirelessBilling_nodeParamType = storedParamTypeMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (updateNetworkWirelessBilling_nodeParamType === 'str') {
+                    //console.log('updateNetworkWirelessBilling_nodeParamType is "str"');
+                    updateNetworkWirelessBilling_parameters.networkId = updateNetworkWirelessBilling_nodeParam || undefined;
+                } else {
+                    //console.log('updateNetworkWirelessBilling_nodeParamType is not "str"')
+                    updateNetworkWirelessBilling_parameters.networkId = RED.util.getMessageProperty(msg, "networkId");
+                }
+                                
+                updateNetworkWirelessBilling_nodeParam = storedParamValsMap['updateNetworkWirelessBilling'] ||
+                    RED.util.getMessageProperty(msg, "updateNetworkWirelessBilling");
+
+                updateNetworkWirelessBilling_nodeParamType = storedParamTypeMap['updateNetworkWirelessBilling'] ||
+                    RED.util.getMessageProperty(msg, "updateNetworkWirelessBilling");
+
+                // Check if its the body param
+
+                // isBodyParam
+                
+                if(msg.payload){   
+                    if(typeof msg.payload === 'object'){
+                        updateNetworkWirelessBilling_parameters.updateNetworkWirelessBilling = msg.payload;
+                    }else{
+                        node.error('Unsupported type: \'' + (typeof msg.payload) + '\', ' + 'msg.payload must be a JSON object or a JSON formatted string.', msg);
+                        errorFlag = true;
+                    }                           
+                }else{            
+                    if(typeof updateNetworkWirelessBilling_nodeParam === 'object'){
+                        updateNetworkWirelessBilling_parameters.updateNetworkWirelessBilling = updateNetworkWirelessBilling_nodeParam
+                    }else{
+                        try{
+                        // attempt to convert form value to JSON, default to empty object
+                        let nodeParam = updateNetworkWirelessBilling_nodeParam || '{}'
+                        updateNetworkWirelessBilling_nodeParam = JSON.parse(nodeParam) ; 
+                        updateNetworkWirelessBilling_parameters.updateNetworkWirelessBilling = updateNetworkWirelessBilling_nodeParam
+                            }catch(e){
+                                node.error('Unsupported type: \'' + (typeof updateNetworkWirelessBilling_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
+                                errorFlag = true;
+                        }
+                    }
+                }
+              
+                                result = client.updateNetworkWirelessBilling(updateNetworkWirelessBilling_parameters);
                 //console.log('result', result);
             }
             if (!errorFlag && node.method === 'getNetworkWirelessBluetoothSettings') {
@@ -16162,7 +16718,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkWirelessBluetoothSettings_nodeParam = JSON.parse(updateNetworkWirelessBluetoothSettings_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkWirelessBluetoothSettings_nodeParam || '{}'
+                        updateNetworkWirelessBluetoothSettings_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkWirelessBluetoothSettings_parameters.updateNetworkWirelessBluetoothSettings = updateNetworkWirelessBluetoothSettings_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkWirelessBluetoothSettings_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -18889,7 +19446,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkWirelessRfProfile_nodeParam = JSON.parse(createNetworkWirelessRfProfile_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkWirelessRfProfile_nodeParam || '{}'
+                        createNetworkWirelessRfProfile_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkWirelessRfProfile_parameters.createNetworkWirelessRfProfile = createNetworkWirelessRfProfile_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkWirelessRfProfile_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -18964,7 +19522,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkWirelessRfProfile_nodeParam = JSON.parse(updateNetworkWirelessRfProfile_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkWirelessRfProfile_nodeParam || '{}'
+                        updateNetworkWirelessRfProfile_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkWirelessRfProfile_parameters.updateNetworkWirelessRfProfile = updateNetworkWirelessRfProfile_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkWirelessRfProfile_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -19131,7 +19690,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkWirelessSettings_nodeParam = JSON.parse(updateNetworkWirelessSettings_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkWirelessSettings_nodeParam || '{}'
+                        updateNetworkWirelessSettings_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkWirelessSettings_parameters.updateNetworkWirelessSettings = updateNetworkWirelessSettings_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkWirelessSettings_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -19468,7 +20028,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkWirelessSsid_nodeParam = JSON.parse(updateNetworkWirelessSsid_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkWirelessSsid_nodeParam || '{}'
+                        updateNetworkWirelessSsid_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkWirelessSsid_parameters.updateNetworkWirelessSsid = updateNetworkWirelessSsid_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkWirelessSsid_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -19478,6 +20039,124 @@ module.exports = function (RED) {
                 }
               
                                 result = client.updateNetworkWirelessSsid(updateNetworkWirelessSsid_parameters);
+                //console.log('result', result);
+            }
+            if (!errorFlag && node.method === 'getNetworkWirelessSsidDeviceTypeGroupPolicies') {
+                var getNetworkWirelessSsidDeviceTypeGroupPolicies_parameters = [];
+                var getNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParam;
+                var getNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParamType;
+                
+                
+                getNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParam = storedParamValsMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                getNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParamType = storedParamTypeMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParamType === 'str') {
+                    //console.log('getNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParamType is "str"');
+                    getNetworkWirelessSsidDeviceTypeGroupPolicies_parameters.networkId = getNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParamType is not "str"')
+                    getNetworkWirelessSsidDeviceTypeGroupPolicies_parameters.networkId = RED.util.getMessageProperty(msg, "networkId");
+                }
+                                
+                getNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParam = storedParamValsMap['number'] ||
+                    RED.util.getMessageProperty(msg, "number");
+
+                getNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParamType = storedParamTypeMap['number'] ||
+                    RED.util.getMessageProperty(msg, "number");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParamType === 'str') {
+                    //console.log('getNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParamType is "str"');
+                    getNetworkWirelessSsidDeviceTypeGroupPolicies_parameters.number = getNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParamType is not "str"')
+                    getNetworkWirelessSsidDeviceTypeGroupPolicies_parameters.number = RED.util.getMessageProperty(msg, "number");
+                }
+                                result = client.getNetworkWirelessSsidDeviceTypeGroupPolicies(getNetworkWirelessSsidDeviceTypeGroupPolicies_parameters);
+                //console.log('result', result);
+            }
+            if (!errorFlag && node.method === 'updateNetworkWirelessSsidDeviceTypeGroupPolicies') {
+                var updateNetworkWirelessSsidDeviceTypeGroupPolicies_parameters = [];
+                var updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParam;
+                var updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParamType;
+                
+                
+                updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParam = storedParamValsMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParamType = storedParamTypeMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParamType === 'str') {
+                    //console.log('updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParamType is "str"');
+                    updateNetworkWirelessSsidDeviceTypeGroupPolicies_parameters.networkId = updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParam || undefined;
+                } else {
+                    //console.log('updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParamType is not "str"')
+                    updateNetworkWirelessSsidDeviceTypeGroupPolicies_parameters.networkId = RED.util.getMessageProperty(msg, "networkId");
+                }
+                                
+                updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParam = storedParamValsMap['number'] ||
+                    RED.util.getMessageProperty(msg, "number");
+
+                updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParamType = storedParamTypeMap['number'] ||
+                    RED.util.getMessageProperty(msg, "number");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParamType === 'str') {
+                    //console.log('updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParamType is "str"');
+                    updateNetworkWirelessSsidDeviceTypeGroupPolicies_parameters.number = updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParam || undefined;
+                } else {
+                    //console.log('updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParamType is not "str"')
+                    updateNetworkWirelessSsidDeviceTypeGroupPolicies_parameters.number = RED.util.getMessageProperty(msg, "number");
+                }
+                                
+                updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParam = storedParamValsMap['updateNetworkWirelessSsidDeviceTypeGroupPolicies'] ||
+                    RED.util.getMessageProperty(msg, "updateNetworkWirelessSsidDeviceTypeGroupPolicies");
+
+                updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParamType = storedParamTypeMap['updateNetworkWirelessSsidDeviceTypeGroupPolicies'] ||
+                    RED.util.getMessageProperty(msg, "updateNetworkWirelessSsidDeviceTypeGroupPolicies");
+
+                // Check if its the body param
+
+                // isBodyParam
+                
+                if(msg.payload){   
+                    if(typeof msg.payload === 'object'){
+                        updateNetworkWirelessSsidDeviceTypeGroupPolicies_parameters.updateNetworkWirelessSsidDeviceTypeGroupPolicies = msg.payload;
+                    }else{
+                        node.error('Unsupported type: \'' + (typeof msg.payload) + '\', ' + 'msg.payload must be a JSON object or a JSON formatted string.', msg);
+                        errorFlag = true;
+                    }                           
+                }else{            
+                    if(typeof updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParam === 'object'){
+                        updateNetworkWirelessSsidDeviceTypeGroupPolicies_parameters.updateNetworkWirelessSsidDeviceTypeGroupPolicies = updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParam
+                    }else{
+                        try{
+                        // attempt to convert form value to JSON, default to empty object
+                        let nodeParam = updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParam || '{}'
+                        updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParam = JSON.parse(nodeParam) ; 
+                        updateNetworkWirelessSsidDeviceTypeGroupPolicies_parameters.updateNetworkWirelessSsidDeviceTypeGroupPolicies = updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParam
+                            }catch(e){
+                                node.error('Unsupported type: \'' + (typeof updateNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
+                                errorFlag = true;
+                        }
+                    }
+                }
+              
+                                result = client.updateNetworkWirelessSsidDeviceTypeGroupPolicies(updateNetworkWirelessSsidDeviceTypeGroupPolicies_parameters);
                 //console.log('result', result);
             }
             if (!errorFlag && node.method === 'getNetworkWirelessSsidFirewallL3FirewallRules') {
@@ -19585,7 +20264,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkWirelessSsidFirewallL3FirewallRules_nodeParam = JSON.parse(updateNetworkWirelessSsidFirewallL3FirewallRules_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkWirelessSsidFirewallL3FirewallRules_nodeParam || '{}'
+                        updateNetworkWirelessSsidFirewallL3FirewallRules_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkWirelessSsidFirewallL3FirewallRules_parameters.updateNetworkWirelessSsidFirewallL3FirewallRules = updateNetworkWirelessSsidFirewallL3FirewallRules_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkWirelessSsidFirewallL3FirewallRules_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -19702,7 +20382,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkWirelessSsidFirewallL7FirewallRules_nodeParam = JSON.parse(updateNetworkWirelessSsidFirewallL7FirewallRules_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkWirelessSsidFirewallL7FirewallRules_nodeParam || '{}'
+                        updateNetworkWirelessSsidFirewallL7FirewallRules_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkWirelessSsidFirewallL7FirewallRules_parameters.updateNetworkWirelessSsidFirewallL7FirewallRules = updateNetworkWirelessSsidFirewallL7FirewallRules_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkWirelessSsidFirewallL7FirewallRules_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -19819,7 +20500,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createNetworkWirelessSsidIdentityPsk_nodeParam = JSON.parse(createNetworkWirelessSsidIdentityPsk_nodeParam) || '{}'; 
+                        let nodeParam = createNetworkWirelessSsidIdentityPsk_nodeParam || '{}'
+                        createNetworkWirelessSsidIdentityPsk_nodeParam = JSON.parse(nodeParam) ; 
                         createNetworkWirelessSsidIdentityPsk_parameters.createNetworkWirelessSsidIdentityPsk = createNetworkWirelessSsidIdentityPsk_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createNetworkWirelessSsidIdentityPsk_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -19970,7 +20652,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkWirelessSsidIdentityPsk_nodeParam = JSON.parse(updateNetworkWirelessSsidIdentityPsk_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkWirelessSsidIdentityPsk_nodeParam || '{}'
+                        updateNetworkWirelessSsidIdentityPsk_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkWirelessSsidIdentityPsk_parameters.updateNetworkWirelessSsidIdentityPsk = updateNetworkWirelessSsidIdentityPsk_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkWirelessSsidIdentityPsk_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -20146,7 +20829,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkWirelessSsidSplashSettings_nodeParam = JSON.parse(updateNetworkWirelessSsidSplashSettings_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkWirelessSsidSplashSettings_nodeParam || '{}'
+                        updateNetworkWirelessSsidSplashSettings_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkWirelessSsidSplashSettings_parameters.updateNetworkWirelessSsidSplashSettings = updateNetworkWirelessSsidSplashSettings_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkWirelessSsidSplashSettings_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -20221,7 +20905,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateNetworkWirelessSsidTrafficShapingRules_nodeParam = JSON.parse(updateNetworkWirelessSsidTrafficShapingRules_nodeParam) || '{}'; 
+                        let nodeParam = updateNetworkWirelessSsidTrafficShapingRules_nodeParam || '{}'
+                        updateNetworkWirelessSsidTrafficShapingRules_nodeParam = JSON.parse(nodeParam) ; 
                         updateNetworkWirelessSsidTrafficShapingRules_parameters.updateNetworkWirelessSsidTrafficShapingRules = updateNetworkWirelessSsidTrafficShapingRules_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateNetworkWirelessSsidTrafficShapingRules_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -20507,7 +21192,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createOrganization_nodeParam = JSON.parse(createOrganization_nodeParam) || '{}'; 
+                        let nodeParam = createOrganization_nodeParam || '{}'
+                        createOrganization_nodeParam = JSON.parse(nodeParam) ; 
                         createOrganization_parameters.createOrganization = createOrganization_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createOrganization_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -20590,7 +21276,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateOrganization_nodeParam = JSON.parse(updateOrganization_nodeParam) || '{}'; 
+                        let nodeParam = updateOrganization_nodeParam || '{}'
+                        updateOrganization_nodeParam = JSON.parse(nodeParam) ; 
                         updateOrganization_parameters.updateOrganization = updateOrganization_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateOrganization_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -20673,7 +21360,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createOrganizationActionBatch_nodeParam = JSON.parse(createOrganizationActionBatch_nodeParam) || '{}'; 
+                        let nodeParam = createOrganizationActionBatch_nodeParam || '{}'
+                        createOrganizationActionBatch_nodeParam = JSON.parse(nodeParam) ; 
                         createOrganizationActionBatch_parameters.createOrganizationActionBatch = createOrganizationActionBatch_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createOrganizationActionBatch_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -20874,7 +21562,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateOrganizationActionBatch_nodeParam = JSON.parse(updateOrganizationActionBatch_nodeParam) || '{}'; 
+                        let nodeParam = updateOrganizationActionBatch_nodeParam || '{}'
+                        updateOrganizationActionBatch_nodeParam = JSON.parse(nodeParam) ; 
                         updateOrganizationActionBatch_parameters.updateOrganizationActionBatch = updateOrganizationActionBatch_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateOrganizationActionBatch_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -20957,7 +21646,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createOrganizationAdmin_nodeParam = JSON.parse(createOrganizationAdmin_nodeParam) || '{}'; 
+                        let nodeParam = createOrganizationAdmin_nodeParam || '{}'
+                        createOrganizationAdmin_nodeParam = JSON.parse(nodeParam) ; 
                         createOrganizationAdmin_parameters.createOrganizationAdmin = createOrganizationAdmin_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createOrganizationAdmin_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -21032,7 +21722,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateOrganizationAdmin_nodeParam = JSON.parse(updateOrganizationAdmin_nodeParam) || '{}'; 
+                        let nodeParam = updateOrganizationAdmin_nodeParam || '{}'
+                        updateOrganizationAdmin_nodeParam = JSON.parse(nodeParam) ; 
                         updateOrganizationAdmin_parameters.updateOrganizationAdmin = updateOrganizationAdmin_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateOrganizationAdmin_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -21589,7 +22280,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateOrganizationApplianceSecurityIntrusion_nodeParam = JSON.parse(updateOrganizationApplianceSecurityIntrusion_nodeParam) || '{}'; 
+                        let nodeParam = updateOrganizationApplianceSecurityIntrusion_nodeParam || '{}'
+                        updateOrganizationApplianceSecurityIntrusion_nodeParam = JSON.parse(nodeParam) ; 
                         updateOrganizationApplianceSecurityIntrusion_parameters.updateOrganizationApplianceSecurityIntrusion = updateOrganizationApplianceSecurityIntrusion_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateOrganizationApplianceSecurityIntrusion_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -21673,6 +22365,57 @@ module.exports = function (RED) {
                 } else {
                     //console.log('getOrganizationApplianceUplinkStatuses_nodeParamType is not "str"')
                     getOrganizationApplianceUplinkStatuses_parameters.endingBefore = RED.util.getMessageProperty(msg, "endingBefore");
+                }
+                                
+                getOrganizationApplianceUplinkStatuses_nodeParam = storedParamValsMap['networkIds'] ||
+                    RED.util.getMessageProperty(msg, "networkIds");
+
+                getOrganizationApplianceUplinkStatuses_nodeParamType = storedParamTypeMap['networkIds'] ||
+                    RED.util.getMessageProperty(msg, "networkIds");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getOrganizationApplianceUplinkStatuses_nodeParamType === 'str') {
+                    //console.log('getOrganizationApplianceUplinkStatuses_nodeParamType is "str"');
+                    getOrganizationApplianceUplinkStatuses_parameters.networkIds = getOrganizationApplianceUplinkStatuses_nodeParam || undefined;
+                } else {
+                    //console.log('getOrganizationApplianceUplinkStatuses_nodeParamType is not "str"')
+                    getOrganizationApplianceUplinkStatuses_parameters.networkIds = RED.util.getMessageProperty(msg, "networkIds");
+                }
+                                
+                getOrganizationApplianceUplinkStatuses_nodeParam = storedParamValsMap['serials'] ||
+                    RED.util.getMessageProperty(msg, "serials");
+
+                getOrganizationApplianceUplinkStatuses_nodeParamType = storedParamTypeMap['serials'] ||
+                    RED.util.getMessageProperty(msg, "serials");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getOrganizationApplianceUplinkStatuses_nodeParamType === 'str') {
+                    //console.log('getOrganizationApplianceUplinkStatuses_nodeParamType is "str"');
+                    getOrganizationApplianceUplinkStatuses_parameters.serials = getOrganizationApplianceUplinkStatuses_nodeParam || undefined;
+                } else {
+                    //console.log('getOrganizationApplianceUplinkStatuses_nodeParamType is not "str"')
+                    getOrganizationApplianceUplinkStatuses_parameters.serials = RED.util.getMessageProperty(msg, "serials");
+                }
+                                
+                getOrganizationApplianceUplinkStatuses_nodeParam = storedParamValsMap['iccids'] ||
+                    RED.util.getMessageProperty(msg, "iccids");
+
+                getOrganizationApplianceUplinkStatuses_nodeParamType = storedParamTypeMap['iccids'] ||
+                    RED.util.getMessageProperty(msg, "iccids");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getOrganizationApplianceUplinkStatuses_nodeParamType === 'str') {
+                    //console.log('getOrganizationApplianceUplinkStatuses_nodeParamType is "str"');
+                    getOrganizationApplianceUplinkStatuses_parameters.iccids = getOrganizationApplianceUplinkStatuses_nodeParam || undefined;
+                } else {
+                    //console.log('getOrganizationApplianceUplinkStatuses_nodeParamType is not "str"')
+                    getOrganizationApplianceUplinkStatuses_parameters.iccids = RED.util.getMessageProperty(msg, "iccids");
                 }
                                 result = client.getOrganizationApplianceUplinkStatuses(getOrganizationApplianceUplinkStatuses_parameters);
                 //console.log('result', result);
@@ -22052,7 +22795,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateOrganizationApplianceVpnVpnFirewallRules_nodeParam = JSON.parse(updateOrganizationApplianceVpnVpnFirewallRules_nodeParam) || '{}'; 
+                        let nodeParam = updateOrganizationApplianceVpnVpnFirewallRules_nodeParam || '{}'
+                        updateOrganizationApplianceVpnVpnFirewallRules_nodeParam = JSON.parse(nodeParam) ; 
                         updateOrganizationApplianceVpnVpnFirewallRules_parameters.updateOrganizationApplianceVpnVpnFirewallRules = updateOrganizationApplianceVpnVpnFirewallRules_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateOrganizationApplianceVpnVpnFirewallRules_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -22135,7 +22879,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createOrganizationBrandingPolicy_nodeParam = JSON.parse(createOrganizationBrandingPolicy_nodeParam) || '{}'; 
+                        let nodeParam = createOrganizationBrandingPolicy_nodeParam || '{}'
+                        createOrganizationBrandingPolicy_nodeParam = JSON.parse(nodeParam) ; 
                         createOrganizationBrandingPolicy_parameters.createOrganizationBrandingPolicy = createOrganizationBrandingPolicy_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createOrganizationBrandingPolicy_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -22218,7 +22963,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateOrganizationBrandingPoliciesPriorities_nodeParam = JSON.parse(updateOrganizationBrandingPoliciesPriorities_nodeParam) || '{}'; 
+                        let nodeParam = updateOrganizationBrandingPoliciesPriorities_nodeParam || '{}'
+                        updateOrganizationBrandingPoliciesPriorities_nodeParam = JSON.parse(nodeParam) ; 
                         updateOrganizationBrandingPoliciesPriorities_parameters.updateOrganizationBrandingPoliciesPriorities = updateOrganizationBrandingPoliciesPriorities_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateOrganizationBrandingPoliciesPriorities_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -22335,7 +23081,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateOrganizationBrandingPolicy_nodeParam = JSON.parse(updateOrganizationBrandingPolicy_nodeParam) || '{}'; 
+                        let nodeParam = updateOrganizationBrandingPolicy_nodeParam || '{}'
+                        updateOrganizationBrandingPolicy_nodeParam = JSON.parse(nodeParam) ; 
                         updateOrganizationBrandingPolicy_parameters.updateOrganizationBrandingPolicy = updateOrganizationBrandingPolicy_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateOrganizationBrandingPolicy_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -22389,6 +23136,133 @@ module.exports = function (RED) {
                                 result = client.deleteOrganizationBrandingPolicy(deleteOrganizationBrandingPolicy_parameters);
                 //console.log('result', result);
             }
+            if (!errorFlag && node.method === 'getOrganizationCellularGatewayUplinkStatuses') {
+                var getOrganizationCellularGatewayUplinkStatuses_parameters = [];
+                var getOrganizationCellularGatewayUplinkStatuses_nodeParam;
+                var getOrganizationCellularGatewayUplinkStatuses_nodeParamType;
+                
+                
+                getOrganizationCellularGatewayUplinkStatuses_nodeParam = storedParamValsMap['organizationId'] ||
+                    RED.util.getMessageProperty(msg, "organizationId");
+
+                getOrganizationCellularGatewayUplinkStatuses_nodeParamType = storedParamTypeMap['organizationId'] ||
+                    RED.util.getMessageProperty(msg, "organizationId");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getOrganizationCellularGatewayUplinkStatuses_nodeParamType === 'str') {
+                    //console.log('getOrganizationCellularGatewayUplinkStatuses_nodeParamType is "str"');
+                    getOrganizationCellularGatewayUplinkStatuses_parameters.organizationId = getOrganizationCellularGatewayUplinkStatuses_nodeParam || undefined;
+                } else {
+                    //console.log('getOrganizationCellularGatewayUplinkStatuses_nodeParamType is not "str"')
+                    getOrganizationCellularGatewayUplinkStatuses_parameters.organizationId = RED.util.getMessageProperty(msg, "organizationId");
+                }
+                                
+                getOrganizationCellularGatewayUplinkStatuses_nodeParam = storedParamValsMap['perPage'] ||
+                    RED.util.getMessageProperty(msg, "perPage");
+
+                getOrganizationCellularGatewayUplinkStatuses_nodeParamType = storedParamTypeMap['perPage'] ||
+                    RED.util.getMessageProperty(msg, "perPage");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getOrganizationCellularGatewayUplinkStatuses_nodeParamType === 'str') {
+                    //console.log('getOrganizationCellularGatewayUplinkStatuses_nodeParamType is "str"');
+                    getOrganizationCellularGatewayUplinkStatuses_parameters.perPage = getOrganizationCellularGatewayUplinkStatuses_nodeParam || undefined;
+                } else {
+                    //console.log('getOrganizationCellularGatewayUplinkStatuses_nodeParamType is not "str"')
+                    getOrganizationCellularGatewayUplinkStatuses_parameters.perPage = RED.util.getMessageProperty(msg, "perPage");
+                }
+                                
+                getOrganizationCellularGatewayUplinkStatuses_nodeParam = storedParamValsMap['startingAfter'] ||
+                    RED.util.getMessageProperty(msg, "startingAfter");
+
+                getOrganizationCellularGatewayUplinkStatuses_nodeParamType = storedParamTypeMap['startingAfter'] ||
+                    RED.util.getMessageProperty(msg, "startingAfter");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getOrganizationCellularGatewayUplinkStatuses_nodeParamType === 'str') {
+                    //console.log('getOrganizationCellularGatewayUplinkStatuses_nodeParamType is "str"');
+                    getOrganizationCellularGatewayUplinkStatuses_parameters.startingAfter = getOrganizationCellularGatewayUplinkStatuses_nodeParam || undefined;
+                } else {
+                    //console.log('getOrganizationCellularGatewayUplinkStatuses_nodeParamType is not "str"')
+                    getOrganizationCellularGatewayUplinkStatuses_parameters.startingAfter = RED.util.getMessageProperty(msg, "startingAfter");
+                }
+                                
+                getOrganizationCellularGatewayUplinkStatuses_nodeParam = storedParamValsMap['endingBefore'] ||
+                    RED.util.getMessageProperty(msg, "endingBefore");
+
+                getOrganizationCellularGatewayUplinkStatuses_nodeParamType = storedParamTypeMap['endingBefore'] ||
+                    RED.util.getMessageProperty(msg, "endingBefore");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getOrganizationCellularGatewayUplinkStatuses_nodeParamType === 'str') {
+                    //console.log('getOrganizationCellularGatewayUplinkStatuses_nodeParamType is "str"');
+                    getOrganizationCellularGatewayUplinkStatuses_parameters.endingBefore = getOrganizationCellularGatewayUplinkStatuses_nodeParam || undefined;
+                } else {
+                    //console.log('getOrganizationCellularGatewayUplinkStatuses_nodeParamType is not "str"')
+                    getOrganizationCellularGatewayUplinkStatuses_parameters.endingBefore = RED.util.getMessageProperty(msg, "endingBefore");
+                }
+                                
+                getOrganizationCellularGatewayUplinkStatuses_nodeParam = storedParamValsMap['networkIds'] ||
+                    RED.util.getMessageProperty(msg, "networkIds");
+
+                getOrganizationCellularGatewayUplinkStatuses_nodeParamType = storedParamTypeMap['networkIds'] ||
+                    RED.util.getMessageProperty(msg, "networkIds");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getOrganizationCellularGatewayUplinkStatuses_nodeParamType === 'str') {
+                    //console.log('getOrganizationCellularGatewayUplinkStatuses_nodeParamType is "str"');
+                    getOrganizationCellularGatewayUplinkStatuses_parameters.networkIds = getOrganizationCellularGatewayUplinkStatuses_nodeParam || undefined;
+                } else {
+                    //console.log('getOrganizationCellularGatewayUplinkStatuses_nodeParamType is not "str"')
+                    getOrganizationCellularGatewayUplinkStatuses_parameters.networkIds = RED.util.getMessageProperty(msg, "networkIds");
+                }
+                                
+                getOrganizationCellularGatewayUplinkStatuses_nodeParam = storedParamValsMap['serials'] ||
+                    RED.util.getMessageProperty(msg, "serials");
+
+                getOrganizationCellularGatewayUplinkStatuses_nodeParamType = storedParamTypeMap['serials'] ||
+                    RED.util.getMessageProperty(msg, "serials");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getOrganizationCellularGatewayUplinkStatuses_nodeParamType === 'str') {
+                    //console.log('getOrganizationCellularGatewayUplinkStatuses_nodeParamType is "str"');
+                    getOrganizationCellularGatewayUplinkStatuses_parameters.serials = getOrganizationCellularGatewayUplinkStatuses_nodeParam || undefined;
+                } else {
+                    //console.log('getOrganizationCellularGatewayUplinkStatuses_nodeParamType is not "str"')
+                    getOrganizationCellularGatewayUplinkStatuses_parameters.serials = RED.util.getMessageProperty(msg, "serials");
+                }
+                                
+                getOrganizationCellularGatewayUplinkStatuses_nodeParam = storedParamValsMap['iccids'] ||
+                    RED.util.getMessageProperty(msg, "iccids");
+
+                getOrganizationCellularGatewayUplinkStatuses_nodeParamType = storedParamTypeMap['iccids'] ||
+                    RED.util.getMessageProperty(msg, "iccids");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getOrganizationCellularGatewayUplinkStatuses_nodeParamType === 'str') {
+                    //console.log('getOrganizationCellularGatewayUplinkStatuses_nodeParamType is "str"');
+                    getOrganizationCellularGatewayUplinkStatuses_parameters.iccids = getOrganizationCellularGatewayUplinkStatuses_nodeParam || undefined;
+                } else {
+                    //console.log('getOrganizationCellularGatewayUplinkStatuses_nodeParamType is not "str"')
+                    getOrganizationCellularGatewayUplinkStatuses_parameters.iccids = RED.util.getMessageProperty(msg, "iccids");
+                }
+                                result = client.getOrganizationCellularGatewayUplinkStatuses(getOrganizationCellularGatewayUplinkStatuses_parameters);
+                //console.log('result', result);
+            }
             if (!errorFlag && node.method === 'claimIntoOrganization') {
                 var claimIntoOrganization_parameters = [];
                 var claimIntoOrganization_nodeParam;
@@ -22435,7 +23309,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        claimIntoOrganization_nodeParam = JSON.parse(claimIntoOrganization_nodeParam) || '{}'; 
+                        let nodeParam = claimIntoOrganization_nodeParam || '{}'
+                        claimIntoOrganization_nodeParam = JSON.parse(nodeParam) ; 
                         claimIntoOrganization_parameters.claimIntoOrganization = claimIntoOrganization_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof claimIntoOrganization_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -22493,7 +23368,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        cloneOrganization_nodeParam = JSON.parse(cloneOrganization_nodeParam) || '{}'; 
+                        let nodeParam = cloneOrganization_nodeParam || '{}'
+                        cloneOrganization_nodeParam = JSON.parse(nodeParam) ; 
                         cloneOrganization_parameters.cloneOrganization = cloneOrganization_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof cloneOrganization_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -22576,7 +23452,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createOrganizationConfigTemplate_nodeParam = JSON.parse(createOrganizationConfigTemplate_nodeParam) || '{}'; 
+                        let nodeParam = createOrganizationConfigTemplate_nodeParam || '{}'
+                        createOrganizationConfigTemplate_nodeParam = JSON.parse(nodeParam) ; 
                         createOrganizationConfigTemplate_parameters.createOrganizationConfigTemplate = createOrganizationConfigTemplate_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createOrganizationConfigTemplate_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -22651,7 +23528,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateOrganizationConfigTemplate_nodeParam = JSON.parse(updateOrganizationConfigTemplate_nodeParam) || '{}'; 
+                        let nodeParam = updateOrganizationConfigTemplate_nodeParam || '{}'
+                        updateOrganizationConfigTemplate_nodeParam = JSON.parse(nodeParam) ; 
                         updateOrganizationConfigTemplate_parameters.updateOrganizationConfigTemplate = updateOrganizationConfigTemplate_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateOrganizationConfigTemplate_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -23021,7 +23899,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateOrganizationConfigTemplateSwitchProfilePort_nodeParam = JSON.parse(updateOrganizationConfigTemplateSwitchProfilePort_nodeParam) || '{}'; 
+                        let nodeParam = updateOrganizationConfigTemplateSwitchProfilePort_nodeParam || '{}'
+                        updateOrganizationConfigTemplateSwitchProfilePort_nodeParam = JSON.parse(nodeParam) ; 
                         updateOrganizationConfigTemplateSwitchProfilePort_parameters.updateOrganizationConfigTemplateSwitchProfilePort = updateOrganizationConfigTemplateSwitchProfilePort_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateOrganizationConfigTemplateSwitchProfilePort_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -23544,7 +24423,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createOrganizationInsightMonitoredMediaServer_nodeParam = JSON.parse(createOrganizationInsightMonitoredMediaServer_nodeParam) || '{}'; 
+                        let nodeParam = createOrganizationInsightMonitoredMediaServer_nodeParam || '{}'
+                        createOrganizationInsightMonitoredMediaServer_nodeParam = JSON.parse(nodeParam) ; 
                         createOrganizationInsightMonitoredMediaServer_parameters.createOrganizationInsightMonitoredMediaServer = createOrganizationInsightMonitoredMediaServer_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createOrganizationInsightMonitoredMediaServer_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -23661,7 +24541,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateOrganizationInsightMonitoredMediaServer_nodeParam = JSON.parse(updateOrganizationInsightMonitoredMediaServer_nodeParam) || '{}'; 
+                        let nodeParam = updateOrganizationInsightMonitoredMediaServer_nodeParam || '{}'
+                        updateOrganizationInsightMonitoredMediaServer_nodeParam = JSON.parse(nodeParam) ; 
                         updateOrganizationInsightMonitoredMediaServer_parameters.updateOrganizationInsightMonitoredMediaServer = updateOrganizationInsightMonitoredMediaServer_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateOrganizationInsightMonitoredMediaServer_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -24040,7 +24921,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        assignOrganizationLicensesSeats_nodeParam = JSON.parse(assignOrganizationLicensesSeats_nodeParam) || '{}'; 
+                        let nodeParam = assignOrganizationLicensesSeats_nodeParam || '{}'
+                        assignOrganizationLicensesSeats_nodeParam = JSON.parse(nodeParam) ; 
                         assignOrganizationLicensesSeats_parameters.assignOrganizationLicensesSeats = assignOrganizationLicensesSeats_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof assignOrganizationLicensesSeats_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -24098,7 +24980,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        moveOrganizationLicenses_nodeParam = JSON.parse(moveOrganizationLicenses_nodeParam) || '{}'; 
+                        let nodeParam = moveOrganizationLicenses_nodeParam || '{}'
+                        moveOrganizationLicenses_nodeParam = JSON.parse(nodeParam) ; 
                         moveOrganizationLicenses_parameters.moveOrganizationLicenses = moveOrganizationLicenses_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof moveOrganizationLicenses_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -24156,7 +25039,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        moveOrganizationLicensesSeats_nodeParam = JSON.parse(moveOrganizationLicensesSeats_nodeParam) || '{}'; 
+                        let nodeParam = moveOrganizationLicensesSeats_nodeParam || '{}'
+                        moveOrganizationLicensesSeats_nodeParam = JSON.parse(nodeParam) ; 
                         moveOrganizationLicensesSeats_parameters.moveOrganizationLicensesSeats = moveOrganizationLicensesSeats_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof moveOrganizationLicensesSeats_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -24239,7 +25123,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        renewOrganizationLicensesSeats_nodeParam = JSON.parse(renewOrganizationLicensesSeats_nodeParam) || '{}'; 
+                        let nodeParam = renewOrganizationLicensesSeats_nodeParam || '{}'
+                        renewOrganizationLicensesSeats_nodeParam = JSON.parse(nodeParam) ; 
                         renewOrganizationLicensesSeats_parameters.renewOrganizationLicensesSeats = renewOrganizationLicensesSeats_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof renewOrganizationLicensesSeats_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -24356,7 +25241,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateOrganizationLicense_nodeParam = JSON.parse(updateOrganizationLicense_nodeParam) || '{}'; 
+                        let nodeParam = updateOrganizationLicense_nodeParam || '{}'
+                        updateOrganizationLicense_nodeParam = JSON.parse(nodeParam) ; 
                         updateOrganizationLicense_parameters.updateOrganizationLicense = updateOrganizationLicense_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateOrganizationLicense_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -24439,7 +25325,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateOrganizationLoginSecurity_nodeParam = JSON.parse(updateOrganizationLoginSecurity_nodeParam) || '{}'; 
+                        let nodeParam = updateOrganizationLoginSecurity_nodeParam || '{}'
+                        updateOrganizationLoginSecurity_nodeParam = JSON.parse(nodeParam) ; 
                         updateOrganizationLoginSecurity_parameters.updateOrganizationLoginSecurity = updateOrganizationLoginSecurity_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateOrganizationLoginSecurity_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -24624,7 +25511,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createOrganizationNetwork_nodeParam = JSON.parse(createOrganizationNetwork_nodeParam) || '{}'; 
+                        let nodeParam = createOrganizationNetwork_nodeParam || '{}'
+                        createOrganizationNetwork_nodeParam = JSON.parse(nodeParam) ; 
                         createOrganizationNetwork_parameters.createOrganizationNetwork = createOrganizationNetwork_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createOrganizationNetwork_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -24682,7 +25570,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        combineOrganizationNetworks_nodeParam = JSON.parse(combineOrganizationNetworks_nodeParam) || '{}'; 
+                        let nodeParam = combineOrganizationNetworks_nodeParam || '{}'
+                        combineOrganizationNetworks_nodeParam = JSON.parse(nodeParam) ; 
                         combineOrganizationNetworks_parameters.combineOrganizationNetworks = combineOrganizationNetworks_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof combineOrganizationNetworks_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -24790,7 +25679,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateOrganizationSaml_nodeParam = JSON.parse(updateOrganizationSaml_nodeParam) || '{}'; 
+                        let nodeParam = updateOrganizationSaml_nodeParam || '{}'
+                        updateOrganizationSaml_nodeParam = JSON.parse(nodeParam) ; 
                         updateOrganizationSaml_parameters.updateOrganizationSaml = updateOrganizationSaml_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateOrganizationSaml_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -24873,7 +25763,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createOrganizationSamlIdp_nodeParam = JSON.parse(createOrganizationSamlIdp_nodeParam) || '{}'; 
+                        let nodeParam = createOrganizationSamlIdp_nodeParam || '{}'
+                        createOrganizationSamlIdp_nodeParam = JSON.parse(nodeParam) ; 
                         createOrganizationSamlIdp_parameters.createOrganizationSamlIdp = createOrganizationSamlIdp_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createOrganizationSamlIdp_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -24948,7 +25839,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateOrganizationSamlIdp_nodeParam = JSON.parse(updateOrganizationSamlIdp_nodeParam) || '{}'; 
+                        let nodeParam = updateOrganizationSamlIdp_nodeParam || '{}'
+                        updateOrganizationSamlIdp_nodeParam = JSON.parse(nodeParam) ; 
                         updateOrganizationSamlIdp_parameters.updateOrganizationSamlIdp = updateOrganizationSamlIdp_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateOrganizationSamlIdp_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -25115,7 +26007,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        createOrganizationSamlRole_nodeParam = JSON.parse(createOrganizationSamlRole_nodeParam) || '{}'; 
+                        let nodeParam = createOrganizationSamlRole_nodeParam || '{}'
+                        createOrganizationSamlRole_nodeParam = JSON.parse(nodeParam) ; 
                         createOrganizationSamlRole_parameters.createOrganizationSamlRole = createOrganizationSamlRole_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof createOrganizationSamlRole_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -25232,7 +26125,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateOrganizationSamlRole_nodeParam = JSON.parse(updateOrganizationSamlRole_nodeParam) || '{}'; 
+                        let nodeParam = updateOrganizationSamlRole_nodeParam || '{}'
+                        updateOrganizationSamlRole_nodeParam = JSON.parse(nodeParam) ; 
                         updateOrganizationSamlRole_parameters.updateOrganizationSamlRole = updateOrganizationSamlRole_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateOrganizationSamlRole_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -25449,7 +26343,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        updateOrganizationSnmp_nodeParam = JSON.parse(updateOrganizationSnmp_nodeParam) || '{}'; 
+                        let nodeParam = updateOrganizationSnmp_nodeParam || '{}'
+                        updateOrganizationSnmp_nodeParam = JSON.parse(nodeParam) ; 
                         updateOrganizationSnmp_parameters.updateOrganizationSnmp = updateOrganizationSnmp_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof updateOrganizationSnmp_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -25507,7 +26402,8 @@ module.exports = function (RED) {
                     }else{
                         try{
                         // attempt to convert form value to JSON, default to empty object
-                        cloneOrganizationSwitchDevices_nodeParam = JSON.parse(cloneOrganizationSwitchDevices_nodeParam) || '{}'; 
+                        let nodeParam = cloneOrganizationSwitchDevices_nodeParam || '{}'
+                        cloneOrganizationSwitchDevices_nodeParam = JSON.parse(nodeParam) ; 
                         cloneOrganizationSwitchDevices_parameters.cloneOrganizationSwitchDevices = cloneOrganizationSwitchDevices_nodeParam
                             }catch(e){
                                 node.error('Unsupported type: \'' + (typeof cloneOrganizationSwitchDevices_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
@@ -25517,6 +26413,158 @@ module.exports = function (RED) {
                 }
               
                                 result = client.cloneOrganizationSwitchDevices(cloneOrganizationSwitchDevices_parameters);
+                //console.log('result', result);
+            }
+            if (!errorFlag && node.method === 'getOrganizationUplinksStatuses') {
+                var getOrganizationUplinksStatuses_parameters = [];
+                var getOrganizationUplinksStatuses_nodeParam;
+                var getOrganizationUplinksStatuses_nodeParamType;
+                
+                
+                getOrganizationUplinksStatuses_nodeParam = storedParamValsMap['organizationId'] ||
+                    RED.util.getMessageProperty(msg, "organizationId");
+
+                getOrganizationUplinksStatuses_nodeParamType = storedParamTypeMap['organizationId'] ||
+                    RED.util.getMessageProperty(msg, "organizationId");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getOrganizationUplinksStatuses_nodeParamType === 'str') {
+                    //console.log('getOrganizationUplinksStatuses_nodeParamType is "str"');
+                    getOrganizationUplinksStatuses_parameters.organizationId = getOrganizationUplinksStatuses_nodeParam || undefined;
+                } else {
+                    //console.log('getOrganizationUplinksStatuses_nodeParamType is not "str"')
+                    getOrganizationUplinksStatuses_parameters.organizationId = RED.util.getMessageProperty(msg, "organizationId");
+                }
+                                
+                getOrganizationUplinksStatuses_nodeParam = storedParamValsMap['perPage'] ||
+                    RED.util.getMessageProperty(msg, "perPage");
+
+                getOrganizationUplinksStatuses_nodeParamType = storedParamTypeMap['perPage'] ||
+                    RED.util.getMessageProperty(msg, "perPage");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getOrganizationUplinksStatuses_nodeParamType === 'str') {
+                    //console.log('getOrganizationUplinksStatuses_nodeParamType is "str"');
+                    getOrganizationUplinksStatuses_parameters.perPage = getOrganizationUplinksStatuses_nodeParam || undefined;
+                } else {
+                    //console.log('getOrganizationUplinksStatuses_nodeParamType is not "str"')
+                    getOrganizationUplinksStatuses_parameters.perPage = RED.util.getMessageProperty(msg, "perPage");
+                }
+                                
+                getOrganizationUplinksStatuses_nodeParam = storedParamValsMap['startingAfter'] ||
+                    RED.util.getMessageProperty(msg, "startingAfter");
+
+                getOrganizationUplinksStatuses_nodeParamType = storedParamTypeMap['startingAfter'] ||
+                    RED.util.getMessageProperty(msg, "startingAfter");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getOrganizationUplinksStatuses_nodeParamType === 'str') {
+                    //console.log('getOrganizationUplinksStatuses_nodeParamType is "str"');
+                    getOrganizationUplinksStatuses_parameters.startingAfter = getOrganizationUplinksStatuses_nodeParam || undefined;
+                } else {
+                    //console.log('getOrganizationUplinksStatuses_nodeParamType is not "str"')
+                    getOrganizationUplinksStatuses_parameters.startingAfter = RED.util.getMessageProperty(msg, "startingAfter");
+                }
+                                
+                getOrganizationUplinksStatuses_nodeParam = storedParamValsMap['endingBefore'] ||
+                    RED.util.getMessageProperty(msg, "endingBefore");
+
+                getOrganizationUplinksStatuses_nodeParamType = storedParamTypeMap['endingBefore'] ||
+                    RED.util.getMessageProperty(msg, "endingBefore");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getOrganizationUplinksStatuses_nodeParamType === 'str') {
+                    //console.log('getOrganizationUplinksStatuses_nodeParamType is "str"');
+                    getOrganizationUplinksStatuses_parameters.endingBefore = getOrganizationUplinksStatuses_nodeParam || undefined;
+                } else {
+                    //console.log('getOrganizationUplinksStatuses_nodeParamType is not "str"')
+                    getOrganizationUplinksStatuses_parameters.endingBefore = RED.util.getMessageProperty(msg, "endingBefore");
+                }
+                                
+                getOrganizationUplinksStatuses_nodeParam = storedParamValsMap['networkIds'] ||
+                    RED.util.getMessageProperty(msg, "networkIds");
+
+                getOrganizationUplinksStatuses_nodeParamType = storedParamTypeMap['networkIds'] ||
+                    RED.util.getMessageProperty(msg, "networkIds");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getOrganizationUplinksStatuses_nodeParamType === 'str') {
+                    //console.log('getOrganizationUplinksStatuses_nodeParamType is "str"');
+                    getOrganizationUplinksStatuses_parameters.networkIds = getOrganizationUplinksStatuses_nodeParam || undefined;
+                } else {
+                    //console.log('getOrganizationUplinksStatuses_nodeParamType is not "str"')
+                    getOrganizationUplinksStatuses_parameters.networkIds = RED.util.getMessageProperty(msg, "networkIds");
+                }
+                                
+                getOrganizationUplinksStatuses_nodeParam = storedParamValsMap['serials'] ||
+                    RED.util.getMessageProperty(msg, "serials");
+
+                getOrganizationUplinksStatuses_nodeParamType = storedParamTypeMap['serials'] ||
+                    RED.util.getMessageProperty(msg, "serials");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getOrganizationUplinksStatuses_nodeParamType === 'str') {
+                    //console.log('getOrganizationUplinksStatuses_nodeParamType is "str"');
+                    getOrganizationUplinksStatuses_parameters.serials = getOrganizationUplinksStatuses_nodeParam || undefined;
+                } else {
+                    //console.log('getOrganizationUplinksStatuses_nodeParamType is not "str"')
+                    getOrganizationUplinksStatuses_parameters.serials = RED.util.getMessageProperty(msg, "serials");
+                }
+                                
+                getOrganizationUplinksStatuses_nodeParam = storedParamValsMap['iccids'] ||
+                    RED.util.getMessageProperty(msg, "iccids");
+
+                getOrganizationUplinksStatuses_nodeParamType = storedParamTypeMap['iccids'] ||
+                    RED.util.getMessageProperty(msg, "iccids");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getOrganizationUplinksStatuses_nodeParamType === 'str') {
+                    //console.log('getOrganizationUplinksStatuses_nodeParamType is "str"');
+                    getOrganizationUplinksStatuses_parameters.iccids = getOrganizationUplinksStatuses_nodeParam || undefined;
+                } else {
+                    //console.log('getOrganizationUplinksStatuses_nodeParamType is not "str"')
+                    getOrganizationUplinksStatuses_parameters.iccids = RED.util.getMessageProperty(msg, "iccids");
+                }
+                                result = client.getOrganizationUplinksStatuses(getOrganizationUplinksStatuses_parameters);
+                //console.log('result', result);
+            }
+            if (!errorFlag && node.method === 'getOrganizationWebhooksAlertTypes') {
+                var getOrganizationWebhooksAlertTypes_parameters = [];
+                var getOrganizationWebhooksAlertTypes_nodeParam;
+                var getOrganizationWebhooksAlertTypes_nodeParamType;
+                
+                
+                getOrganizationWebhooksAlertTypes_nodeParam = storedParamValsMap['organizationId'] ||
+                    RED.util.getMessageProperty(msg, "organizationId");
+
+                getOrganizationWebhooksAlertTypes_nodeParamType = storedParamTypeMap['organizationId'] ||
+                    RED.util.getMessageProperty(msg, "organizationId");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getOrganizationWebhooksAlertTypes_nodeParamType === 'str') {
+                    //console.log('getOrganizationWebhooksAlertTypes_nodeParamType is "str"');
+                    getOrganizationWebhooksAlertTypes_parameters.organizationId = getOrganizationWebhooksAlertTypes_nodeParam || undefined;
+                } else {
+                    //console.log('getOrganizationWebhooksAlertTypes_nodeParamType is not "str"')
+                    getOrganizationWebhooksAlertTypes_parameters.organizationId = RED.util.getMessageProperty(msg, "organizationId");
+                }
+                                result = client.getOrganizationWebhooksAlertTypes(getOrganizationWebhooksAlertTypes_parameters);
                 //console.log('result', result);
             }
             if (!errorFlag && node.method === 'getOrganizationWebhooksLogs') {
@@ -25682,7 +26730,7 @@ module.exports = function (RED) {
                         }
                     }
                     if (data.body) {
-                        msg.payload = data.body;
+                        msg.payload = data.body || {};
                         console.log('setData data.body', data.body)  
                     }
                 }

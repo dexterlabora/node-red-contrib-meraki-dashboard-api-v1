@@ -3681,12 +3681,76 @@ describe('meraki-dashboard-api-v1 node', function () {
             n1.receive({ payload: '<input message>' }); // (2) define input message
         });
     });
+    it('should handle getNetworkClientsApplicationUsage()', function (done) {
+        var flow = [
+            { id: 'n1', type: 'meraki-dashboard-api-v1', name: 'meraki-dashboard-api-v1',
+                method: 'getNetworkClientsApplicationUsage',
+                getNetworkClientsApplicationUsage_networkId: '<node property>', // (1) define node properties
+                getNetworkClientsApplicationUsage_clients: '<node property>', // (1) define node properties
+                getNetworkClientsApplicationUsage_ssidNumber: '<node property>', // (1) define node properties
+                getNetworkClientsApplicationUsage_perPage: '<node property>', // (1) define node properties
+                getNetworkClientsApplicationUsage_startingAfter: '<node property>', // (1) define node properties
+                getNetworkClientsApplicationUsage_endingBefore: '<node property>', // (1) define node properties
+                getNetworkClientsApplicationUsage_t0: '<node property>', // (1) define node properties
+                getNetworkClientsApplicationUsage_t1: '<node property>', // (1) define node properties
+                getNetworkClientsApplicationUsage_timespan: '<node property>', // (1) define node properties
+                wires: [['n3']],
+                service: 'n2' },
+            { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
+            { id: 'n3', type: 'helper' }
+        ];
+        helper.load(node, flow, function () {
+            var n3 = helper.getNode('n3');
+            var n1 = helper.getNode('n1');
+            n3.on('input', function (msg) {
+                try {
+                    msg.should.have.property('payload', '<output message>'); // (3) define output message
+                    done();
+                } catch (e) {
+                    done(e);
+                }
+            });
+            n1.receive({ payload: '<input message>' }); // (2) define input message
+        });
+    });
     it('should handle provisionNetworkClients()', function (done) {
         var flow = [
             { id: 'n1', type: 'meraki-dashboard-api-v1', name: 'meraki-dashboard-api-v1',
                 method: 'provisionNetworkClients',
                 provisionNetworkClients_networkId: '<node property>', // (1) define node properties
                 provisionNetworkClients_provisionNetworkClients: '<node property>', // (1) define node properties
+                wires: [['n3']],
+                service: 'n2' },
+            { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
+            { id: 'n3', type: 'helper' }
+        ];
+        helper.load(node, flow, function () {
+            var n3 = helper.getNode('n3');
+            var n1 = helper.getNode('n1');
+            n3.on('input', function (msg) {
+                try {
+                    msg.should.have.property('payload', '<output message>'); // (3) define output message
+                    done();
+                } catch (e) {
+                    done(e);
+                }
+            });
+            n1.receive({ payload: '<input message>' }); // (2) define input message
+        });
+    });
+    it('should handle getNetworkClientsUsageHistories()', function (done) {
+        var flow = [
+            { id: 'n1', type: 'meraki-dashboard-api-v1', name: 'meraki-dashboard-api-v1',
+                method: 'getNetworkClientsUsageHistories',
+                getNetworkClientsUsageHistories_networkId: '<node property>', // (1) define node properties
+                getNetworkClientsUsageHistories_clients: '<node property>', // (1) define node properties
+                getNetworkClientsUsageHistories_ssidNumber: '<node property>', // (1) define node properties
+                getNetworkClientsUsageHistories_perPage: '<node property>', // (1) define node properties
+                getNetworkClientsUsageHistories_startingAfter: '<node property>', // (1) define node properties
+                getNetworkClientsUsageHistories_endingBefore: '<node property>', // (1) define node properties
+                getNetworkClientsUsageHistories_t0: '<node property>', // (1) define node properties
+                getNetworkClientsUsageHistories_t1: '<node property>', // (1) define node properties
+                getNetworkClientsUsageHistories_timespan: '<node property>', // (1) define node properties
                 wires: [['n3']],
                 service: 'n2' },
             { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
@@ -3941,61 +4005,6 @@ describe('meraki-dashboard-api-v1 node', function () {
                 method: 'removeNetworkDevices',
                 removeNetworkDevices_networkId: '<node property>', // (1) define node properties
                 removeNetworkDevices_removeNetworkDevices: '<node property>', // (1) define node properties
-                wires: [['n3']],
-                service: 'n2' },
-            { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
-            { id: 'n3', type: 'helper' }
-        ];
-        helper.load(node, flow, function () {
-            var n3 = helper.getNode('n3');
-            var n1 = helper.getNode('n1');
-            n3.on('input', function (msg) {
-                try {
-                    msg.should.have.property('payload', '<output message>'); // (3) define output message
-                    done();
-                } catch (e) {
-                    done(e);
-                }
-            });
-            n1.receive({ payload: '<input message>' }); // (2) define input message
-        });
-    });
-    it('should handle getNetworkEnvironmentalEvents()', function (done) {
-        var flow = [
-            { id: 'n1', type: 'meraki-dashboard-api-v1', name: 'meraki-dashboard-api-v1',
-                method: 'getNetworkEnvironmentalEvents',
-                getNetworkEnvironmentalEvents_networkId: '<node property>', // (1) define node properties
-                getNetworkEnvironmentalEvents_includedEventTypes: '<node property>', // (1) define node properties
-                getNetworkEnvironmentalEvents_excludedEventTypes: '<node property>', // (1) define node properties
-                getNetworkEnvironmentalEvents_sensorSerial: '<node property>', // (1) define node properties
-                getNetworkEnvironmentalEvents_gatewaySerial: '<node property>', // (1) define node properties
-                getNetworkEnvironmentalEvents_perPage: '<node property>', // (1) define node properties
-                getNetworkEnvironmentalEvents_startingAfter: '<node property>', // (1) define node properties
-                getNetworkEnvironmentalEvents_endingBefore: '<node property>', // (1) define node properties
-                wires: [['n3']],
-                service: 'n2' },
-            { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
-            { id: 'n3', type: 'helper' }
-        ];
-        helper.load(node, flow, function () {
-            var n3 = helper.getNode('n3');
-            var n1 = helper.getNode('n1');
-            n3.on('input', function (msg) {
-                try {
-                    msg.should.have.property('payload', '<output message>'); // (3) define output message
-                    done();
-                } catch (e) {
-                    done(e);
-                }
-            });
-            n1.receive({ payload: '<input message>' }); // (2) define input message
-        });
-    });
-    it('should handle getNetworkEnvironmentalEventsEventTypes()', function (done) {
-        var flow = [
-            { id: 'n1', type: 'meraki-dashboard-api-v1', name: 'meraki-dashboard-api-v1',
-                method: 'getNetworkEnvironmentalEventsEventTypes',
-                getNetworkEnvironmentalEventsEventTypes_networkId: '<node property>', // (1) define node properties
                 wires: [['n3']],
                 service: 'n2' },
             { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
@@ -5689,6 +5698,58 @@ describe('meraki-dashboard-api-v1 node', function () {
             n1.receive({ payload: '<input message>' }); // (2) define input message
         });
     });
+    it('should handle getNetworkSmUserAccessDevices()', function (done) {
+        var flow = [
+            { id: 'n1', type: 'meraki-dashboard-api-v1', name: 'meraki-dashboard-api-v1',
+                method: 'getNetworkSmUserAccessDevices',
+                getNetworkSmUserAccessDevices_networkId: '<node property>', // (1) define node properties
+                getNetworkSmUserAccessDevices_perPage: '<node property>', // (1) define node properties
+                getNetworkSmUserAccessDevices_startingAfter: '<node property>', // (1) define node properties
+                getNetworkSmUserAccessDevices_endingBefore: '<node property>', // (1) define node properties
+                wires: [['n3']],
+                service: 'n2' },
+            { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
+            { id: 'n3', type: 'helper' }
+        ];
+        helper.load(node, flow, function () {
+            var n3 = helper.getNode('n3');
+            var n1 = helper.getNode('n1');
+            n3.on('input', function (msg) {
+                try {
+                    msg.should.have.property('payload', '<output message>'); // (3) define output message
+                    done();
+                } catch (e) {
+                    done(e);
+                }
+            });
+            n1.receive({ payload: '<input message>' }); // (2) define input message
+        });
+    });
+    it('should handle deleteNetworkSmUserAccessDevice()', function (done) {
+        var flow = [
+            { id: 'n1', type: 'meraki-dashboard-api-v1', name: 'meraki-dashboard-api-v1',
+                method: 'deleteNetworkSmUserAccessDevice',
+                deleteNetworkSmUserAccessDevice_networkId: '<node property>', // (1) define node properties
+                deleteNetworkSmUserAccessDevice_userAccessDeviceId: '<node property>', // (1) define node properties
+                wires: [['n3']],
+                service: 'n2' },
+            { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
+            { id: 'n3', type: 'helper' }
+        ];
+        helper.load(node, flow, function () {
+            var n3 = helper.getNode('n3');
+            var n1 = helper.getNode('n1');
+            n3.on('input', function (msg) {
+                try {
+                    msg.should.have.property('payload', '<output message>'); // (3) define output message
+                    done();
+                } catch (e) {
+                    done(e);
+                }
+            });
+            n1.receive({ payload: '<input message>' }); // (2) define input message
+        });
+    });
     it('should handle getNetworkSmUsers()', function (done) {
         var flow = [
             { id: 'n1', type: 'meraki-dashboard-api-v1', name: 'meraki-dashboard-api-v1',
@@ -6022,6 +6083,55 @@ describe('meraki-dashboard-api-v1 node', function () {
                 method: 'deleteNetworkSwitchAccessPolicy',
                 deleteNetworkSwitchAccessPolicy_networkId: '<node property>', // (1) define node properties
                 deleteNetworkSwitchAccessPolicy_accessPolicyNumber: '<node property>', // (1) define node properties
+                wires: [['n3']],
+                service: 'n2' },
+            { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
+            { id: 'n3', type: 'helper' }
+        ];
+        helper.load(node, flow, function () {
+            var n3 = helper.getNode('n3');
+            var n1 = helper.getNode('n1');
+            n3.on('input', function (msg) {
+                try {
+                    msg.should.have.property('payload', '<output message>'); // (3) define output message
+                    done();
+                } catch (e) {
+                    done(e);
+                }
+            });
+            n1.receive({ payload: '<input message>' }); // (2) define input message
+        });
+    });
+    it('should handle getNetworkSwitchAlternateManagementInterface()', function (done) {
+        var flow = [
+            { id: 'n1', type: 'meraki-dashboard-api-v1', name: 'meraki-dashboard-api-v1',
+                method: 'getNetworkSwitchAlternateManagementInterface',
+                getNetworkSwitchAlternateManagementInterface_networkId: '<node property>', // (1) define node properties
+                wires: [['n3']],
+                service: 'n2' },
+            { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
+            { id: 'n3', type: 'helper' }
+        ];
+        helper.load(node, flow, function () {
+            var n3 = helper.getNode('n3');
+            var n1 = helper.getNode('n1');
+            n3.on('input', function (msg) {
+                try {
+                    msg.should.have.property('payload', '<output message>'); // (3) define output message
+                    done();
+                } catch (e) {
+                    done(e);
+                }
+            });
+            n1.receive({ payload: '<input message>' }); // (2) define input message
+        });
+    });
+    it('should handle updateNetworkSwitchAlternateManagementInterface()', function (done) {
+        var flow = [
+            { id: 'n1', type: 'meraki-dashboard-api-v1', name: 'meraki-dashboard-api-v1',
+                method: 'updateNetworkSwitchAlternateManagementInterface',
+                updateNetworkSwitchAlternateManagementInterface_networkId: '<node property>', // (1) define node properties
+                updateNetworkSwitchAlternateManagementInterface_updateNetworkSwitchAlternateManagementInterface: '<node property>', // (1) define node properties
                 wires: [['n3']],
                 service: 'n2' },
             { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
@@ -7843,6 +7953,55 @@ describe('meraki-dashboard-api-v1 node', function () {
             n1.receive({ payload: '<input message>' }); // (2) define input message
         });
     });
+    it('should handle getNetworkWirelessBilling()', function (done) {
+        var flow = [
+            { id: 'n1', type: 'meraki-dashboard-api-v1', name: 'meraki-dashboard-api-v1',
+                method: 'getNetworkWirelessBilling',
+                getNetworkWirelessBilling_networkId: '<node property>', // (1) define node properties
+                wires: [['n3']],
+                service: 'n2' },
+            { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
+            { id: 'n3', type: 'helper' }
+        ];
+        helper.load(node, flow, function () {
+            var n3 = helper.getNode('n3');
+            var n1 = helper.getNode('n1');
+            n3.on('input', function (msg) {
+                try {
+                    msg.should.have.property('payload', '<output message>'); // (3) define output message
+                    done();
+                } catch (e) {
+                    done(e);
+                }
+            });
+            n1.receive({ payload: '<input message>' }); // (2) define input message
+        });
+    });
+    it('should handle updateNetworkWirelessBilling()', function (done) {
+        var flow = [
+            { id: 'n1', type: 'meraki-dashboard-api-v1', name: 'meraki-dashboard-api-v1',
+                method: 'updateNetworkWirelessBilling',
+                updateNetworkWirelessBilling_networkId: '<node property>', // (1) define node properties
+                updateNetworkWirelessBilling_updateNetworkWirelessBilling: '<node property>', // (1) define node properties
+                wires: [['n3']],
+                service: 'n2' },
+            { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
+            { id: 'n3', type: 'helper' }
+        ];
+        helper.load(node, flow, function () {
+            var n3 = helper.getNode('n3');
+            var n1 = helper.getNode('n1');
+            n3.on('input', function (msg) {
+                try {
+                    msg.should.have.property('payload', '<output message>'); // (3) define output message
+                    done();
+                } catch (e) {
+                    done(e);
+                }
+            });
+            n1.receive({ payload: '<input message>' }); // (2) define input message
+        });
+    });
     it('should handle getNetworkWirelessBluetoothSettings()', function (done) {
         var flow = [
             { id: 'n1', type: 'meraki-dashboard-api-v1', name: 'meraki-dashboard-api-v1',
@@ -8672,6 +8831,57 @@ describe('meraki-dashboard-api-v1 node', function () {
                 updateNetworkWirelessSsid_networkId: '<node property>', // (1) define node properties
                 updateNetworkWirelessSsid_number: '<node property>', // (1) define node properties
                 updateNetworkWirelessSsid_updateNetworkWirelessSsid: '<node property>', // (1) define node properties
+                wires: [['n3']],
+                service: 'n2' },
+            { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
+            { id: 'n3', type: 'helper' }
+        ];
+        helper.load(node, flow, function () {
+            var n3 = helper.getNode('n3');
+            var n1 = helper.getNode('n1');
+            n3.on('input', function (msg) {
+                try {
+                    msg.should.have.property('payload', '<output message>'); // (3) define output message
+                    done();
+                } catch (e) {
+                    done(e);
+                }
+            });
+            n1.receive({ payload: '<input message>' }); // (2) define input message
+        });
+    });
+    it('should handle getNetworkWirelessSsidDeviceTypeGroupPolicies()', function (done) {
+        var flow = [
+            { id: 'n1', type: 'meraki-dashboard-api-v1', name: 'meraki-dashboard-api-v1',
+                method: 'getNetworkWirelessSsidDeviceTypeGroupPolicies',
+                getNetworkWirelessSsidDeviceTypeGroupPolicies_networkId: '<node property>', // (1) define node properties
+                getNetworkWirelessSsidDeviceTypeGroupPolicies_number: '<node property>', // (1) define node properties
+                wires: [['n3']],
+                service: 'n2' },
+            { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
+            { id: 'n3', type: 'helper' }
+        ];
+        helper.load(node, flow, function () {
+            var n3 = helper.getNode('n3');
+            var n1 = helper.getNode('n1');
+            n3.on('input', function (msg) {
+                try {
+                    msg.should.have.property('payload', '<output message>'); // (3) define output message
+                    done();
+                } catch (e) {
+                    done(e);
+                }
+            });
+            n1.receive({ payload: '<input message>' }); // (2) define input message
+        });
+    });
+    it('should handle updateNetworkWirelessSsidDeviceTypeGroupPolicies()', function (done) {
+        var flow = [
+            { id: 'n1', type: 'meraki-dashboard-api-v1', name: 'meraki-dashboard-api-v1',
+                method: 'updateNetworkWirelessSsidDeviceTypeGroupPolicies',
+                updateNetworkWirelessSsidDeviceTypeGroupPolicies_networkId: '<node property>', // (1) define node properties
+                updateNetworkWirelessSsidDeviceTypeGroupPolicies_number: '<node property>', // (1) define node properties
+                updateNetworkWirelessSsidDeviceTypeGroupPolicies_updateNetworkWirelessSsidDeviceTypeGroupPolicies: '<node property>', // (1) define node properties
                 wires: [['n3']],
                 service: 'n2' },
             { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
@@ -9555,6 +9765,9 @@ describe('meraki-dashboard-api-v1 node', function () {
                 getOrganizationApplianceUplinkStatuses_perPage: '<node property>', // (1) define node properties
                 getOrganizationApplianceUplinkStatuses_startingAfter: '<node property>', // (1) define node properties
                 getOrganizationApplianceUplinkStatuses_endingBefore: '<node property>', // (1) define node properties
+                getOrganizationApplianceUplinkStatuses_networkIds: '<node property>', // (1) define node properties
+                getOrganizationApplianceUplinkStatuses_serials: '<node property>', // (1) define node properties
+                getOrganizationApplianceUplinkStatuses_iccids: '<node property>', // (1) define node properties
                 wires: [['n3']],
                 service: 'n2' },
             { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
@@ -9886,6 +10099,36 @@ describe('meraki-dashboard-api-v1 node', function () {
                 method: 'deleteOrganizationBrandingPolicy',
                 deleteOrganizationBrandingPolicy_organizationId: '<node property>', // (1) define node properties
                 deleteOrganizationBrandingPolicy_brandingPolicyId: '<node property>', // (1) define node properties
+                wires: [['n3']],
+                service: 'n2' },
+            { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
+            { id: 'n3', type: 'helper' }
+        ];
+        helper.load(node, flow, function () {
+            var n3 = helper.getNode('n3');
+            var n1 = helper.getNode('n1');
+            n3.on('input', function (msg) {
+                try {
+                    msg.should.have.property('payload', '<output message>'); // (3) define output message
+                    done();
+                } catch (e) {
+                    done(e);
+                }
+            });
+            n1.receive({ payload: '<input message>' }); // (2) define input message
+        });
+    });
+    it('should handle getOrganizationCellularGatewayUplinkStatuses()', function (done) {
+        var flow = [
+            { id: 'n1', type: 'meraki-dashboard-api-v1', name: 'meraki-dashboard-api-v1',
+                method: 'getOrganizationCellularGatewayUplinkStatuses',
+                getOrganizationCellularGatewayUplinkStatuses_organizationId: '<node property>', // (1) define node properties
+                getOrganizationCellularGatewayUplinkStatuses_perPage: '<node property>', // (1) define node properties
+                getOrganizationCellularGatewayUplinkStatuses_startingAfter: '<node property>', // (1) define node properties
+                getOrganizationCellularGatewayUplinkStatuses_endingBefore: '<node property>', // (1) define node properties
+                getOrganizationCellularGatewayUplinkStatuses_networkIds: '<node property>', // (1) define node properties
+                getOrganizationCellularGatewayUplinkStatuses_serials: '<node property>', // (1) define node properties
+                getOrganizationCellularGatewayUplinkStatuses_iccids: '<node property>', // (1) define node properties
                 wires: [['n3']],
                 service: 'n2' },
             { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
@@ -11266,6 +11509,60 @@ describe('meraki-dashboard-api-v1 node', function () {
                 method: 'cloneOrganizationSwitchDevices',
                 cloneOrganizationSwitchDevices_organizationId: '<node property>', // (1) define node properties
                 cloneOrganizationSwitchDevices_cloneOrganizationSwitchDevices: '<node property>', // (1) define node properties
+                wires: [['n3']],
+                service: 'n2' },
+            { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
+            { id: 'n3', type: 'helper' }
+        ];
+        helper.load(node, flow, function () {
+            var n3 = helper.getNode('n3');
+            var n1 = helper.getNode('n1');
+            n3.on('input', function (msg) {
+                try {
+                    msg.should.have.property('payload', '<output message>'); // (3) define output message
+                    done();
+                } catch (e) {
+                    done(e);
+                }
+            });
+            n1.receive({ payload: '<input message>' }); // (2) define input message
+        });
+    });
+    it('should handle getOrganizationUplinksStatuses()', function (done) {
+        var flow = [
+            { id: 'n1', type: 'meraki-dashboard-api-v1', name: 'meraki-dashboard-api-v1',
+                method: 'getOrganizationUplinksStatuses',
+                getOrganizationUplinksStatuses_organizationId: '<node property>', // (1) define node properties
+                getOrganizationUplinksStatuses_perPage: '<node property>', // (1) define node properties
+                getOrganizationUplinksStatuses_startingAfter: '<node property>', // (1) define node properties
+                getOrganizationUplinksStatuses_endingBefore: '<node property>', // (1) define node properties
+                getOrganizationUplinksStatuses_networkIds: '<node property>', // (1) define node properties
+                getOrganizationUplinksStatuses_serials: '<node property>', // (1) define node properties
+                getOrganizationUplinksStatuses_iccids: '<node property>', // (1) define node properties
+                wires: [['n3']],
+                service: 'n2' },
+            { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name
+            { id: 'n3', type: 'helper' }
+        ];
+        helper.load(node, flow, function () {
+            var n3 = helper.getNode('n3');
+            var n1 = helper.getNode('n1');
+            n3.on('input', function (msg) {
+                try {
+                    msg.should.have.property('payload', '<output message>'); // (3) define output message
+                    done();
+                } catch (e) {
+                    done(e);
+                }
+            });
+            n1.receive({ payload: '<input message>' }); // (2) define input message
+        });
+    });
+    it('should handle getOrganizationWebhooksAlertTypes()', function (done) {
+        var flow = [
+            { id: 'n1', type: 'meraki-dashboard-api-v1', name: 'meraki-dashboard-api-v1',
+                method: 'getOrganizationWebhooksAlertTypes',
+                getOrganizationWebhooksAlertTypes_organizationId: '<node property>', // (1) define node properties
                 wires: [['n3']],
                 service: 'n2' },
             { id: 'n2', type: 'meraki-dashboard-api-v1-service', host: 'http://<host name>' }, // (4) define host name

@@ -1,8 +1,6 @@
 node-red-contrib-meraki-dashboard-api-v1
 =====================
 
-> BETA - CURRENTLY IN DEVELOPMENT
-
 Node-RED node for the Cisco Meraki Dashboard API
 
 > A full featured node for monitoring and managing the Meraki Cloud built on the Dashboard API Open API spec.
@@ -55,7 +53,7 @@ The Cisco Meraki Dashboard API is a modern REST API based on the [OpenAPI](https
 
 ## Created by
 
-Cory Guynn, 2020
+Cory Guynn, 2019
 
 ## License
 
