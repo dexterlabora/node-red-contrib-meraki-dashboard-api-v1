@@ -45,15 +45,16 @@ npm install node-red-contrib-meraki-dashboard-api
 
 ---
 
-[Official Meraki Dashboard API Docs](https://create.meraki.io/api)
+[Official Meraki Dashboard API v1 Docs](https://create.meraki.io/api-v1)
 
 The Cisco Meraki Dashboard API is a modern REST API based on the [OpenAPI](https://swagger.io/docs/specification/about/) specification.
 
-[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/dexterlabora/node-red-contrib-meraki-dashboard-api)
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/dexterlabora/node-red-contrib-meraki-dashboard-api-v1
 
 ## Created by
 
 Cory Guynn, 2019
+
 
 ## License
 
