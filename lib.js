@@ -2,7 +2,7 @@
 /**
  * The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -141,7 +141,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -190,7 +190,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -204,7 +204,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateDevice - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -262,7 +262,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -311,7 +311,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -360,7 +360,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -374,7 +374,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.blinkDeviceLeds - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -432,7 +432,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -481,7 +481,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -574,7 +574,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -634,7 +634,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -683,7 +683,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -697,7 +697,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.zoneId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -812,7 +812,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -826,7 +826,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.generateDeviceCameraSnapshot - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -884,7 +884,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -933,7 +933,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -947,7 +947,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateDeviceCameraQualityAndRetention - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1005,7 +1005,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1054,7 +1054,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1068,7 +1068,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateDeviceCameraSense - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1126,7 +1126,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1175,7 +1175,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1224,7 +1224,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1238,7 +1238,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateDeviceCameraVideoSettings - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1296,7 +1296,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1356,7 +1356,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1405,7 +1405,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1419,7 +1419,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateDeviceCellularGatewayLan - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1477,7 +1477,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1526,7 +1526,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1540,7 +1540,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateDeviceCellularGatewayPortForwardingRules - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1598,7 +1598,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1669,7 +1669,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1712,13 +1712,13 @@ var MerakiDashboardApi = (function(){
     return deferred.promise;
  };
 /**
- * Get the uplink loss percentage and latency in milliseconds for a wired network device.
+ * Get the uplink loss percentage and latency in milliseconds, and goodput in kilobits per second for a wired network device.
  * @method
  * @name MerakiDashboardApi#getDeviceLossAndLatencyHistory
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1837,7 +1837,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1886,7 +1886,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1900,7 +1900,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateDeviceManagementInterface - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -1958,7 +1958,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2007,7 +2007,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2056,7 +2056,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2070,7 +2070,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.cycleDeviceSwitchPorts - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2132,7 +2132,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2203,7 +2203,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2274,7 +2274,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2288,7 +2288,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.portId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2348,7 +2348,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2362,7 +2362,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.portId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2376,7 +2376,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateDeviceSwitchPort - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2445,7 +2445,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2494,7 +2494,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2508,7 +2508,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createDeviceSwitchRoutingInterface - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2570,7 +2570,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2584,7 +2584,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.interfaceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2644,7 +2644,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2658,7 +2658,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.interfaceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2672,7 +2672,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateDeviceSwitchRoutingInterface - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2741,7 +2741,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2755,7 +2755,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.interfaceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2815,7 +2815,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2829,7 +2829,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.interfaceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2889,7 +2889,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2903,7 +2903,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.interfaceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2917,7 +2917,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateDeviceSwitchRoutingInterfaceDhcp - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -2986,7 +2986,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3035,7 +3035,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3049,7 +3049,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createDeviceSwitchRoutingStaticRoute - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3111,7 +3111,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3125,7 +3125,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.staticRouteId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3185,7 +3185,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3199,7 +3199,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.staticRouteId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3213,7 +3213,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateDeviceSwitchRoutingStaticRoute - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3282,7 +3282,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3296,7 +3296,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.staticRouteId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3356,7 +3356,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3405,7 +3405,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3419,7 +3419,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateDeviceSwitchWarmSpare - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3481,7 +3481,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3530,7 +3530,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3544,7 +3544,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateDeviceWirelessBluetoothSettings - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3602,7 +3602,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3728,7 +3728,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3865,7 +3865,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3914,7 +3914,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3928,7 +3928,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateDeviceWirelessRadioSettings - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -3986,7 +3986,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4035,7 +4035,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4084,7 +4084,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4098,7 +4098,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetwork - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4156,7 +4156,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4205,7 +4205,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4254,7 +4254,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4268,7 +4268,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkAlertsSettings - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4326,7 +4326,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4340,7 +4340,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.clientId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4477,7 +4477,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4526,7 +4526,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4540,7 +4540,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceConnectivityMonitoringDestinations - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4598,7 +4598,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4647,7 +4647,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4661,7 +4661,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceContentFiltering - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4719,7 +4719,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4768,7 +4768,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4817,7 +4817,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4831,7 +4831,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceFirewallCellularFirewallRules - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4889,7 +4889,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4938,7 +4938,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -4952,7 +4952,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.service - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5012,7 +5012,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5026,7 +5026,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.service - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5040,7 +5040,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceFirewallFirewalledService - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5113,7 +5113,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5162,7 +5162,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5176,7 +5176,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceFirewallInboundFirewallRules - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5234,7 +5234,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5283,7 +5283,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5297,7 +5297,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceFirewallL3FirewallRules - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5355,7 +5355,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5404,7 +5404,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5418,7 +5418,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceFirewallL7FirewallRules - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5476,7 +5476,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5525,7 +5525,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5574,7 +5574,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5588,7 +5588,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceFirewallOneToManyNatRules - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5650,7 +5650,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5699,7 +5699,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5713,7 +5713,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceFirewallOneToOneNatRules - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5775,7 +5775,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5824,7 +5824,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5838,7 +5838,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceFirewallPortForwardingRules - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5900,7 +5900,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5949,7 +5949,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -5963,7 +5963,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.portId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6023,7 +6023,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6037,7 +6037,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.portId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6051,7 +6051,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkAppliancePort - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6120,7 +6120,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6246,7 +6246,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6295,7 +6295,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6309,7 +6309,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceSecurityIntrusion - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6367,7 +6367,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6416,7 +6416,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6430,7 +6430,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceSecurityMalware - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6492,7 +6492,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6541,7 +6541,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6590,7 +6590,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6604,7 +6604,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceSingleLan - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6662,7 +6662,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6711,7 +6711,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6725,7 +6725,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkApplianceStaticRoute - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6787,7 +6787,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6801,7 +6801,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.staticRouteId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6861,7 +6861,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6875,7 +6875,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.staticRouteId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6889,7 +6889,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceStaticRoute - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6958,7 +6958,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -6972,7 +6972,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.staticRouteId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7032,7 +7032,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7081,7 +7081,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7095,7 +7095,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceTrafficShaping - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7153,7 +7153,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7202,7 +7202,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7216,7 +7216,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkApplianceTrafficShapingCustomPerformanceClass - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7278,7 +7278,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7292,7 +7292,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.customPerformanceClassId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7352,7 +7352,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7366,7 +7366,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.customPerformanceClassId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7380,7 +7380,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceTrafficShapingCustomPerformanceClass - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7449,7 +7449,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7463,7 +7463,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.customPerformanceClassId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7523,7 +7523,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7537,7 +7537,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceTrafficShapingRules - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7595,7 +7595,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7644,7 +7644,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7693,7 +7693,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7707,7 +7707,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceTrafficShapingUplinkBandwidth - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7765,7 +7765,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7814,7 +7814,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7828,7 +7828,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceTrafficShapingUplinkSelection - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7886,7 +7886,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7935,7 +7935,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -7949,7 +7949,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkApplianceVlan - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8011,7 +8011,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8060,7 +8060,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8074,7 +8074,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceVlansSettings - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8132,7 +8132,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8146,7 +8146,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.vlanId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8206,7 +8206,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8220,7 +8220,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.vlanId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8234,7 +8234,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceVlan - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8303,7 +8303,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8317,7 +8317,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.vlanId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8377,7 +8377,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8426,7 +8426,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8440,7 +8440,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceVpnBgp - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8502,7 +8502,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8551,7 +8551,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8565,7 +8565,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceVpnSiteToSiteVpn - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8627,7 +8627,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8676,7 +8676,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8690,7 +8690,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkApplianceWarmSpare - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8752,7 +8752,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8801,7 +8801,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8815,7 +8815,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.bindNetwork - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8877,7 +8877,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -8992,7 +8992,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9006,7 +9006,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.bluetoothClientId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9088,7 +9088,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9137,7 +9137,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9151,7 +9151,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkCameraQualityRetentionProfile - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9213,7 +9213,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9227,7 +9227,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.qualityRetentionProfileId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9287,7 +9287,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9301,7 +9301,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.qualityRetentionProfileId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9315,7 +9315,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkCameraQualityRetentionProfile - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9384,7 +9384,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9398,7 +9398,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.qualityRetentionProfileId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9458,7 +9458,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9507,7 +9507,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9556,7 +9556,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9570,7 +9570,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkCellularGatewayConnectivityMonitoringDestinations - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9628,7 +9628,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9677,7 +9677,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9691,7 +9691,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkCellularGatewayDhcp - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9749,7 +9749,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9798,7 +9798,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9812,7 +9812,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkCellularGatewaySubnetPool - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9870,7 +9870,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9919,7 +9919,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9933,7 +9933,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkCellularGatewayUplink - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -9991,7 +9991,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10095,7 +10095,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10236,7 +10236,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10250,7 +10250,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.provisionNetworkClients - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10312,7 +10312,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10453,7 +10453,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10467,7 +10467,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.clientId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10527,7 +10527,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10541,7 +10541,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.clientId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10601,7 +10601,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10615,7 +10615,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.clientId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10629,7 +10629,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkClientPolicy - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10702,7 +10702,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10716,7 +10716,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.clientId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10776,7 +10776,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10790,7 +10790,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.clientId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10804,7 +10804,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkClientSplashAuthorizationStatus - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10877,7 +10877,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10891,7 +10891,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.clientId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10984,7 +10984,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -10998,7 +10998,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.clientId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11058,7 +11058,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11101,13 +11101,13 @@ var MerakiDashboardApi = (function(){
     return deferred.promise;
  };
 /**
- * Claim devices into a network
+ * Claim devices into a network. (Note: for recently claimed devices, it may take a few minutes for API requsts against that device to succeed)
  * @method
  * @name MerakiDashboardApi#claimNetworkDevices
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11121,7 +11121,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.claimNetworkDevices - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11183,7 +11183,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11197,7 +11197,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.removeNetworkDevices - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11259,7 +11259,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11462,7 +11462,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11505,13 +11505,13 @@ var MerakiDashboardApi = (function(){
     return deferred.promise;
  };
 /**
- * Get current maintenance window for a network
+ * Get firmware upgrade information for a network
  * @method
  * @name MerakiDashboardApi#getNetworkFirmwareUpgrades
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11554,13 +11554,13 @@ var MerakiDashboardApi = (function(){
     return deferred.promise;
  };
 /**
- * Update current maintenance window for a network
+ * Update firmware upgrade information for a network
  * @method
  * @name MerakiDashboardApi#updateNetworkFirmwareUpgrades
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11574,7 +11574,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkFirmwareUpgrades - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11626,13 +11626,89 @@ var MerakiDashboardApi = (function(){
     return deferred.promise;
  };
 /**
+ * Rollback a Firmware Upgrade For A Network
+ * @method
+ * @name MerakiDashboardApi#createNetworkFirmwareUpgradesRollback
+ * @param {object} parameters - method options and parameters
+     * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
+
+> Date: 07 April, 2021
+>
+> [What's New](https://meraki.io/whats-new/)
+
+---
+
+[API Documentation](https://meraki.io/api)
+
+[Community Support](https://meraki.io/community)
+
+[Meraki Homepage](https://www.meraki.com)
+
+     * @param {} parameters.createNetworkFirmwareUpgradesRollback - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
+
+> Date: 07 April, 2021
+>
+> [What's New](https://meraki.io/whats-new/)
+
+---
+
+[API Documentation](https://meraki.io/api)
+
+[Community Support](https://meraki.io/community)
+
+[Meraki Homepage](https://www.meraki.com)
+
+ */
+ MerakiDashboardApi.prototype.createNetworkFirmwareUpgradesRollback = function(parameters){
+    if(parameters === undefined) {
+        parameters = {};
+    }
+    var deferred = Q.defer();
+    var domain = this.domain,  path = '/networks/{networkId}/firmwareUpgrades/rollbacks';
+    var body = {}, queryParameters = {}, headers = {}, form = {};
+
+        headers = this.setAuthHeaders(headers);
+        headers['Accept'] = ['application/json'];
+        headers['Content-Type'] = ['application/json'];
+
+        
+            path = path.replace('{networkId}', parameters['networkId']);
+        
+        
+
+
+        if(parameters['networkId'] === undefined){
+            deferred.reject(new Error('Missing required  parameter: networkId'));
+            return deferred.promise;
+        }
+ 
+        
+        
+        
+            if(parameters['createNetworkFirmwareUpgradesRollback'] !== undefined){
+                body = parameters['createNetworkFirmwareUpgradesRollback'];
+            }
+
+
+        if(parameters['createNetworkFirmwareUpgradesRollback'] === undefined){
+            deferred.reject(new Error('Missing required  parameter: createNetworkFirmwareUpgradesRollback'));
+            return deferred.promise;
+        }
+ 
+    queryParameters = mergeQueryParams(parameters, queryParameters);
+
+    this.request('POST', domain + path, parameters, body, headers, queryParameters, form, deferred);
+
+    return deferred.promise;
+ };
+/**
  * List the floor plans that belong to your network
  * @method
  * @name MerakiDashboardApi#getNetworkFloorPlans
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11681,7 +11757,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11695,7 +11771,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkFloorPlan - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11757,7 +11833,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11771,7 +11847,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.floorPlanId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11831,7 +11907,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11845,7 +11921,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.floorPlanId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11859,7 +11935,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkFloorPlan - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11928,7 +12004,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -11942,7 +12018,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.floorPlanId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12002,7 +12078,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12051,7 +12127,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12065,7 +12141,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkGroupPolicy - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12127,7 +12203,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12141,7 +12217,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.groupPolicyId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12201,7 +12277,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12215,7 +12291,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.groupPolicyId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12229,7 +12305,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkGroupPolicy - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12298,7 +12374,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12312,7 +12388,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.groupPolicyId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12372,7 +12448,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12421,7 +12497,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12435,7 +12511,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkMerakiAuthUser - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12497,7 +12573,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12511,7 +12587,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.merakiAuthUserId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12571,7 +12647,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12585,7 +12661,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.merakiAuthUserId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12645,7 +12721,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12659,7 +12735,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.merakiAuthUserId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12673,7 +12749,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkMerakiAuthUser - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12742,7 +12818,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12791,7 +12867,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12805,7 +12881,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkMqttBroker - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12867,7 +12943,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12881,7 +12957,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.mqttBrokerId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12941,7 +13017,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12955,7 +13031,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.mqttBrokerId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -12969,7 +13045,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkMqttBroker - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -13038,7 +13114,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -13052,7 +13128,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.mqttBrokerId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -13112,7 +13188,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -13161,7 +13237,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -13175,7 +13251,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkNetflow - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -13233,7 +13309,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -13365,7 +13441,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -13486,7 +13562,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -13541,7 +13617,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -13555,7 +13631,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkPiiRequest - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -13619,7 +13695,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -13633,7 +13709,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.requestId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -13699,7 +13775,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -13713,7 +13789,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.requestId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -13779,7 +13855,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -13900,7 +13976,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14015,7 +14091,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14064,7 +14140,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14078,7 +14154,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSettings - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14136,7 +14212,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14150,7 +14226,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkSmBypassActivationLockAttempt - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14212,7 +14288,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14226,7 +14302,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.attemptId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14286,7 +14362,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14429,7 +14505,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14443,7 +14519,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.checkinNetworkSmDevices - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14501,7 +14577,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14515,7 +14591,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSmDevicesFields - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14577,7 +14653,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14591,7 +14667,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.lockNetworkSmDevices - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14649,7 +14725,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14663,7 +14739,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.modifyNetworkSmDevicesTags - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14725,7 +14801,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14739,7 +14815,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.moveNetworkSmDevices - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14801,7 +14877,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14815,7 +14891,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.wipeNetworkSmDevices - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14873,7 +14949,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14887,7 +14963,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.deviceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14947,7 +15023,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -14961,7 +15037,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.deviceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15021,7 +15097,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15035,7 +15111,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.deviceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15128,7 +15204,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15142,7 +15218,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.deviceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15235,7 +15311,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15249,7 +15325,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.deviceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15342,7 +15418,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15356,7 +15432,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.deviceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15416,7 +15492,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15430,7 +15506,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.deviceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15490,7 +15566,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15504,7 +15580,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.deviceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15597,7 +15673,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15611,7 +15687,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.deviceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15671,7 +15747,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15685,7 +15761,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.deviceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15745,7 +15821,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15759,7 +15835,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.deviceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15819,7 +15895,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15833,7 +15909,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.deviceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15893,7 +15969,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15907,7 +15983,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.deviceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15967,7 +16043,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -15981,7 +16057,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.deviceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16041,7 +16117,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16090,7 +16166,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16150,7 +16226,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16164,7 +16240,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkSmTargetGroup - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16222,7 +16298,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16236,7 +16312,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.targetGroupId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16307,7 +16383,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16321,7 +16397,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.targetGroupId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16335,7 +16411,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSmTargetGroup - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16404,7 +16480,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16418,7 +16494,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.targetGroupId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16478,7 +16554,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16560,7 +16636,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16574,7 +16650,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.userAccessDeviceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16634,7 +16710,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16727,7 +16803,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16741,7 +16817,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.userId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16801,7 +16877,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16815,7 +16891,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.userId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16875,7 +16951,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16924,7 +17000,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16938,7 +17014,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSnmp - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -16996,7 +17072,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17078,7 +17154,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17127,7 +17203,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17176,7 +17252,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17190,7 +17266,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSwitchAccessControlLists - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17252,7 +17328,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17301,7 +17377,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17315,7 +17391,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkSwitchAccessPolicy - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17377,7 +17453,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17391,7 +17467,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.accessPolicyNumber - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17451,7 +17527,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17465,7 +17541,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.accessPolicyNumber - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17479,7 +17555,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSwitchAccessPolicy - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17548,7 +17624,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17562,7 +17638,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.accessPolicyNumber - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17622,7 +17698,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17671,7 +17747,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17685,7 +17761,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSwitchAlternateManagementInterface - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17743,7 +17819,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17792,7 +17868,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17806,7 +17882,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSwitchDhcpServerPolicy - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17864,7 +17940,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17913,7 +17989,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17927,7 +18003,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSwitchDscpToCosMappings - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -17989,7 +18065,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18038,7 +18114,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18052,7 +18128,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkSwitchLinkAggregation - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18110,7 +18186,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18124,7 +18200,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.linkAggregationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18138,7 +18214,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSwitchLinkAggregation - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18207,7 +18283,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18221,7 +18297,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.linkAggregationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18281,7 +18357,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18330,7 +18406,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18344,7 +18420,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSwitchMtu - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18402,7 +18478,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18451,7 +18527,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18465,7 +18541,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkSwitchPortSchedule - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18527,7 +18603,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18541,7 +18617,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.portScheduleId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18601,7 +18677,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18615,7 +18691,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.portScheduleId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18629,7 +18705,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSwitchPortSchedule - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18698,7 +18774,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18747,7 +18823,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18761,7 +18837,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkSwitchQosRule - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18823,7 +18899,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18872,7 +18948,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18886,7 +18962,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSwitchQosRulesOrder - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18948,7 +19024,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -18962,7 +19038,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.qosRuleId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19022,7 +19098,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19036,7 +19112,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.qosRuleId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19096,7 +19172,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19110,7 +19186,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.qosRuleId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19124,7 +19200,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSwitchQosRule - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19193,7 +19269,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19242,7 +19318,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19256,7 +19332,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSwitchRoutingMulticast - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19314,7 +19390,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19363,7 +19439,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19377,7 +19453,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkSwitchRoutingMulticastRendezvousPoint - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19439,7 +19515,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19453,7 +19529,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.rendezvousPointId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19513,7 +19589,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19527,7 +19603,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.rendezvousPointId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19587,7 +19663,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19601,7 +19677,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.rendezvousPointId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19615,7 +19691,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSwitchRoutingMulticastRendezvousPoint - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19688,7 +19764,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19737,7 +19813,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19751,7 +19827,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSwitchRoutingOspf - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19809,7 +19885,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19858,7 +19934,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19872,7 +19948,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSwitchSettings - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19930,7 +20006,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19979,7 +20055,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -19993,7 +20069,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkSwitchStack - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20055,7 +20131,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20069,7 +20145,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.switchStackId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20129,7 +20205,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20143,7 +20219,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.switchStackId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20203,7 +20279,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20217,7 +20293,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.switchStackId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20231,7 +20307,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.addNetworkSwitchStack - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20304,7 +20380,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20318,7 +20394,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.switchStackId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20332,7 +20408,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.removeNetworkSwitchStack - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20405,7 +20481,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20419,7 +20495,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.switchStackId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20479,7 +20555,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20493,7 +20569,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.switchStackId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20507,7 +20583,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkSwitchStackRoutingInterface - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20580,7 +20656,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20594,7 +20670,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.switchStackId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20608,7 +20684,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.interfaceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20679,7 +20755,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20693,7 +20769,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.switchStackId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20707,7 +20783,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.interfaceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20721,7 +20797,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSwitchStackRoutingInterface - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20801,7 +20877,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20815,7 +20891,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.switchStackId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20829,7 +20905,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.interfaceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20900,7 +20976,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20914,7 +20990,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.switchStackId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20928,7 +21004,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.interfaceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -20999,7 +21075,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21013,7 +21089,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.switchStackId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21027,7 +21103,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.interfaceId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21041,7 +21117,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSwitchStackRoutingInterfaceDhcp - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21121,7 +21197,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21135,7 +21211,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.switchStackId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21195,7 +21271,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21209,7 +21285,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.switchStackId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21223,7 +21299,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkSwitchStackRoutingStaticRoute - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21296,7 +21372,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21310,7 +21386,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.switchStackId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21324,7 +21400,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.staticRouteId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21395,7 +21471,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21409,7 +21485,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.switchStackId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21423,7 +21499,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.staticRouteId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21437,7 +21513,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSwitchStackRoutingStaticRoute - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21517,7 +21593,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21531,7 +21607,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.switchStackId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21545,7 +21621,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.staticRouteId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21616,7 +21692,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21665,7 +21741,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21679,7 +21755,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSwitchStormControl - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21737,7 +21813,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21786,7 +21862,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21800,7 +21876,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSwitchStp - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21858,7 +21934,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21907,7 +21983,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21921,7 +21997,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkSyslogServers - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -21983,7 +22059,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22065,7 +22141,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22114,7 +22190,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22128,7 +22204,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkTrafficAnalysis - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22186,7 +22262,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22235,7 +22311,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22284,7 +22360,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22333,7 +22409,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22382,7 +22458,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22396,7 +22472,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkWebhooksHttpServer - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22458,7 +22534,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22472,7 +22548,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.httpServerId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22532,7 +22608,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22546,7 +22622,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.httpServerId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22560,7 +22636,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkWebhooksHttpServer - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22629,7 +22705,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22643,7 +22719,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.httpServerId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22703,7 +22779,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22717,7 +22793,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkWebhooksWebhookTest - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22779,7 +22855,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22793,7 +22869,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.webhookTestId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22853,7 +22929,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22924,7 +23000,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22973,7 +23049,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -22987,7 +23063,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkWirelessAlternateManagementInterface - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -23045,7 +23121,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -23094,7 +23170,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -23108,7 +23184,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkWirelessBilling - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -23166,7 +23242,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -23215,7 +23291,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -23229,7 +23305,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkWirelessBluetoothSettings - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -23287,7 +23363,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -23435,7 +23511,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -23594,7 +23670,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -23720,7 +23796,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -23857,7 +23933,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -23871,7 +23947,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.clientId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -24008,7 +24084,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -24022,7 +24098,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.clientId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -24203,7 +24279,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -24217,7 +24293,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.clientId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -24321,7 +24397,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -24335,7 +24411,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.clientId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -24483,7 +24559,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -24609,7 +24685,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -24768,7 +24844,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -24894,7 +24970,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -25031,7 +25107,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -25179,7 +25255,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -25349,7 +25425,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -25486,7 +25562,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -25568,7 +25644,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -25628,7 +25704,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -25642,7 +25718,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkWirelessRfProfile - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -25704,7 +25780,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -25718,7 +25794,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.rfProfileId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -25732,7 +25808,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkWirelessRfProfile - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -25801,7 +25877,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -25815,7 +25891,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.rfProfileId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -25875,7 +25951,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -25889,7 +25965,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.rfProfileId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -25949,7 +26025,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -25998,7 +26074,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26012,7 +26088,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkWirelessSettings - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26070,7 +26146,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26229,7 +26305,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26278,7 +26354,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26292,7 +26368,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26352,7 +26428,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26366,7 +26442,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26380,7 +26456,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkWirelessSsid - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26443,13 +26519,13 @@ var MerakiDashboardApi = (function(){
     return deferred.promise;
  };
 /**
- * List the device type group policies for the SSID
+ * List the Bonjour forwarding setting and rules for the SSID
  * @method
- * @name MerakiDashboardApi#getNetworkWirelessSsidDeviceTypeGroupPolicies
+ * @name MerakiDashboardApi#getNetworkWirelessSsidBonjourForwarding
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26463,7 +26539,178 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
+>
+> [What's New](https://meraki.io/whats-new/)
+
+---
+
+[API Documentation](https://meraki.io/api)
+
+[Community Support](https://meraki.io/community)
+
+[Meraki Homepage](https://www.meraki.com)
+
+ */
+ MerakiDashboardApi.prototype.getNetworkWirelessSsidBonjourForwarding = function(parameters){
+    if(parameters === undefined) {
+        parameters = {};
+    }
+    var deferred = Q.defer();
+    var domain = this.domain,  path = '/networks/{networkId}/wireless/ssids/{number}/bonjourForwarding';
+    var body = {}, queryParameters = {}, headers = {}, form = {};
+
+        headers = this.setAuthHeaders(headers);
+        headers['Accept'] = ['application/json'];
+        headers['Content-Type'] = ['application/json'];
+
+        
+            path = path.replace('{networkId}', parameters['networkId']);
+        
+        
+
+
+        if(parameters['networkId'] === undefined){
+            deferred.reject(new Error('Missing required  parameter: networkId'));
+            return deferred.promise;
+        }
+ 
+        
+            path = path.replace('{number}', parameters['number']);
+        
+        
+
+
+        if(parameters['number'] === undefined){
+            deferred.reject(new Error('Missing required  parameter: number'));
+            return deferred.promise;
+        }
+ 
+    queryParameters = mergeQueryParams(parameters, queryParameters);
+
+    this.request('GET', domain + path, parameters, body, headers, queryParameters, form, deferred);
+
+    return deferred.promise;
+ };
+/**
+ * Update the bonjour forwarding setting and rules for the SSID
+ * @method
+ * @name MerakiDashboardApi#updateNetworkWirelessSsidBonjourForwarding
+ * @param {object} parameters - method options and parameters
+     * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
+
+> Date: 07 April, 2021
+>
+> [What's New](https://meraki.io/whats-new/)
+
+---
+
+[API Documentation](https://meraki.io/api)
+
+[Community Support](https://meraki.io/community)
+
+[Meraki Homepage](https://www.meraki.com)
+
+     * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
+
+> Date: 07 April, 2021
+>
+> [What's New](https://meraki.io/whats-new/)
+
+---
+
+[API Documentation](https://meraki.io/api)
+
+[Community Support](https://meraki.io/community)
+
+[Meraki Homepage](https://www.meraki.com)
+
+     * @param {} parameters.updateNetworkWirelessSsidBonjourForwarding - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
+
+> Date: 07 April, 2021
+>
+> [What's New](https://meraki.io/whats-new/)
+
+---
+
+[API Documentation](https://meraki.io/api)
+
+[Community Support](https://meraki.io/community)
+
+[Meraki Homepage](https://www.meraki.com)
+
+ */
+ MerakiDashboardApi.prototype.updateNetworkWirelessSsidBonjourForwarding = function(parameters){
+    if(parameters === undefined) {
+        parameters = {};
+    }
+    var deferred = Q.defer();
+    var domain = this.domain,  path = '/networks/{networkId}/wireless/ssids/{number}/bonjourForwarding';
+    var body = {}, queryParameters = {}, headers = {}, form = {};
+
+        headers = this.setAuthHeaders(headers);
+        headers['Accept'] = ['application/json'];
+        headers['Content-Type'] = ['application/json'];
+
+        
+            path = path.replace('{networkId}', parameters['networkId']);
+        
+        
+
+
+        if(parameters['networkId'] === undefined){
+            deferred.reject(new Error('Missing required  parameter: networkId'));
+            return deferred.promise;
+        }
+ 
+        
+            path = path.replace('{number}', parameters['number']);
+        
+        
+
+
+        if(parameters['number'] === undefined){
+            deferred.reject(new Error('Missing required  parameter: number'));
+            return deferred.promise;
+        }
+ 
+        
+        
+        
+            if(parameters['updateNetworkWirelessSsidBonjourForwarding'] !== undefined){
+                body = parameters['updateNetworkWirelessSsidBonjourForwarding'];
+            }
+
+
+ 
+    queryParameters = mergeQueryParams(parameters, queryParameters);
+
+    this.request('PUT', domain + path, parameters, body, headers, queryParameters, form, deferred);
+
+    return deferred.promise;
+ };
+/**
+ * List the device type group policies for the SSID
+ * @method
+ * @name MerakiDashboardApi#getNetworkWirelessSsidDeviceTypeGroupPolicies
+ * @param {object} parameters - method options and parameters
+     * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
+
+> Date: 07 April, 2021
+>
+> [What's New](https://meraki.io/whats-new/)
+
+---
+
+[API Documentation](https://meraki.io/api)
+
+[Community Support](https://meraki.io/community)
+
+[Meraki Homepage](https://www.meraki.com)
+
+     * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
+
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26523,7 +26770,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26537,7 +26784,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26551,7 +26798,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkWirelessSsidDeviceTypeGroupPolicies - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26620,7 +26867,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26634,7 +26881,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26694,7 +26941,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26708,7 +26955,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26722,7 +26969,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkWirelessSsidFirewallL3FirewallRules - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26791,7 +27038,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26805,7 +27052,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26865,7 +27112,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26879,7 +27126,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26893,7 +27140,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkWirelessSsidFirewallL7FirewallRules - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26962,7 +27209,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -26976,7 +27223,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27036,7 +27283,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27050,7 +27297,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27064,7 +27311,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createNetworkWirelessSsidIdentityPsk - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27137,7 +27384,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27151,7 +27398,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27165,7 +27412,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.identityPskId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27236,7 +27483,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27250,7 +27497,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27264,7 +27511,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.identityPskId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27278,7 +27525,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkWirelessSsidIdentityPsk - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27358,7 +27605,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27372,7 +27619,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27386,7 +27633,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.identityPskId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27457,7 +27704,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27471,7 +27718,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27531,7 +27778,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27545,7 +27792,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27559,7 +27806,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkWirelessSsidSplashSettings - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27628,7 +27875,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27642,7 +27889,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27656,7 +27903,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateNetworkWirelessSsidTrafficShapingRules - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27725,7 +27972,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27739,7 +27986,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27793,13 +28040,184 @@ var MerakiDashboardApi = (function(){
     return deferred.promise;
  };
 /**
+ * List the VPN settings for the SSID.
+ * @method
+ * @name MerakiDashboardApi#getNetworkWirelessSsidVpn
+ * @param {object} parameters - method options and parameters
+     * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
+
+> Date: 07 April, 2021
+>
+> [What's New](https://meraki.io/whats-new/)
+
+---
+
+[API Documentation](https://meraki.io/api)
+
+[Community Support](https://meraki.io/community)
+
+[Meraki Homepage](https://www.meraki.com)
+
+     * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
+
+> Date: 07 April, 2021
+>
+> [What's New](https://meraki.io/whats-new/)
+
+---
+
+[API Documentation](https://meraki.io/api)
+
+[Community Support](https://meraki.io/community)
+
+[Meraki Homepage](https://www.meraki.com)
+
+ */
+ MerakiDashboardApi.prototype.getNetworkWirelessSsidVpn = function(parameters){
+    if(parameters === undefined) {
+        parameters = {};
+    }
+    var deferred = Q.defer();
+    var domain = this.domain,  path = '/networks/{networkId}/wireless/ssids/{number}/vpn';
+    var body = {}, queryParameters = {}, headers = {}, form = {};
+
+        headers = this.setAuthHeaders(headers);
+        headers['Accept'] = ['application/json'];
+        headers['Content-Type'] = ['application/json'];
+
+        
+            path = path.replace('{networkId}', parameters['networkId']);
+        
+        
+
+
+        if(parameters['networkId'] === undefined){
+            deferred.reject(new Error('Missing required  parameter: networkId'));
+            return deferred.promise;
+        }
+ 
+        
+            path = path.replace('{number}', parameters['number']);
+        
+        
+
+
+        if(parameters['number'] === undefined){
+            deferred.reject(new Error('Missing required  parameter: number'));
+            return deferred.promise;
+        }
+ 
+    queryParameters = mergeQueryParams(parameters, queryParameters);
+
+    this.request('GET', domain + path, parameters, body, headers, queryParameters, form, deferred);
+
+    return deferred.promise;
+ };
+/**
+ * Update the VPN settings for the SSID
+ * @method
+ * @name MerakiDashboardApi#updateNetworkWirelessSsidVpn
+ * @param {object} parameters - method options and parameters
+     * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
+
+> Date: 07 April, 2021
+>
+> [What's New](https://meraki.io/whats-new/)
+
+---
+
+[API Documentation](https://meraki.io/api)
+
+[Community Support](https://meraki.io/community)
+
+[Meraki Homepage](https://www.meraki.com)
+
+     * @param {string} parameters.number - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
+
+> Date: 07 April, 2021
+>
+> [What's New](https://meraki.io/whats-new/)
+
+---
+
+[API Documentation](https://meraki.io/api)
+
+[Community Support](https://meraki.io/community)
+
+[Meraki Homepage](https://www.meraki.com)
+
+     * @param {} parameters.updateNetworkWirelessSsidVpn - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
+
+> Date: 07 April, 2021
+>
+> [What's New](https://meraki.io/whats-new/)
+
+---
+
+[API Documentation](https://meraki.io/api)
+
+[Community Support](https://meraki.io/community)
+
+[Meraki Homepage](https://www.meraki.com)
+
+ */
+ MerakiDashboardApi.prototype.updateNetworkWirelessSsidVpn = function(parameters){
+    if(parameters === undefined) {
+        parameters = {};
+    }
+    var deferred = Q.defer();
+    var domain = this.domain,  path = '/networks/{networkId}/wireless/ssids/{number}/vpn';
+    var body = {}, queryParameters = {}, headers = {}, form = {};
+
+        headers = this.setAuthHeaders(headers);
+        headers['Accept'] = ['application/json'];
+        headers['Content-Type'] = ['application/json'];
+
+        
+            path = path.replace('{networkId}', parameters['networkId']);
+        
+        
+
+
+        if(parameters['networkId'] === undefined){
+            deferred.reject(new Error('Missing required  parameter: networkId'));
+            return deferred.promise;
+        }
+ 
+        
+            path = path.replace('{number}', parameters['number']);
+        
+        
+
+
+        if(parameters['number'] === undefined){
+            deferred.reject(new Error('Missing required  parameter: number'));
+            return deferred.promise;
+        }
+ 
+        
+        
+        
+            if(parameters['updateNetworkWirelessSsidVpn'] !== undefined){
+                body = parameters['updateNetworkWirelessSsidVpn'];
+            }
+
+
+ 
+    queryParameters = mergeQueryParams(parameters, queryParameters);
+
+    this.request('PUT', domain + path, parameters, body, headers, queryParameters, form, deferred);
+
+    return deferred.promise;
+ };
+/**
  * Return AP usage over time for a device or network client
  * @method
  * @name MerakiDashboardApi#getNetworkWirelessUsageHistory
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.networkId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -27982,7 +28400,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {} parameters.createOrganization - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28033,7 +28451,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28082,7 +28500,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28096,7 +28514,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateOrganization - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28154,7 +28572,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28203,7 +28621,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28217,7 +28635,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createOrganizationActionBatch - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28279,7 +28697,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28339,7 +28757,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28353,7 +28771,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.actionBatchId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28413,7 +28831,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28427,7 +28845,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.actionBatchId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28487,7 +28905,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28501,7 +28919,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.actionBatchId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28515,7 +28933,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateOrganizationActionBatch - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28584,7 +29002,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28633,7 +29051,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28647,7 +29065,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createOrganizationAdmin - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28709,7 +29127,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28723,7 +29141,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.adminId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28737,7 +29155,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateOrganizationAdmin - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28806,7 +29224,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28820,7 +29238,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.adminId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -28880,7 +29298,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -29050,7 +29468,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -29132,7 +29550,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -29258,7 +29676,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -29307,7 +29725,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -29321,7 +29739,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateOrganizationApplianceSecurityIntrusion - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -29383,7 +29801,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -29498,7 +29916,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -29624,7 +30042,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -29717,7 +30135,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -29766,7 +30184,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -29780,7 +30198,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateOrganizationApplianceVpnThirdPartyVpnPeers - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -29842,7 +30260,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -29891,7 +30309,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -29905,7 +30323,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateOrganizationApplianceVpnVpnFirewallRules - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -29963,7 +30381,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30012,7 +30430,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30026,7 +30444,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createOrganizationBrandingPolicy - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30088,7 +30506,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30137,7 +30555,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30151,7 +30569,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateOrganizationBrandingPoliciesPriorities - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30213,7 +30631,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30227,7 +30645,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.brandingPolicyId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30287,7 +30705,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30301,7 +30719,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.brandingPolicyId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30315,7 +30733,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateOrganizationBrandingPolicy - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30384,7 +30802,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30398,7 +30816,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.brandingPolicyId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30458,7 +30876,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30573,7 +30991,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30587,7 +31005,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.claimIntoOrganization - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30645,7 +31063,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30659,7 +31077,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.cloneOrganization - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30721,7 +31139,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30770,7 +31188,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30784,7 +31202,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createOrganizationConfigTemplate - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30846,7 +31264,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30860,7 +31278,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.configTemplateId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30874,7 +31292,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateOrganizationConfigTemplate - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30943,7 +31361,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -30957,7 +31375,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.configTemplateId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31017,7 +31435,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31031,7 +31449,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.configTemplateId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31091,7 +31509,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31105,7 +31523,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.configTemplateId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31165,7 +31583,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31179,7 +31597,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.configTemplateId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31193,7 +31611,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.profileId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31264,7 +31682,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31278,7 +31696,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.configTemplateId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31292,7 +31710,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.profileId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31306,7 +31724,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.portId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31388,7 +31806,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31402,7 +31820,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.configTemplateId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31416,7 +31834,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.profileId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31430,7 +31848,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.portId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31444,7 +31862,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateOrganizationConfigTemplateSwitchProfilePort - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31535,7 +31953,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31672,7 +32090,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31765,7 +32183,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31847,7 +32265,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -31951,7 +32369,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32000,7 +32418,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32014,7 +32432,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createOrganizationInsightMonitoredMediaServer - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32076,7 +32494,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32090,7 +32508,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.monitoredMediaServerId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32150,7 +32568,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32164,7 +32582,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.monitoredMediaServerId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32178,7 +32596,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateOrganizationInsightMonitoredMediaServer - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32247,7 +32665,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32261,7 +32679,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.monitoredMediaServerId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32321,7 +32739,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32425,7 +32843,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32439,7 +32857,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.serial - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32499,7 +32917,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32614,7 +33032,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32628,7 +33046,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.assignOrganizationLicensesSeats - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32690,7 +33108,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32704,7 +33122,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.moveOrganizationLicenses - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32766,7 +33184,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32780,7 +33198,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.moveOrganizationLicensesSeats - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32842,7 +33260,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32891,7 +33309,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32905,7 +33323,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.renewOrganizationLicensesSeats - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32967,7 +33385,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -32981,7 +33399,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.licenseId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33041,7 +33459,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33055,7 +33473,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.licenseId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33069,7 +33487,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateOrganizationLicense - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33138,7 +33556,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33187,7 +33605,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33201,7 +33619,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateOrganizationLoginSecurity - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33259,7 +33677,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33374,7 +33792,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33388,7 +33806,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createOrganizationNetwork - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33450,7 +33868,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33464,7 +33882,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.combineOrganizationNetworks - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33526,7 +33944,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33575,7 +33993,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33624,7 +34042,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33638,7 +34056,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateOrganizationSaml - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33696,7 +34114,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33745,7 +34163,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33759,7 +34177,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createOrganizationSamlIdp - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33821,7 +34239,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33835,7 +34253,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.idpId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33849,7 +34267,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateOrganizationSamlIdp - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33918,7 +34336,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33932,7 +34350,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.idpId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -33992,7 +34410,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34006,7 +34424,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.idpId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34066,7 +34484,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34115,7 +34533,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34129,7 +34547,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.createOrganizationSamlRole - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34191,7 +34609,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34205,7 +34623,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.samlRoleId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34265,7 +34683,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34279,7 +34697,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.samlRoleId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34293,7 +34711,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateOrganizationSamlRole - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34362,7 +34780,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34376,7 +34794,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.samlRoleId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34436,7 +34854,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34485,7 +34903,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34534,7 +34952,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34548,7 +34966,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {string} parameters.vppAccountId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34608,7 +35026,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34657,7 +35075,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34671,7 +35089,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.updateOrganizationSnmp - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34729,7 +35147,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34743,7 +35161,7 @@ var MerakiDashboardApi = (function(){
 
      * @param {} parameters.cloneOrganizationSwitchDevices - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34805,7 +35223,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34920,7 +35338,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 
@@ -34969,7 +35387,7 @@ var MerakiDashboardApi = (function(){
  * @param {object} parameters - method options and parameters
      * @param {string} parameters.organizationId - The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
 
-> Date: 03 March, 2021
+> Date: 07 April, 2021
 >
 > [What's New](https://meraki.io/whats-new/)
 

@@ -4,7 +4,7 @@ var lib = require('./lib.js');
 /*
 DISABLES Console.log  for production
 */
-console.log = function() {};
+// console.log = function() {};
 
 
 
@@ -8536,6 +8536,65 @@ module.exports = function (RED) {
                 }
               
                                 result = client.updateNetworkFirmwareUpgrades(updateNetworkFirmwareUpgrades_parameters);
+                //console.log('result', result);
+            }
+            if (!errorFlag && node.method === 'createNetworkFirmwareUpgradesRollback') {
+                var createNetworkFirmwareUpgradesRollback_parameters = [];
+                var createNetworkFirmwareUpgradesRollback_nodeParam;
+                var createNetworkFirmwareUpgradesRollback_nodeParamType;
+                
+                
+                createNetworkFirmwareUpgradesRollback_nodeParam = storedParamValsMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                createNetworkFirmwareUpgradesRollback_nodeParamType = storedParamTypeMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (createNetworkFirmwareUpgradesRollback_nodeParamType === 'str') {
+                    //console.log('createNetworkFirmwareUpgradesRollback_nodeParamType is "str"');
+                    createNetworkFirmwareUpgradesRollback_parameters.networkId = createNetworkFirmwareUpgradesRollback_nodeParam || undefined;
+                } else {
+                    //console.log('createNetworkFirmwareUpgradesRollback_nodeParamType is not "str"')
+                    createNetworkFirmwareUpgradesRollback_parameters.networkId = RED.util.getMessageProperty(msg, "networkId");
+                }
+                                
+                createNetworkFirmwareUpgradesRollback_nodeParam = storedParamValsMap['createNetworkFirmwareUpgradesRollback'] ||
+                    RED.util.getMessageProperty(msg, "createNetworkFirmwareUpgradesRollback");
+
+                createNetworkFirmwareUpgradesRollback_nodeParamType = storedParamTypeMap['createNetworkFirmwareUpgradesRollback'] ||
+                    RED.util.getMessageProperty(msg, "createNetworkFirmwareUpgradesRollback");
+
+                // Check if its the body param
+
+                // isBodyParam
+                
+                if(msg.payload){   
+                    if(typeof msg.payload === 'object'){
+                        createNetworkFirmwareUpgradesRollback_parameters.createNetworkFirmwareUpgradesRollback = msg.payload;
+                    }else{
+                        node.error('Unsupported type: \'' + (typeof msg.payload) + '\', ' + 'msg.payload must be a JSON object or a JSON formatted string.', msg);
+                        errorFlag = true;
+                    }                           
+                }else{            
+                    if(typeof createNetworkFirmwareUpgradesRollback_nodeParam === 'object'){
+                        createNetworkFirmwareUpgradesRollback_parameters.createNetworkFirmwareUpgradesRollback = createNetworkFirmwareUpgradesRollback_nodeParam
+                    }else{
+                        try{
+                        // attempt to convert form value to JSON, default to empty object
+                        let nodeParam = createNetworkFirmwareUpgradesRollback_nodeParam || '{}'
+                        createNetworkFirmwareUpgradesRollback_nodeParam = JSON.parse(nodeParam) ; 
+                        createNetworkFirmwareUpgradesRollback_parameters.createNetworkFirmwareUpgradesRollback = createNetworkFirmwareUpgradesRollback_nodeParam
+                            }catch(e){
+                                node.error('Unsupported type: \'' + (typeof createNetworkFirmwareUpgradesRollback_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
+                                errorFlag = true;
+                        }
+                    }
+                }
+              
+                                result = client.createNetworkFirmwareUpgradesRollback(createNetworkFirmwareUpgradesRollback_parameters);
                 //console.log('result', result);
             }
             if (!errorFlag && node.method === 'getNetworkFloorPlans') {
@@ -20041,6 +20100,124 @@ module.exports = function (RED) {
                                 result = client.updateNetworkWirelessSsid(updateNetworkWirelessSsid_parameters);
                 //console.log('result', result);
             }
+            if (!errorFlag && node.method === 'getNetworkWirelessSsidBonjourForwarding') {
+                var getNetworkWirelessSsidBonjourForwarding_parameters = [];
+                var getNetworkWirelessSsidBonjourForwarding_nodeParam;
+                var getNetworkWirelessSsidBonjourForwarding_nodeParamType;
+                
+                
+                getNetworkWirelessSsidBonjourForwarding_nodeParam = storedParamValsMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                getNetworkWirelessSsidBonjourForwarding_nodeParamType = storedParamTypeMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkWirelessSsidBonjourForwarding_nodeParamType === 'str') {
+                    //console.log('getNetworkWirelessSsidBonjourForwarding_nodeParamType is "str"');
+                    getNetworkWirelessSsidBonjourForwarding_parameters.networkId = getNetworkWirelessSsidBonjourForwarding_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkWirelessSsidBonjourForwarding_nodeParamType is not "str"')
+                    getNetworkWirelessSsidBonjourForwarding_parameters.networkId = RED.util.getMessageProperty(msg, "networkId");
+                }
+                                
+                getNetworkWirelessSsidBonjourForwarding_nodeParam = storedParamValsMap['number'] ||
+                    RED.util.getMessageProperty(msg, "number");
+
+                getNetworkWirelessSsidBonjourForwarding_nodeParamType = storedParamTypeMap['number'] ||
+                    RED.util.getMessageProperty(msg, "number");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkWirelessSsidBonjourForwarding_nodeParamType === 'str') {
+                    //console.log('getNetworkWirelessSsidBonjourForwarding_nodeParamType is "str"');
+                    getNetworkWirelessSsidBonjourForwarding_parameters.number = getNetworkWirelessSsidBonjourForwarding_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkWirelessSsidBonjourForwarding_nodeParamType is not "str"')
+                    getNetworkWirelessSsidBonjourForwarding_parameters.number = RED.util.getMessageProperty(msg, "number");
+                }
+                                result = client.getNetworkWirelessSsidBonjourForwarding(getNetworkWirelessSsidBonjourForwarding_parameters);
+                //console.log('result', result);
+            }
+            if (!errorFlag && node.method === 'updateNetworkWirelessSsidBonjourForwarding') {
+                var updateNetworkWirelessSsidBonjourForwarding_parameters = [];
+                var updateNetworkWirelessSsidBonjourForwarding_nodeParam;
+                var updateNetworkWirelessSsidBonjourForwarding_nodeParamType;
+                
+                
+                updateNetworkWirelessSsidBonjourForwarding_nodeParam = storedParamValsMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                updateNetworkWirelessSsidBonjourForwarding_nodeParamType = storedParamTypeMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (updateNetworkWirelessSsidBonjourForwarding_nodeParamType === 'str') {
+                    //console.log('updateNetworkWirelessSsidBonjourForwarding_nodeParamType is "str"');
+                    updateNetworkWirelessSsidBonjourForwarding_parameters.networkId = updateNetworkWirelessSsidBonjourForwarding_nodeParam || undefined;
+                } else {
+                    //console.log('updateNetworkWirelessSsidBonjourForwarding_nodeParamType is not "str"')
+                    updateNetworkWirelessSsidBonjourForwarding_parameters.networkId = RED.util.getMessageProperty(msg, "networkId");
+                }
+                                
+                updateNetworkWirelessSsidBonjourForwarding_nodeParam = storedParamValsMap['number'] ||
+                    RED.util.getMessageProperty(msg, "number");
+
+                updateNetworkWirelessSsidBonjourForwarding_nodeParamType = storedParamTypeMap['number'] ||
+                    RED.util.getMessageProperty(msg, "number");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (updateNetworkWirelessSsidBonjourForwarding_nodeParamType === 'str') {
+                    //console.log('updateNetworkWirelessSsidBonjourForwarding_nodeParamType is "str"');
+                    updateNetworkWirelessSsidBonjourForwarding_parameters.number = updateNetworkWirelessSsidBonjourForwarding_nodeParam || undefined;
+                } else {
+                    //console.log('updateNetworkWirelessSsidBonjourForwarding_nodeParamType is not "str"')
+                    updateNetworkWirelessSsidBonjourForwarding_parameters.number = RED.util.getMessageProperty(msg, "number");
+                }
+                                
+                updateNetworkWirelessSsidBonjourForwarding_nodeParam = storedParamValsMap['updateNetworkWirelessSsidBonjourForwarding'] ||
+                    RED.util.getMessageProperty(msg, "updateNetworkWirelessSsidBonjourForwarding");
+
+                updateNetworkWirelessSsidBonjourForwarding_nodeParamType = storedParamTypeMap['updateNetworkWirelessSsidBonjourForwarding'] ||
+                    RED.util.getMessageProperty(msg, "updateNetworkWirelessSsidBonjourForwarding");
+
+                // Check if its the body param
+
+                // isBodyParam
+                
+                if(msg.payload){   
+                    if(typeof msg.payload === 'object'){
+                        updateNetworkWirelessSsidBonjourForwarding_parameters.updateNetworkWirelessSsidBonjourForwarding = msg.payload;
+                    }else{
+                        node.error('Unsupported type: \'' + (typeof msg.payload) + '\', ' + 'msg.payload must be a JSON object or a JSON formatted string.', msg);
+                        errorFlag = true;
+                    }                           
+                }else{            
+                    if(typeof updateNetworkWirelessSsidBonjourForwarding_nodeParam === 'object'){
+                        updateNetworkWirelessSsidBonjourForwarding_parameters.updateNetworkWirelessSsidBonjourForwarding = updateNetworkWirelessSsidBonjourForwarding_nodeParam
+                    }else{
+                        try{
+                        // attempt to convert form value to JSON, default to empty object
+                        let nodeParam = updateNetworkWirelessSsidBonjourForwarding_nodeParam || '{}'
+                        updateNetworkWirelessSsidBonjourForwarding_nodeParam = JSON.parse(nodeParam) ; 
+                        updateNetworkWirelessSsidBonjourForwarding_parameters.updateNetworkWirelessSsidBonjourForwarding = updateNetworkWirelessSsidBonjourForwarding_nodeParam
+                            }catch(e){
+                                node.error('Unsupported type: \'' + (typeof updateNetworkWirelessSsidBonjourForwarding_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
+                                errorFlag = true;
+                        }
+                    }
+                }
+              
+                                result = client.updateNetworkWirelessSsidBonjourForwarding(updateNetworkWirelessSsidBonjourForwarding_parameters);
+                //console.log('result', result);
+            }
             if (!errorFlag && node.method === 'getNetworkWirelessSsidDeviceTypeGroupPolicies') {
                 var getNetworkWirelessSsidDeviceTypeGroupPolicies_parameters = [];
                 var getNetworkWirelessSsidDeviceTypeGroupPolicies_nodeParam;
@@ -20958,6 +21135,124 @@ module.exports = function (RED) {
                     getNetworkWirelessSsidTrafficShapingRules_parameters.number = RED.util.getMessageProperty(msg, "number");
                 }
                                 result = client.getNetworkWirelessSsidTrafficShapingRules(getNetworkWirelessSsidTrafficShapingRules_parameters);
+                //console.log('result', result);
+            }
+            if (!errorFlag && node.method === 'getNetworkWirelessSsidVpn') {
+                var getNetworkWirelessSsidVpn_parameters = [];
+                var getNetworkWirelessSsidVpn_nodeParam;
+                var getNetworkWirelessSsidVpn_nodeParamType;
+                
+                
+                getNetworkWirelessSsidVpn_nodeParam = storedParamValsMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                getNetworkWirelessSsidVpn_nodeParamType = storedParamTypeMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkWirelessSsidVpn_nodeParamType === 'str') {
+                    //console.log('getNetworkWirelessSsidVpn_nodeParamType is "str"');
+                    getNetworkWirelessSsidVpn_parameters.networkId = getNetworkWirelessSsidVpn_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkWirelessSsidVpn_nodeParamType is not "str"')
+                    getNetworkWirelessSsidVpn_parameters.networkId = RED.util.getMessageProperty(msg, "networkId");
+                }
+                                
+                getNetworkWirelessSsidVpn_nodeParam = storedParamValsMap['number'] ||
+                    RED.util.getMessageProperty(msg, "number");
+
+                getNetworkWirelessSsidVpn_nodeParamType = storedParamTypeMap['number'] ||
+                    RED.util.getMessageProperty(msg, "number");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (getNetworkWirelessSsidVpn_nodeParamType === 'str') {
+                    //console.log('getNetworkWirelessSsidVpn_nodeParamType is "str"');
+                    getNetworkWirelessSsidVpn_parameters.number = getNetworkWirelessSsidVpn_nodeParam || undefined;
+                } else {
+                    //console.log('getNetworkWirelessSsidVpn_nodeParamType is not "str"')
+                    getNetworkWirelessSsidVpn_parameters.number = RED.util.getMessageProperty(msg, "number");
+                }
+                                result = client.getNetworkWirelessSsidVpn(getNetworkWirelessSsidVpn_parameters);
+                //console.log('result', result);
+            }
+            if (!errorFlag && node.method === 'updateNetworkWirelessSsidVpn') {
+                var updateNetworkWirelessSsidVpn_parameters = [];
+                var updateNetworkWirelessSsidVpn_nodeParam;
+                var updateNetworkWirelessSsidVpn_nodeParamType;
+                
+                
+                updateNetworkWirelessSsidVpn_nodeParam = storedParamValsMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                updateNetworkWirelessSsidVpn_nodeParamType = storedParamTypeMap['networkId'] ||
+                    RED.util.getMessageProperty(msg, "networkId");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (updateNetworkWirelessSsidVpn_nodeParamType === 'str') {
+                    //console.log('updateNetworkWirelessSsidVpn_nodeParamType is "str"');
+                    updateNetworkWirelessSsidVpn_parameters.networkId = updateNetworkWirelessSsidVpn_nodeParam || undefined;
+                } else {
+                    //console.log('updateNetworkWirelessSsidVpn_nodeParamType is not "str"')
+                    updateNetworkWirelessSsidVpn_parameters.networkId = RED.util.getMessageProperty(msg, "networkId");
+                }
+                                
+                updateNetworkWirelessSsidVpn_nodeParam = storedParamValsMap['number'] ||
+                    RED.util.getMessageProperty(msg, "number");
+
+                updateNetworkWirelessSsidVpn_nodeParamType = storedParamTypeMap['number'] ||
+                    RED.util.getMessageProperty(msg, "number");
+
+                // Check if its the body param
+
+                // notBodyParam                                            
+                if (updateNetworkWirelessSsidVpn_nodeParamType === 'str') {
+                    //console.log('updateNetworkWirelessSsidVpn_nodeParamType is "str"');
+                    updateNetworkWirelessSsidVpn_parameters.number = updateNetworkWirelessSsidVpn_nodeParam || undefined;
+                } else {
+                    //console.log('updateNetworkWirelessSsidVpn_nodeParamType is not "str"')
+                    updateNetworkWirelessSsidVpn_parameters.number = RED.util.getMessageProperty(msg, "number");
+                }
+                                
+                updateNetworkWirelessSsidVpn_nodeParam = storedParamValsMap['updateNetworkWirelessSsidVpn'] ||
+                    RED.util.getMessageProperty(msg, "updateNetworkWirelessSsidVpn");
+
+                updateNetworkWirelessSsidVpn_nodeParamType = storedParamTypeMap['updateNetworkWirelessSsidVpn'] ||
+                    RED.util.getMessageProperty(msg, "updateNetworkWirelessSsidVpn");
+
+                // Check if its the body param
+
+                // isBodyParam
+                
+                if(msg.payload){   
+                    if(typeof msg.payload === 'object'){
+                        updateNetworkWirelessSsidVpn_parameters.updateNetworkWirelessSsidVpn = msg.payload;
+                    }else{
+                        node.error('Unsupported type: \'' + (typeof msg.payload) + '\', ' + 'msg.payload must be a JSON object or a JSON formatted string.', msg);
+                        errorFlag = true;
+                    }                           
+                }else{            
+                    if(typeof updateNetworkWirelessSsidVpn_nodeParam === 'object'){
+                        updateNetworkWirelessSsidVpn_parameters.updateNetworkWirelessSsidVpn = updateNetworkWirelessSsidVpn_nodeParam
+                    }else{
+                        try{
+                        // attempt to convert form value to JSON, default to empty object
+                        let nodeParam = updateNetworkWirelessSsidVpn_nodeParam || '{}'
+                        updateNetworkWirelessSsidVpn_nodeParam = JSON.parse(nodeParam) ; 
+                        updateNetworkWirelessSsidVpn_parameters.updateNetworkWirelessSsidVpn = updateNetworkWirelessSsidVpn_nodeParam
+                            }catch(e){
+                                node.error('Unsupported type: \'' + (typeof updateNetworkWirelessSsidVpn_nodeParam) + '\', ' + 'form submitted msg.payload must be a JSON string .', msg);
+                                errorFlag = true;
+                        }
+                    }
+                }
+              
+                                result = client.updateNetworkWirelessSsidVpn(updateNetworkWirelessSsidVpn_parameters);
                 //console.log('result', result);
             }
             if (!errorFlag && node.method === 'getNetworkWirelessUsageHistory') {
