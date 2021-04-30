@@ -1,7 +1,7 @@
 node-red-contrib-meraki-dashboard-api-v1
 =====================
 
-Node-RED node for the Cisco Meraki Dashboard API **v1**
+Node-RED node for the Cisco Meraki Dashboard API
 
 > A full featured node for monitoring and managing the Meraki Cloud built on the Dashboard API Open API spec.
 
@@ -21,14 +21,14 @@ Cisco Meraki is a powerful cloud managed network solution. This node is a wrappe
 - Create services to support multiple API keys
 - Configure API parameters in the node or dynamically through `msg` object
 - Parameters and sample responses are documented in-line
-
+- Several example flows provided
 
 
 ## Install
 
 Run the following command in your Node-RED user directory - typically `~/.node-red`
 
-npm install node-red-contrib-meraki-dashboard-api-v1
+npm install node-red-contrib-meraki-dashboard-api
 
 ## Usage Quick Start
 
@@ -38,7 +38,7 @@ npm install node-red-contrib-meraki-dashboard-api-v1
 - Define any required and optional parameters, either directly in the node or passed in through the input.
 - Send any data into the input to see the API response in the output.
 
-[v0 Documentation and Guides](https://developer.cisco.com/docs/meraki-dashboard-api-node-red-node)
+[Complete Documentation and Guides](https://developer.cisco.com/docs/meraki-dashboard-api-node-red-node)
 
 ---
 
